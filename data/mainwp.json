@@ -122,11 +122,7 @@
 {id:108,name:"Shield Gun",main:{pwr:18,shl:400,rng:230,spd:345,itv:340},type:"l",size:"M",cost:180}
 {id:112,name:"Shield Gun Mod",main:{tec:100,pwr:16,shl:500,rng:230,spd:345,itv:340},tunable:{mwp:1},type:"l",size:"M",cost:180}
 {id:110,name:"Saber Rifle",main:{tec:100,pwr:22,shl:240,rng:330,spd:430,itv:640},type:"l",size:"M",cost:170}
-{id:111,name:"Power Arrow",main:{tec:100,pwr:27,shl:74,rng:230,spd:380,itv:400},type:"l",size:"M",cost:45,conversion:"AMM151 AMM171",comment:"Attachable to 'Robin Hunter AM/AM2' only",slot:0}
-{id:114,name:"Charge Delay Arrow",main:{pwr:6,shl:150,rng:250,spd:380,itv:640},cost:25,type:"l",size:"M",conversion:"AMM151",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
-{id:115,name:"Impact Arrow",main:{pwr:10,shl:20,rng:250,spd:500,itv:500},type:"l",size:"M",cost:25,conversion:"AMM151",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
 {id:122,name:"Sakura Solid Gun",main:{tec:100,pwr:15,shl:200,rng:330,spd:370,itv:700},tunable:{mwp:1},size:"M",cost:110}
-
 {id:267,name:"Beam SB Pitcher",main:{pwr:13,shl:560,rng:255,spd:70,itv:600},type:"a",size:"M",cost:100,tec:1}
 //{id:89,name:"Plasma Beam Cannon",main:{pwr:25,shl:130,rng:270,spd:360,itv:740},cost:180,str:-1,tec:-1,wlk:-2,size:"M",type:"a"}
 
@@ -348,10 +344,7 @@
 {id:88,name:"SBC-Beam Cannon Mod",main:{tec:100,pwr:38,shl:100,rng:330,spd:350,itv:1500},type:"a",size:"M",cost:170}
 {id:90,name:"Blast Missile Gun",main:{tec:100,pwr:25,shl:250,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
 {id:1089,name:"Blast Missile Gun Mod",main:{tec:100,pwr:27,shl:220,rng:290,spd:260,itv:800},tunable:{mwp:1},type:"cs",size:"M",cost:160}
-{id:91,name:"Pretty Rabbit Bazooka",main:{tec:100,pwr:26,shl:200,rng:200,spd:350,itv:500},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:80,comment:"Attachable to 'Ripley AM/AM' only"}
-{id:92,name:"Pretty Ninja Missile",main:{tec:100,pwr:13,shl:400,rng:320,spd:260,itv:300},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:70,comment:"Attachable to 'Ripley AM/AM2' only"}
 {id:1090,name:"Optical Launcher",main:{pwr:23,shl:200,rng:340,spd:250,itv:500},type:"c",size:"L",cost:160}
-
 {id:1079,name:"Multi Missile Gun",main:{pwr:6,shl:230,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}
 {id:1083,name:"Multi Missile Gun Mod",main:{pwr:7,shl:170,rng:300,spd:280,itv:800},type:"lc",size:"M",cost:180}
 {id:1080,name:"Vertical Missile",main:{pwr:12,shl:300,rng:310,spd:280,itv:700},type:"c",size:"M",cost:100}
@@ -386,256 +379,54 @@
 {id:21,name:"Xmas Bell Hammer",main:{tec:100,pwr:7,shl:300,rng:190,spd:290,itv:600},sub:{str:100,pwr:21,rng:70,spd:80,itv:1500},tunable:{mwp:1},size:"M",cost:65}
 {id:22,name:"Cyclone Gun",main:{pwr:10,shl:150,rng:250,spd:220,itv:1200},type:"a",size:"M",cost:60}
 {id:31,name:"Cyclone Gun Mod",main:{pwr:13,shl:100,rng:250,spd:220,itv:1200},type:"a",size:"M",cost:60}
-{id:25,name:"Spike Shooter",main:{pwr:[8,9,10],shl:[450,500,550],rng:220,spd:420,itv:140},sub:{pwr:[20,22,25],tec:100,shl:40,rng:250,spd:500,itv:5000},conversion:"BDLS90AM BDLS127AM",comment:"Attachable to 'Kururu AM/AM2' only",type:"l",size:"S",cost:60,slot:0}
-{id:90,name:"Gradd Scissors",main:{str:100,pwr:[15,16,17],shl:[40,50,60],rng:305,spd:325,itv:1000},sub:{str:100,pwr:32,rng:[70,80,90],spd:[85,90,95],itv:500},conversion:"BDLS90AM BDLS127AM",comment:"Attachable to 'Kururu AM/AM2' only",type:"l",size:"S",cost:60,slot:0}
-{id:26,name:"Olktwaffe",main:{pwr:30,shl:[80,100,130],rng:600,spd:700,itv:1000},type:"c",size:"S",slot:0,cost:150,joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","Garapon version"]}
-{id:27,name:"Olktwaffe BETA",main:{pwr:20,shl:[80,100,130],rng:600,spd:700,itv:1000},type:"c",size:"S",slot:0,cost:120,joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","Shop version"]}
-{id:63,name:"Klangewaffe",main:{pwr:30,shl:40,rng:600,spd:300,itv:1500},cost:140,slot:0,type:"c",joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:["Attachable to 'Rinka Lynx AM2/AM3' only","EIW data needed"]}
-{id:102,name:"Schutzwaffe",main:{pwr:[24,26,28],shl:[90,130,170],rng:600,spd:700,itv:1000},cost:140,slot:0,type:"c",joint:{wp:1},fixedParts:{wp:{name:"Magne ESP Sight",sub:{itv:1000},slot:0}},conversion:"BDCS36AM BDCS47AM3",comment:"Attachable to 'Rinka Lynx AM2/AM3' only"}
-//                                                                       spd:300,itv:1500
-{id:28,name:"Water Flower",main:{pwr:[15,18,21],shl:[200,280,360],rng:300,spd:[300,315,330],itv:800},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD11' only"}
-{id:29,name:"Water Flower Ps",main:{pwr:[10,11,13],shl:[400,500,600],rng:260,spd:340,itv:340},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",cost:70,slot:0,size:"S",conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD11' only"}
-{id:52,name:"Water Flower Bg",main:{pwr:22,shl:240,rng:225,spd:380,itv:500},sub:{shl:[1,3,5],rng:60,spd:60,itv:2000},type:"l",size:"S",conversion:"BDLS91 BDLS118 BDLS156",comment:"Attachable to Ion BD6/BD7/BD8/BD8#2/BD9/BD11　only",cost:120}
 {id:30,name:"Ion's Aqua Pot",main:{pwr:1,shl:3,rng:300,spd:220,itv:1100},tunable:{mwp:1},size:"S",cost:35,wlk:1}
-{id:32,name:"Ladle",main:{pwr:5,shl:200,rng:290,spd:280,itv:1500},sub:{shl:1,itv:1000},tunable:{mwp:1},type:"s",size:"M",cost:70,conversion:"BDSS1087AM BDSS87AM",comment:"Attachable to 'Resha AM5' only"}
-{id:33,name:"Remote",main:{shl:-1,rng:300,spd:300,itv:4500},joint:{wp:1},fixedParts:{wp:{name:"Remote@",sub:{pwr:15,shl:30,rng:40,spd:200,itv:1000},slot:0}},type:"s",cost:100,size:"S",conversion:"BDSS1088AM BDSS88AM",comment:"Attachable to 'Eris AM6' only"}
-{id:34,name:"Petit Ouraikiri ",comment:"Attachable to 'Ouka Kamuro BD/BD2' only",size:"S",tunable:{mwp:1,pwp:1},main:{pwr:14,shl:250,rng:195,spd:300,itv:1000},sub:{str:100,pwr:23,rng:38,spd:70,itv:1300},cost:120}
-{id:35,name:"Banish Striker",comment:"Attachable to 'Vestia AM2' only",main:{pwr:1,shl:25,rng:260,spd:70,itv:1000},sub:{str:100,pwr:30,rng:65,spd:100,itv:2500},tunable:{pwp:1},type:"l",size:"S",cost:80}
-{id:36,name:"Trinity Saber",main:{pwr:27,shl:350,rng:290,spd:300,itv:700},sub:{str:100,pwr:32,rng:60,spd:80,itv:2000},tunable:{pwp:1,mwp:1},type:"l",size:"S",cost:150,conversion:"BDLS102AM",comment:"Attachable to 'Jace AM4' only"}
-{id:37,name:"E.V.E.Frontier",main:{pwr:22,shl:400,rng:250,spd:380,itv:300},size:"S",type:"la",cost:50,conversion:"BDLS101AM4 BDAS57AM4",comment:["EVE SHOT","Attachable to Eve AM4 only"]}
-{id:38,name:"E.V.E.Frontier Type (Air)",main:{pwr:30,shl:10,rng:60,spd:250,itv:1000},size:"S",type:"a",cost:130,sub:{pwr:26,shl:140,tec:100,rng:320,spd:400,itv:1000},tunable:{mwp:1},conversion:"BDAS57AM3",comment:["CALAMITY BURST/RUIN CANNON","Attachable to 'Eve AM3' only"]}
-{id:39,name:"E.V.E.Frontier Type (Land)",main:{pwr:30,shl:10,rng:60,spd:250,itv:1000},size:"S",type:"l",cost:130,sub:{pwr:23,rng:110,spd:85,itv:800,str:100},tunable:{mwp:1,pwp:1},conversion:"BDLS101AM3",comment:["CALAMITY BURST/RUIN BLADE","Attachable to 'Eve AM3' only"]}
-{id:40,name:"Shinki Null Moon Shuriken",main:{pwr:25,shl:100,rng:320,spd:270,itv:1000,tec:100},sub:{pwr:27,rng:60,spd:90,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:120,conversion:"BDLS106AM",comment:"Attachable to 'Momiji AM5' only"}
-{id:41,name:"Relic Orbs",main:{pwr:7,shl:400,rng:250,spd:340,itv:500,tec:100},sub:{pwr:32,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},cost:120,hp:20,tec:-1,wlk:2,fly:2,tgh:1,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only","Same as 'Snow Rabbit Relic'"]}
-{id:43,name:"Relic Orbs (Crescent)",main:{pwr:11,shl:1000,rng:250,spd:340,itv:500,tec:100},sub:{pwr:15,rng:230,spd:340,itv:500,tec:100,shl:50},tunable:{pwp:1},cost:120,hp:20,tec:-1,wlk:2,fly:2,tgh:1,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only","Stats from New Moon Lv.1","Same as 'Snow Rabbit Relic'"]}
-{id:42,name:"D.N.G. Cannon",main:{pwr:25,shl:200,rng:340,spd:230,itv:800},type:"c",cost:70,conversion:"AMS120",comment:"Attachable to 'Anko AM2' only",size:"S"}
 {id:44,name:"Aqua Parasol",main:{pwr:30,shl:140,rng:390,spd:570,itv:560},type:"lac",size:"M",cost:110,fly:1}
 {id:91,name:"Chocolate Parasol",main:{pwr:14,shl:200,rng:230,spd:280,itv:600},type:"lac",size:"M",cost:100,tgh:-1}
-{id:45,name:"Seraphim Rune",main:{pwr:26,shl:50,rng:150,spd:210,itv:3000},sub:{pwr:30,shl:240,rng:120,spd:80,itv:1800,str:100},tunable:{pwp:1,mwp:1},type:"l",size:"M",cost:70,conversion:"BDLS108AM",comment:["Attachable to 'Bikini Seraph Crimrose AM' only","EIW data needed"]}
-{id:46,name:"Seraphim Rune BETA",main:{pwr:18,shl:50,rng:150,spd:210,itv:2000},sub:{pwr:22,shl:240,rng:120,spd:80,itv:1800,str:100},tunable:{pwp:1,mwp:1},type:"l",size:"M",cost:70,conversion:"BDLS108AM",comment:["Attachable to 'Bikini Seraph Crimrose AM' only","EIW data needed"]}
-{id:47,name:"Battle Frame L BETA",main:{pwr:7,shl:1000,rng:260,spd:340,itv:800},sub:{pwr:11,shl:100,rng:230,spd:280,itv:2000},size:"S",cost:135,conversion:"BDLS109LG BDLS137LG",comment:"Attachable to 'Bikini Lily Rain LG2'/'School Lily Rain LG' only"}
-{id:133,name:"Battle Frame L BETA 2",main:{pwr:9,shl:1000,rng:280,spd:250,itv:1600},sub:{pwr:6,shl:200,rng:230,spd:280,itv:240},tunable:{mwp:1,pwp:1},cost:135,size:"S",type:"l",conversion:"BDLS109LG BDLS137LG",comment:["Attachable to 'Bikini Lily Rain LG2'/'School Lily Rain LG' only"]}
-{id:48,name:"Battle Frame R BETA",main:{pwr:1,shl:10,rng:300,spd:150,itv:1000},type:"s",size:"S",cost:50,conversion:"BDSS92LG",comment:["Attachable to 'Bikini Rouche LG' only","EIW data needed"]}
-{id:49,name:"Battle Frame I ALPHA (Illumis)",main:{pwr:8,shl:800,rng:280,spd:240,itv:340},type:"a",size:"S",cost:70,conversion:"BDAS59",comment:"Attachable to 'Bikini Illumis BD' only"}
-{id:140,name:"Battle Frame I ALPHA 2 (Illumis)",main:{pwr:8,shl:800,rng:320,spd:280,itv:440},type:"a",size:"S",cost:70,conversion:"BDAS59",comment:"Attachable to 'Bikini Illumis BD/BD2'/'School Illumis BD' only"}
-{id:50,name:"Battle Frame I BETA (Illumis)",main:{pwr:8,shl:120,rng:320,spd:260,itv:500},sub:{pwr:1,shl:10,spd:130,itv:1000},type:"a",size:"S",cost:100,conversion:"BDAS59LG",comment:"Attachable to 'Bikini Illumis LG' only"}
-{id:51,name:"Battle Frame P ALPHA",main:{pwr:6,shl:800,rng:320,spd:270,itv:800},sub:{pwr:1,shl:15,spd:150,itv:1000},size:"S",type:"c",cost:90,conversion:"BDCS43",comment:"Attachable to 'Bikini Persenachia BD' only"}
+{id:56,name:"Mega Blood Shooter",main:{tec:100,pwr:33,shl:100,rng:400,spd:500,itv:640},tunable:{mwp:1},type:"a",size:"M",cost:120}
 //{id:52,name:"Kaltos Wing",joint:{wp:1},type:"a",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1,comment:["Attachable to 'Litia BD' only","Weapon slot for 'Kaltos Wing@'"]}
-{id:53,name:"Kaltos Wing@",main:{pwr:6,shl:800,rng:250,spd:300,itv:300},sub:{pwr:20,shl:10,itv:1000},type:"a",size:"S",cost:90,conversion:"BSS1052",comment:"Attachable to 'Kaltos Wing' only"}
-{id:54,name:"Dieranarcam AM@",main:{pwr:12,shl:400,rng:360,spd:385,itv:460},type:"a",size:"L",cost:40,slot:0,conversion:"AML113",comment:"Attachable to 'Dieranarcam AM' only"}
-{id:55,name:"Dieranarcam LG@2",main:{pwr:11,shl:200,rng:300,spd:220,itv:700},sub:{shl:6,spd:180,itv:1000},type:"a",cost:60,size:"L",slot:0,conversion:"LGL81",comment:"Attachable to 'Dieranarcam LG' only"}
-{id:56,name:"Katalina BD4@",main:{pwr:3,shl:300,rng:230,spd:380,itv:340},sub:{shl:16,rng:100,spd:120,itv:1000},joint:{wp:1},fixedParts:{wp:{name:"Katalina BD4@2",cost:35,hp:15,wlk:2,fly:3,tgh:-1,slot:0}},slot:0,cost:45,conversion:"BDAM36",comment:"Attachable to 'Katalina BD4' only"}
-{id:57,name:"Katalina BD4@3",main:{pwr:6,shl:300,rng:220,spd:380,itv:1200},cost:60,slot:0,conversion:"BDAM36",comment:"Attachable to 'Katalina BD4' only"}
-{id:58,name:"Battle Frame I ALPHA (Ivis)",main:{pwr:6,shl:30,rng:250,spd:570,itv:300},type:"l",size:"S",cost:30,conversion:"BDLS111",comment:"Attachable to 'Bikini Ivis BD' only"}
-{id:59,name:"Battle Frame I BETA (Ivis)",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS111LG",comment:"Attachable to 'Bikini Ivis LG' only"}
-{id:60,name:"Battle Frame E BETA",main:{pwr:8,shl:800,rng:280,spd:370,itv:500},sub:{pwr:15,shl:30,rng:320,spd:300,itv:500},type:"a",size:"S",cost:140,conversion:"BDAS62LG",comment:"Attachable to 'Bikini Eve LG' only"}
-{id:61,name:"Shinuchi Ranouraikiri",main:{shl:30,spd:10,itv:1000},sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS112AM2",comment:"Attachable to 'Bikini Ouka AM2' only"}
-{id:62,name:"Chivalry Cannon",main:{pwr:25,shl:400,rng:320,spd:270,itv:1000},joint:{wp:1},fixedParts:{wp:{name:"Chivalry Cannon",main:{pwr:40,shl:30,rng:340,spd:420,itv:1000},slot:0}},type:"c",size:"S",cost:140,conversion:"BDCS46AM",comment:"Attachable to 'Natascha AM' only"}
-{id:197,name:"Chivalry Cannon II",main:{pwr:13,shl:840,rng:320,spd:260,itv:300},joint:{wp:2},fixedParts:{wp:[{name:"Chivalry Cannon II",main:{shl:5,rng:10,spd:200,itv:1000,pwr:32},slot:0},{name:"Chivalry Cannon II＠",main:{shl:5,rng:10,spd:200,itv:1000},slot:0,cost:30}]},tunable:{mwp:1},cost:140,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
-{id:64,name:"Gloom Rod",main:{pwr:19,shl:350,rng:260,spd:370,itv:300,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:100,conversion:"BDAS63AM BDAS81AM BDAS103AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
-{id:217,name:"Gale Rod",main:{pwr:22,shl:250,rng:300,spd:370,itv:600,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
-{id:65,name:"Hand Blast Railgun",main:{pwr:22,shl:140,rng:340,spd:520,itv:800},sub:{pwr:20,shl:20,rng:10,spd:100,itv:500},type:"c",size:"S",cost:75,conversion:"BDCS39AM BDCS48AM",comment:"Attachable to 'Mialy AM2' only"}
-{id:66,name:"Pursuit Frame",main:{pwr:[28,31,34],shl:[180,230,280],rng:[340,360,390],spd:520,itv:800},type:"c",size:"S",cost:80,slot:0,conversion:"BDCS48",comment:"Attachable to 'Mialy BD7' only"}
-{id:67,name:"Airyad Bit ALPHA",main:{pwr:[5,6,7],shl:[360,420,580],rng:340,spd:285,itv:200},size:"S",type:"a",slot:0,cost:40,comment:"Attachable to 'Bit Holder' only"}
-{id:68,name:"Airyad Bit BETA",main:{pwr:[6,7],shl:[750,800,1000],rng:230,spd:370,itv:400},size:"S",type:"a",slot:0,cost:70,conversion:"BDAS65WP",comment:"Attachable to 'Bit Holder' only"}
-{id:69,name:"Galaxy Commando AM2@",main:{pwr:23,shl:50,rng:230,spd:290,itv:1200},auraStat:{main:{pwr:20,shl:50,rng:280,spd:190,itv:1000}},slot:0,cost:50,type:"c",size:"M",conversion:"AMM136",comment:"Attachable to 'Galaxy Commando AM2' only"}
-{id:70,name:"Trump Shield",main:{shl:30,spd:10,itv:1000},cost:45,size:"M",conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
-{id:71,name:"Trump Shooter",main:{pwr:13,shl:312,rng:260,spd:340,itv:440},type:"l",size:"M",cost:90,conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
-{id:72,name:"Blood Shooter",main:{pwr:18,shl:350,rng:230,spd:370,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6",comment:"Attachable to 'Amlim AM2/AM4/AM6' only",cost:100}
-{id:115,name:"Mega Blood Shooter",main:{tec:100,pwr:33,shl:100,rng:400,spd:500,itv:640},tunable:{mwp:1},type:"a",size:"M",cost:120}
-{id:218,name:"Grave Shooter",main:{tec:100,pwr:33,shl:30,rng:350,spd:370,itv:500},tunable:{mwp:1},cost:130,size:"S",type:"la",conversion:"BDAS67AM BDAS79AM3 BDAS104AM5",comment:"Attachable to 'Amlim AM/AM3/AM5' only"}
-{id:73,name:"Amlim BD@",main:{pwr:6,shl:650,rng:230,spd:300,itv:500},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
-{id:116,name:"Amlim BD2@",main:{pwr:6,shl:650,rng:320,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
-{id:219,name:"Amlim BD3@",main:{pwr:6,shl:650,rng:230,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
-{id:77,name:"Flame Cartridge",main:{pwr:7,shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"AMS134",comment:"Attachable to 'Lilu AM' only"}
-{id:78,name:"Spice Cartridge",main:{pwr:1,shl:25,rng:150,spd:370,itv:1000},type:"l",size:"S",cost:40,conversion:"AMS135",comment:"Attachable to 'Lilu AM2' only"}
-{id:74,name:"Melody Chord ALPHA",main:{pwr:16,shl:230,rng:170,spd:360,itv:440},sub:{pwr:20,shl:200,rng:300,spd:350,itv:1000},type:"s",size:"S",cost:65,conversion:"BDSS98WP",comment:"Attachable to 'Harp' only"}
-{id:76,name:"Melody Chord BETA",main:{shl:15,rng:300,spd:300,itv:3200},sub:{shl:30,rng:300,spd:300,itv:3000},type:"s",size:"S",cost:100,conversion:"BDSS98WP",comment:"Attachable to 'Harp' only"}
-{id:75,name:"Melody Chord GAMMA",main:{tec:100,pwr:2,shl:120,rng:250,spd:420,itv:600},sub:{tec:100,pwr:10,shl:120,rng:260,spd:300,itv:500},tunable:{mwp:1,pwp:0},type:"s",size:"S",cost:90,conversion:"BDSS98WP",comment:"Attachable to 'Harp' only"}
-{id:79,name:"Seraph Knight Spear",main:{pwr:22,shl:100,rng:250,spd:220,itv:1200},sub:{str:100,pwr:28,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",size:"M",cost:120,conversion:"BDAS68AM6",comment:["Attachable to 'Seraph Crimrose AM6' only"]}
-{id:80,name:"Analyze Unit (G.COSMOS)",main:{pwr:11,shl:400,rng:320,spd:260,itv:1000},sub:{pwr:34,shl:40,rng:280,spd:280,itv:500},tunable:{mwp:1},type:"a",size:"S",cost:130,conversion:"BDAS70",comment:"Attachable to 'Alcy BD/BD2/BD3/BD4#1' only"}
-{id:81,name:"Analyze Unit (S.COSMOS)",main:{pwr:10,shl:360,rng:270,spd:290,itv:300},sub:{str:100,pwr:30,rng:80,spd:115,itv:2000},tunable:{pwp:1,mwp:1},type:"a",size:"S",cost:130,conversion:"BDAS70",comment:"Attachable to 'Alcy BD/BD2/BD3/BD4#1' only"}
-{id:82,name:"Magnet Weber",main:{shl:-1,rng:300,spd:300,itv:340},sub:{pwr:1,shl:10,rng:300,spd:100,itv:1000},cost:60,type:"s",size:"S",slot:0,conversion:"BDSS101",comment:"Attachable to 'Magnell BD' only"}
-{id:141,name:"Monokeras Rod",main:{pwr:31,shl:300,rng:320,spd:320,itv:800},sub:{pwr:10,shl:30,rng:320,spd:300,itv:500},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
-{id:83,name:"Lumes Rod",main:{pwr:9,shl:900,rng:280,spd:280,itv:700},sub:{pwr:10,shl:50,rng:250,spd:270,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
 {id:84,name:"Flowering Gun",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,tec:1}
 {id:239,name:"Coffin Bat Gun",size:"M",main:{pwr:1,shl:100,rng:330,spd:220,itv:800},cost:10,tec:1}
-{id:85,name:"Peach Soul",main:{shl:5,spd:10,itv:500},sub:{tec:100,pwr:32,shl:15,rng:180,spd:300,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Peach Soul @",main:{shl:5,rng:300,spd:10,itv:500},slot:0}},cost:100,slot:0,type:"l",size:"S",conversion:"BDLS124",comment:"Attachable to 'Kaede BD' only"}
 {id:86,name:"Icicle Bow",main:{tec:100,pwr:3,shl:30,rng:300,spd:150,itv:1000},sub:{str:100,pwr:20,shl:10,rng:60,spd:100,itv:500},tunable:{mwp:1},type:"s",size:"S",cost:150}
-{id:87,name:"Snow Flower",main:{pwr:[28,30,32],shl:[200,250,300],rng:300,spd:[300,315,330],itv:800},sub:{shl:1,rng:60,spd:60,itv:2000},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS91 BDLS118 BDLS126",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD10' only"}
-{id:88,name:"Aqua Pot",main:{tec:100,pwr:1,shl:100,rng:300,spd:220,itv:1100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS126AM9",comment:"Attachable to 'Ion AM9' only"}
-{id:89,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:280,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
 {id:92,name:"TLS Bind Gun",main:{pwr:2,shl:30,itv:1000},tunable:{mwp:1},size:"S",type:"s",cost:45,wlk:-1,fly:-1}
 {id:93,name:"Thunder Shooter",main:{pwr:14,shl:420,rng:250,spd:340,itv:300,tec:100},tunable:{mwp:1},size:"M",type:"a",cost:140}
 {id:1000,name:"Thunder Shooter Mod",main:{pwr:12,shl:620,rng:250,spd:340,itv:300,tec:100},tunable:{mwp:1},size:"M",type:"a",cost:140}
-{id:94,name:"Charge Delay Cassette",main:{pwr:18,shl:350,rng:250,spd:370,itv:300},type:"a",size:"S",cost:90,tunable:{mwp:1},conversion:"WPSO101",comment:"Attachable to 'Aurora Cannon' only"}
-{id:95,name:"Auto-Charge Cassette",main:{pwr:40,shl:30,rng:360,spd:520,itv:500},type:"a",size:"S",cost:50,slot:0,conversion:"WPSO101",comment:"Attachable to 'Aurora Cannon' only"}
-{id:96,name:"Beam Crystal",main:{pwr:15,shl:400,rng:330,spd:330,itv:1000},tunable:{mwp:1},type:"a",size:"S",cost:80,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
-{id:97,name:"Crystal Wall",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",cost:40,conversion:"BDAS77 BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only"}
-{id:98,name:"Berzel Bazooka",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:22,shl:300,rng:320,spd:320,itv:500},conversion:"WPSO104",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
-{id:202,name:"Persis Missile",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:24,shl:220,rng:320,spd:270,itv:740},conversion:"WPSO104",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
-{id:99,name:"Zelius Psygun",main:{pwr:12,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"WPSO104",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
-{id:203,name:"Anomaly Bazooka",main:{pwr:8,shl:200,rng:290,spd:320,itv:500},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"WPSO104",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
-{id:100,name:"Bazooka Magazine",main:{tec:100,pwr:20,shl:300,rng:290,spd:320,itv:340},tunable:{mwp:1},type:"c",size:"S",cost:100,conversion:"WPSO105",comment:"Attachable to 'Wizdom Soul II' only"}
-{id:101,name:"Icicle Attachment",main:{tec:100,pwr:10,shl:300,rng:280,spd:280,itv:300},type:"c",size:"S",cost:70,slot:0,conversion:"WPSO105",comment:"Attachable to 'Wizdom Soul II' only"}
-{id:103,name:"Bladyne Soul II@",main:{tec:100,pwr:21,shl:300,rng:260,spd:340,itv:400},tunable:{mwp:1},type:"l",size:"S",cost:90,conversion:"BDLM1039WP",comment:"Attachable to 'Bladyne Soul II' only"}
-{id:104,name:"Brave Shield @",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLM1039WP2",comment:"Attachable to 'Brave Shield' only",slot:0}
-{id:105,name:"Beginner Shuriken",main:{pwr:4,shl:800,rng:250,spd:430,itv:140},tunable:{mwp:1},type:"s",size:"S",cost:10,conversion:"BDSS107",comment:"Attachable to 'Momiji-chan BD' only"}
-{id:106,name:"Jik Reaver Knife",main:{pwr:14,shl:50,rng:290,spd:260,itv:800},sub:{pwr:31,rng:70,spd:75,itv:600,str:100},tunable:{mwp:1,pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Jik Reaver＠",main:{shl:15,spd:10,itv:1000},slot:0}},type:"l",size:"S",conversion:"BDLS110BS BDLS131BS",comment:"Attachable to 'Elcott BSJ/BSJ2' only",cost:160}
-{id:107,name:"Hunt Gewehr",main:{pwr:14,shl:420,rng:260,spd:340,itv:300,str:100},type:"l",size:"S",cost:90,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
-{id:108,name:"Spitz Eizen",main:{pwr:25,shl:40,rng:250,spd:520,itv:500,str:100},sub:{str:100,pwr:30,rng:90,spd:80,itv:1300},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:100,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
-{id:109,name:"Lise Gatling",main:{pwr:5,shl:800,rng:320,spd:360,itv:200},cost:60,type:"c",size:"S",conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
-{id:110,name:"Lise Kanone",main:{pwr:40,shl:3,rng:250,spd:570,itv:300},sub:{shl:10,itv:500},type:"c",size:"S",cost:70,conversion:"BDCS62 BDCS86",comment:"Attachable to 'Lisel BD/BD2' only"}
-{id:111,name:"Beryl Gun Launcher@",main:{pwr:35,shl:50,rng:320,spd:400,itv:1000},tunable:{mwp:1},type:"l",size:"LL",cost:80,conversion:"WPHG104",comment:"Attachable to 'Beryl Gun Launcher' only"}
 //{id:112,name:"K Nana BS@",main:{pwr:18,shl:360,rng:320,spd:320,itv:400},sub:{pwr:40,shl:60,rng:360,spd:500,itv:500},tunable:{mwp:1,pwp:1},type:"c",size:"S",cost:160,hp:20,comment:"Attachable to 'K Nana BS' only"}
-{id:113,name:"Wantian",main:{pwr:11,shl:500,rng:300,spd:330,itv:300},tunable:{mwp:1},joint:{wp:1},type:"a",size:"M",conversion:"BDAS78AM BDAS96AM",comment:"Attachable to 'Feng Mei AM8/AM9' only",cost:70}
-{id:114,name:"Wantian@",main:{pwr:40,shl:15,rng:360,spd:520,itv:500},type:"a",size:"S",cost:50,slot:0,conversion:"WPMO113",comment:"Attachable to 'Wantian' only"}
-{id:173,name:"Lantian",main:{pwr:12,shl:380,rng:350,spd:370,itv:500},tunable:{mwp:1},joint:{wp:1},type:"a",size:"M",conversion:"BDAS78AM BDAS96AM",comment:"Attachable to 'Feng Mei AM8/AM9' only",cost:70}
-{id:174,name:"Lantian@",main:{pwr:20,shl:15,rng:360,spd:520,itv:500},sub:{pwr:30,shl:20,rng:390,spd:400,itv:500},type:"a",size:"S",cost:120,slot:0,conversion:"WPMO173",comment:"Attachable to 'Lantian' only"}
 {id:117,name:"Star Shooter",size:"M",cost:10,main:{pwr:1,shl:300,rng:210,spd:160,itv:400},wlk:1}
-{id:120,name:"Sanae-chan's Mega Fireball",main:{pwr:35,shl:50,rng:300,spd:350,itv:600},type:"l",size:"S",cost:70,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only",slot:0}
-{id:128,name:"Sanae-chan's Mega Fireball ALPHA",main:{pwr:25,shl:50,rng:300,spd:350,itv:600},type:"l",size:"S",cost:55,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only",slot:0}
-{id:121,name:"Flare Tail",main:{tec:100,pwr:4,shl:600,rng:300,spd:300,itv:500},tunable:{mwp:1},type:"a",size:"M",cost:30,fixedParts:{wp:{name:"Flare Tail@1",sub:{pwr:1,shl:15,rng:150,spd:150,itv:1000},cost:40,slot:0}},joint:{wp:1},conversion:"AM44BDLG AM52BDLG",comment:"Attachable to 'Istina Bullet LG' only"}
 //{id:122,name:"Expiation",sub:{itv:500},joint:{wp:2},type:"a",size:"L",slot:0}
-{id:123,name:"Expiation @1",main:{tec:100,pwr:25,shl:250,rng:450,spd:520,itv:800},type:"a",size:"M",cost:80,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
-{id:124,name:"Expiation @2",main:{tec:100,pwr:45,shl:30,rng:450,spd:520,itv:500},type:"a",size:"M",cost:60,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
-{id:1020,name:"Expiation @3",main:{tec:100,pwr:17,shl:250,rng:450,spd:520,itv:200},type:"a",size:"M",cost:80,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
-{id:1021,name:"Expiation @4",main:{tec:100,pwr:35,shl:60,rng:450,spd:520,itv:500},type:"a",size:"M",cost:60,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
-{id:125,name:"Nemlim BD@7",main:{pwr:5,shl:600,rng:270,spd:290,itv:500},cost:60,type:"a",size:"S",conversion:"BDAS80",comment:"Attachable to 'Nemlim BD7' only",tunable:{mwp:1}}
-{id:126,name:"Rayminous BS@",main:{pwr:12,shl:400,rng:320,spd:320,itv:700},tunable:{mwp:1},type:"c",size:"S",conversion:"BSS145",comment:"Attachable to 'Rayminous BS' only",cost:70}
-{id:127,name:"Royal Earth",main:{pwr:14,shl:400,rng:320,spd:280,itv:340},tunable:{mwp:1},cost:180,conversion:"AMS127 AMS144 BDCS54AM AMS161",comment:"Attachable to 'Chloe AM/AM3/AM5/AM7' only"}
-{id:129,name:"D.N.G. Beam Shot",main:{tec:100,pwr:17,shl:240,rng:330,spd:370,itv:500},tunable:{mwp:1},type:"a",size:"S",conversion:"AMS162",comment:"Attachable to 'Anko AM3' only",cost:70}
-{id:130,name:"D.N.G. Beam Cannon",main:{tec:100,pwr:32,shl:30,rng:360,spd:350,itv:800},type:"a",size:"S",slot:0,conversion:"AMS162",comment:"Attachable to 'Anko AM3' only",cost:50}
-{id:131,name:"Kiriha's Gauntlet",main:{tec:100,pwr:25,shl:250,rng:320,spd:350,itv:600},tunable:{mwp:1},type:"c",size:"S",conversion:"BDCS68AM",comment:"Attachable to 'Kiriha AM2' only",cost:90}
-{id:1008,name:"Kiriha's Blue Gauntlet ALPHA",main:{tec:100,pwr:20,shl:130,rng:320,spd:350,itv:600},tunable:{mwp:1},type:"c",size:"S",conversion:"BDCS68AM",comment:"Attachable to 'Kiriha AM2' only",cost:70}
-{id:132,name:"Korama",main:{tec:100,pwr:10,shl:150,rng:280,spd:285,itv:600},type:"c",size:"S",conversion:"BDCS68",comment:"Attachable to 'Kiriha BD' only",slot:0,cost:70}
-{id:134,name:"Anti-Personnel Pulse Laser",main:{tec:100,pwr:17,shl:350,rng:300,spd:330,itv:300},sub:{tec:100,pwr:9,shl:40,rng:350,spd:320,itv:400},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS83",comment:"Attachable to 'Theiamillis BD/BD2' only",cost:100}
-{id:135,name:"Sonic Impact Cannon",main:{tec:100,pwr:40,shl:30,rng:390,spd:450,itv:500},conversion:"BDAS83",comment:"Attachable to 'Theiamillis BD/BD2' only",cost:60,slot:0,type:"a",size:"S"}
-{id:136,name:"Theia's Bracelet",joint:{wp:1},fixedParts:{wp:{name:"Orbital Bombardment",sub:{pwr:50,tec:100,rng:350,spd:100,itv:500},slot:0,cost:20}},type:"a",size:"S",conversion:"BDAS83AM",comment:"Attachable to 'Theiamillis AM2/AM4' only",slot:0}
 //{id:137,name:"Orbital Bombardment",sub:{pwr:50,tec:100,rng:350,spd:100,itv:500},type:"a",size:"S",comment:"Attachable to 'Theia's Bracelet' only",slot:0,cost:20}
-{id:138,name:"Kikoutou Kagutsuchi",main:{tec:100,pwr:15,shl:510,rng:280,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"M",cost:180,conversion:"BDCS71AM",comment:"Attachable to 'Homura AM' only"}
-{id:139,name:"Chivalry Aegis",main:{shl:30,spd:10,itv:1000},conversion:"BDLS138AM8",comment:"Attachable to 'Sylvia AM8' only",size:"M",type:"l",cost:20}
-{id:142,name:"Nora Schneid BD@",tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS140",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:5,shl:45,rng:200,spd:280,itv:300}}
 //{id:143,name:"Pepo BD@",main:{tec:100,pwr:5,shl:250,rng:210,spd:310,itv:440},sub:{str:100,tec:7,pwr:7,shl:100,rng:250,spd:200,itv:1500},tunable:{mwp:1},comment:"Attachable to 'Pepo-chan BD4' only"}
-{id:144,name:"Maple Leaf Guard",main:{shl:7,spd:10,itv:1000},conversion:"BSM148 BSM165",comment:"Attachable to 'Autumn Cape BS/Autumn Leaf BS' only",slot:0,size:"M",cost:35}
-{id:145,name:"Malice Blade",main:{pwr:8,shl:400,rng:340,spd:220,itv:600},tunable:{mwp:1},conversion:"AMS167",comment:"Attachable to 'Nicole Malice AM6' only",size:"S",type:"c",cost:110}
-{id:146,name:"Azraq Lamp",main:{pwr:7,shl:400,rng:320,spd:280,itv:500},sub:{rng:100,itv:500},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Azraq Lamp@",main:{pwr:27,shl:50,rng:320,spd:450,itv:500},slot:0}},type:"a",size:"S",cost:220,conversion:"BDAS85AM",comment:"Attachable to 'Munya AM2' only"}
 {id:147,name:"B Blast Railgun",type:"a",main:{tec:100,pwr:20,shl:270,rng:320,spd:480,itv:340},tunable:{mwp:1},cost:170}
 {id:1010,name:"B Blast Railgun Mod",type:"a",main:{tec:100,pwr:22,shl:200,rng:320,spd:480,itv:340},tunable:{mwp:1},cost:170}
-{id:1001,name:"Ogreil AM2@",main:{pwr:4,shl:150,rng:280,spd:230,itv:1000},conversion:"AMM175",comment:"Attachable to 'Ogreil AM2' only",slot:0,cost:60}
-{id:148,name:"Kaiser Gewitter",main:{pwr:18,shl:100,spd:400,rng:300,itv:500},sub:{tec:100,pwr:10,shl:25,rng:150,spd:570,itv:500},type:"c",size:"L",conversion:"AML149",comment:"Attachable to 'Heldtkaiser AM' only",cost:70}
-{id:149,name:"Nemlim BD8@",main:{pwr:18,shl:300,rng:220,spd:340,itv:440},tunable:{mwp:1},joint:{wp:1},type:"l",size:"S",cost:70,conversion:"BDLS144",comment:"Attachable to 'Nemlim BD8' only"}
-{id:150,name:"Nemlim BD8@2",main:{pwr:30,shl:30,rng:300,spd:450,itv:500},type:"l",size:"S",slot:0,cost:60,conversion:"WPMO149",comment:"Attachable to 'Nemlim BD8@' only"}
-{id:151,name:"Tri-bazooka",main:{tec:100,pwr:24,shl:250,rng:230,spd:275,itv:500},tunable:{mwp:1},cost:80,type:"l",size:"M",conversion:"AMM159",comment:"Attachable to 'Growldian AM' only"}
-{id:152,name:"Talis Shooter",main:{pwr:19,shl:270,rng:230,spd:340,itv:440},tunable:{mwp:1},type:"l",size:"M",cost:95,conversion:"AMM159"}
 // {id:153,name:"クエンチシューター",main:{pwr:16,shl:350,rng:230,spd:340,itv:340},type:"l",size:"M",cost:160}
-{id:154,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:50,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
-{id:155,name:"Labyrinthammer@",main:{pwr:26,shl:150,rng:350,spd:320,itv:700,tec:100},sub:{tec:100,pwr:20,shl:20,rng:150,spd:130,itv:1000},type:"c",size:"S",cost:110,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
-{id:241,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPSO1015",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
-{id:156,name:"Pepen Gunners",main:{tec:100,pwr:14,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1},type:"c",size:"M",cost:100,conversion:"BDCS1060 BDCS70"}
-{id:157,name:"Seraphim Buster",main:{pwr:13,shl:260,rng:330,spd:380,itv:300},tunable:{mwp:1},joint:{wp:1},type:"c",size:"M",conversion:"AMS176",comment:"Attachable to 'Seraph Crimrose AM7' only",cost:120}
-{id:158,name:"Seraphim Buster@",main:{pwr:32,shl:30,rng:330,spd:480,itv:1000},type:"c",size:"S",cost:40,slot:0,conversion:"WPMO157",comment:"Attachable to 'Seraphim Buster' only"}
-
-{id:160,name:"Rhino Cannon",main:{tec:100,pwr:30,shl:30,rng:150,spd:380,itv:500},cost:70,slot:0,conversion:"BDLS148LG",comment:"Attachable to 'Aleixa Arl LG' only"}
-{id:161,name:"Ricochet Gatling",main:{tec:100,pwr:4,shl:800,rng:270,spd:360,itv:240},cost:70,conversion:"BDLS148LG",comment:"Attachable to 'Aleixa Arl LG' only"}
-{id:162,name:"Beam Missile Cassette",main:{pwr:15,shl:350,rng:250,spd:300,itv:540,tec:100},tunable:{mwp:1},cost:50,type:"a",size:"S"}
-{id:163,name:"C. Delay Cassette II",main:{tec:100,pwr:40,shl:30,rng:320,spd:400,itv:1000},tunable:{mwp:0},slot:0,type:"a",size:"S",cost:90}
-{id:164,name:"B Rosario Shooter",main:{pwr:15,shl:350,rng:220,spd:360,itv:340},cost:140,size:"M",type:"a",tunable:{mwp:1}}
-{id:1015,name:"B Rosario Shooter Mod",main:{pwr:12,shl:450,rng:220,spd:360,itv:340},cost:140,size:"M",type:"a",tunable:{mwp:1}}
-{id:165,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
-{id:166,name:"Cannon Pack",main:{tec:100,pwr:40,shl:40,rng:250,spd:570,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:120,conversion:"BDCM42WP",comment:"Attachable to 'Toybox Girl BD4@' only"}
-{id:167,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
+{id:138,name:"B Rosario Shooter",main:{pwr:15,shl:350,rng:220,spd:360,itv:340},cost:140,size:"M",type:"a",tunable:{mwp:1}}
+{id:139,name:"B Rosario Shooter Mod",main:{pwr:12,shl:450,rng:220,spd:360,itv:340},cost:140,size:"M",type:"a",tunable:{mwp:1}}
 {id:168,name:"SBC-Beam Cannon",main:{tec:100,pwr:35,shl:150,rng:330,spd:350,itv:1500},cost:170,type:"a",size:"M"}
 {id:170,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},tunable:{mwp:1},type:"a",size:"M",cost:100}
 {id:169,name:"Predatobytez AM2@",main:{pwr:4,shl:400,rng:330,spd:380,itv:300},type:"c",size:"L",cost:40,slot:0}
-{id:171,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
-{id:172,name:"Magnegun",main:{tec:100,pwr:8,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
 {id:175,name:"Pursuit Frame II",main:{pwr:10,shl:180,rng:340,spd:520,itv:800},tunable:{mwp:0},cost:50,slot:0}
-{id:176,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
-{id:177,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
-{id:178,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
-{id:179,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
-{id:180,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
-{id:181,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:150,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
-{id:182,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79",comment:"Attachable to 'Asphe BD' only"}
-{id:183,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98",comment:"Attachable to 'Minaria BD' only"}
-{id:184,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM",comment:"Attachable to 'Minaria AM2' only"}
-{id:185,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPMO184",comment:"Attachable to 'Weather Umbrella' only"}
-{id:186,name:"Dragon Talon",main:{pwr:16,shl:270,rng:250,spd:320,itv:500,str:100},type:"l",size:"S",tunable:{mwp:1},cost:130,conversion:"BDLS157AM",comment:"Attachable to 'Kuten Jikun Long AM7' only"}
-{id:187,name:"Fire Breath",main:{pwr:36,shl:30,rng:320,spd:400,itv:300},type:"c",size:"S",conversion:"BDCS80WP",comment:"Attachable to 'Gii-kun' only",cost:60,slot:0}
-{id:188,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
-{id:189,name:"Blitz B Machinegun",main:{pwr:12,shl:700,rng:320,spd:410,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:90}
-{id:190,name:"Connect Blast",main:{pwr:32,shl:160,rng:350,spd:450,itv:500},type:"a",size:"S",slot:0,conversion:"WPMO189",comment:"Attachable to 'Blitz B Machinegun' only",cost:60}
-{id:191,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:360,spd:420,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti AM' only"}
-{id:192,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:9,shl:200,rng:320,spd:260,itv:1400},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
-{id:193,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:20,shl:80,rng:320,spd:400,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81AM",comment:"Attachable to 'Colleti BD' only"}
-{id:194,name:"Bloody Star AM@",main:{tec:100,pwr:28,shl:15,rng:250,spd:570,itv:1200},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172 AMM1013"}
-{id:1037,name:"Blood Star AM2@",type:"c",size:"M",slot:0,cost:25,main:{pwr:2,shl:360,rng:280,spd:380,itv:500},conversion:"AMM172 AMM1013"}
-{id:195,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
-{id:196,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
-{id:153,name:"Gadget Box",main:{pwr:21,shl:400,rng:230,spd:340,itv:400},tunable:{mwp:1},type:"lacs",size:"S",conversion:"AMS189",comment:"Attachable to 'Patty Lop AM7' only",cost:110}
-{id:198,name:"Guardian Rook",main:{pwr:9,shl:350,rng:300,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only",cost:50}
-{id:199,name:"Mega Rook Cannon",main:{pwr:35,shl:30,rng:400,spd:330,itv:500},type:"a",size:"S",cost:70,slot:0,conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only"}
 {id:118,name:"Flash Bomber AM@",main:{tec:100,pwr:15,shl:200,rng:330,spd:380,itv:400},type:"c",size:"L",cost:70}
 {id:119,name:"Shroom Shooter",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,wlk:1}
 {id:200,name:"Chestnut Shooter",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,fly:1}
 {id:201,name:"Lantern Gun",size:"M",main:{pwr:1,shl:300,rng:210,spd:300,itv:300},cost:10,wlk:1}
-{id:204,name:"Ignis Rod",main:{pwr:20,shl:200,rng:300,spd:320,itv:600,tec:100},sub:{pwr:5,shl:20,rng:300,spd:130,itv:1000,tec:100},type:"a",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM",comment:"Attachable to 'Malca AM/AM3/AM5/AM7' only"}
-{id:205,name:"Brave Axe",main:{str:100,pwr:11,shl:200,rng:320,spd:330,itv:500},type:"l",size:"M",cost:40,conversion:"WPSO181",comment:"Attachable to 'Brave Arts' only",slot:0}
-{id:206,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:370,spd:520,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
-{id:207,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85",comment:"Attachable to 'Eleanore BD' only"}
-{id:208,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
-{id:209,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
 // {id:210,name:"セイクリッドクレイモア",main:{pwr:10,shl:100,rng:250,spd:450,itv:500},sub:{pwr:30,rng:70,spd:80,itv:500},joint:{am:1},fixedParts:{am:"シルビアAM10"},type:"l",size:"M",cost:130}
-{id:211,name:"Polaris",main:{tec:100,pwr:10,shl:30,rng:220,spd:280,itv:500},type:"l",size:"S",cost:40,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
 {id:212,name:"Snowman Pitcher",main:{tec:100,pwr:1,shl:300,rng:210,spd:100,itv:800},tunable:{mwp:1,pwp:0},size:"M",cost:10,wlk:1}
-{id:213,name:"Yurino Style Cloth",main:{tec:100,pwr:15,shl:510,rng:280,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"M",conversion:"BDCS87AM",comment:"Attachable to 'Yukata Homura AM' only",cost:180}
-{id:214,name:"Sonic Cannon",main:{tec:100,pwr:30,shl:30,rng:150,spd:380,itv:500},cost:70,type:"l",size:"S",slot:0,conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
-{id:215,name:"Box Gatling",main:{tec:100,pwr:4,shl:800,rng:270,spd:360,itv:240},cost:70,type:"l",size:"S",conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
-{id:216,name:"Khakkara",main:{pwr:13,shl:840,rng:250,spd:260,itv:300},sub:{pwr:27,shl:100,rng:250,spd:280,itv:500},type:"l",size:"S",cost:150,conversion:"BDLS171AM",comment:"Attachable to 'Nicole Matlice AM8' only"}
-
-{id:1003,name:"Kuschelb AM2@",main:{pwr:5,shl:15,rng:200,spd:570,itv:1000},slot:0,size:"L",type:"l",cost:15,conversion:"AML150",comment:"Attachable to 'Kuschelb AM2' only"}
-{id:1004,name:"Aries Wing@",main:{tec:100,pwr:6,shl:800,rng:250,spd:300,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing'/'Aries Wing' only",cost:90}
 {id:1005,name:"Sonic Impact Cannon R",main:{pwr:3,shl:10,rng:200,spd:300,itv:500},tunable:{mwp:1}}
 {id:1006,name:"Autumn Umbrella",main:{pwr:1,shl:50,rng:100,spd:100,itv:1000},sub:{pwr:10,shl:1,rng:10,spd:10,itv:500},tunable:{mwp:1},cost:10,wlk:1}
 {id:1024,name:"Maple Leaf Gun",main:{pwr:1,shl:300,rng:230,spd:300,itv:700},tunable:{mwp:1},cost:10,wlk:1}
 {id:1007,name:"Magical Gate",sub:{pwr:1,rng:10,spd:10,itv:1500},cost:10,wlk:1}
 {id:1025,name:"Pumpkin Pitcher",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
 {id:1026,name:"Ghost Shooter",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
-{id:1009,name:"Jet Falcon AM@",type:"a",size:"L",main:{pwr:20,shl:160,rng:340,spd:520,itv:840},tunable:{mwp:1},cost:60,conversion:"AML158",comment:"Attachable to 'Jet Falcon AM' only"}
 {id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
 {id:1013,name:"Pumpkin Rod",type:"c",size:"S",main:{pwr:17,shl:200,rng:320,spd:320,itv:500},tunable:{mwp:1},cost:125}
-{id:1014,name:"Spada AM@",type:"l",size:"M",main:{shl:15,spd:10,itv:700},sub:{str:100,pwr:14,rng:70,spd:85,itv:500},auraStat:{main:{shl:15,spd:10,itv:700},sub:{pwr:32,rng:70,spd:85,itv:500,str:100}},tunable:{mwp:1,pwp:1},cost:80,conversion:"AMM169",comment:"Attachable to 'Spada AM' only"}
-{id:1016,name:"Tsukishiro Style: Barrier",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:30,slot:0,conversion:"WPSO159",comment:"Attachable to 'Relic: Gattenmaru' only"}
-{id:1017,name:"Tsukishiro Style: Mortar",main:{str:100,pwr:20,shl:30,rng:200,spd:570,itv:1000},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS155AM2",comment:"Attachable to 'Kanna AM2' only"}
-{id:1018,name:"Wizamel Wand",type:"a",size:"M",main:{pwr:20,shl:20,rng:410,spd:520,itv:1000},sub:{pwr:9,shl:120,rng:350,spd:320,itv:400},cost:110,slot:0,conversion:"AMM176",comment:"Attachable to 'Wizamel AM' only"}
 // {id:220,name:"ホーミングボール",cost:60,main:{pwr:7,shl:200,rng:250,spd:320,itv:400},size:"S",type:"s",comment:"トライクレーサーのみ装備可能"}
-{id:226,name:"Mini Shuriken",main:{pwr:5,shl:650,rng:140,spd:200,itv:160},tunable:{mwp:1},type:"s",size:"S",cost:60,conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
-{id:1023,name:"Mini Stun Arrow",main:{pwr:15,shl:160,rng:230,spd:245,itv:500},size:"S",type:"s",cost:60,conversion:"SS126LG SS127LG",comment:"Attachable to 'Tricyclaser/II/III/IV/V' only"}
-{id:221,name:"Beam Crystal Ru",main:{pwr:10,shl:320,rng:330,spd:330,itv:1000},tunable:{mwp:1},size:"S",type:"a",conversion:"BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only",cost:80}
-{id:222,name:"Crystal Wall II",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",conversion:"BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only",cost:40}
-{id:223,name:"Wonder Key Rod",main:{pwr:4,shl:840,rng:340,spd:330,itv:300},tunable:{mwp:1},fixedParts:{wp:{main:{pwr:32,shl:30,rng:390,spd:180,itv:500},name:"Cheshire Cannon",slot:0,cost:70}},type:"a",size:"S",cost:100,joint:{wp:1},conversion:"BDAS107AM",comment:"Attachable to 'Alice AM' only"}
 {id:224,name:"Liquid Burner",main:{pwr:12,shl:700,rng:70,spd:360,itv:100,tec:100},tunable:{mwp:1},type:"lc",size:"M",cost:170}
 {id:225,name:"Smart Beam Gun",main:{pwr:5,tec:100,shl:120,rng:320,spd:280,itv:640},cost:110,type:"a",size:"M"}
 {id:237,name:"Fish Beam Gun",main:{pwr:7,tec:100,shl:150,rng:320,spd:280,itv:640},type:"a",size:"M",cost:180}
-{id:227,name:"Katto Bat",main:{pwr:10,shl:100,rng:250,spd:320,itv:500},sub:{str:100,pwr:39,rng:70,spd:70,itv:1000},tunable:{mwp:1,pwp:1},type:"l",size:"L",cost:170,conversion:"AML2109",comment:"Attachable to 'Katto Baldo AM' only"}
 // {id:227,name:"Multi Missile Gun",main:{tec:100,pwr:6,shl:230,rng:300,spd:280,itv:800},tunable:{mwp:1},type:"lc",size:"M",cost:180} -> BZ1079
 // {id:228,name:"Multi Missile Gun Mod",main:{tec:100,pwr:7,shl:170,rng:300,spd:280,itv:800},tunable:{mwp:1},type:"lc",size:"M",cost:180} -> BZ1083
-{id:229,name:"Meteorpfeil",main:{tec:100,pwr:5,shl:200,rng:320,spd:260,itv:600},tunable:{mwp:1},type:"a",size:"S",cost:30,conversion:"BDAS108",comment:"Attachable to 'Celica Hawk BD' only"}
 {id:230,name:"Blink Mace",main:{tec:100,pwr:18,shl:360,rng:330,spd:280,itv:1000},sub:{str:100,pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1},type:"c",size:"M",cost:200}
-{id:231,name:"Multi Knife Shooter",main:{tec:100,pwr:7,shl:600,rng:250,spd:330,itv:600},tunable:{mwp:1},type:"l",size:"S",conversion:"AMS131 AMS198",cost:90,comment:"Attachable to 'Renny Lop AM6/AM7/AM8' only"}
 {id:232,name:"Draw Boomerang",main:{pwr:15,shl:20,rng:200,spd:260,itv:500,str:100},tunable:{mwp:1},type:"l",size:"M",cost:30}
-{id:235,name:"Gathima Missile",main:{tec:100,pwr:24,shl:300,rng:350,spd:220,itv:300},type:"c",size:"S",cost:100,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
-{id:236,name:"Gathima Breaker",main:{tec:100,pwr:30,shl:120,rng:350,spd:500,itv:500},type:"c",size:"S",cost:80,conversion:"BDCS92AM",comment:"Attachable to 'Gathima Girl AM' only"}
-{id:238,name:"Announcer's Mic",main:{pwr:30,shl:50,rng:250,spd:350,itv:800},tunable:{mwp:1},conversion:"BDSS128AM2",comment:"Attachable to 'Anna AM2' only",cost:40,type:"s",size:"S"}
 {id:240,name:"Sticky Machinegun",main:{pwr:9,shl:400,rng:200,spd:430,itv:140},tunable:{mwp:1},type:"l",size:"M",cost:180}
-{id:1030,name:"Pepen Twin Gun II",conversion:"BDCS1060AM AMS175",cost:70,joint:{wp:1},type:"c",size:"M",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1}}
-{id:1031,name:"Pepen Twin Gun II@",conversion:"WPMO1030",cost:50,type:"c",size:"M",main:{pwr:24,shl:225,rng:330,spd:320,itv:340},tunable:{mwp:1}}
-{id:1032,name:"Pepen Gunners II",conversion:"BDCS1060 BDCS70",cost:100,type:"c",size:"M",main:{pwr:6,shl:450,rng:330,spd:320,itv:440},tunable:{mwp:1}}
-{id:1033,name:"Maid Pepen Girl BD@",conversion:"BDCS1060",type:"c",size:"M",cost:20,sub:{shl:14,rng:300,itv:1000},slot:0}
-{id:1034,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"M",cost:70,conversion:"BDCS1060AM AMS175"}
-{id:1035,name:"Pepen Girl BD@",sub:{shl:7,rng:300,itv:1000},type:"c",size:"M",cost:20,slot:0,conversion:"BDCS70"}
-{id:1036,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
 {id:1038,name:"Missile Shotgun",cost:110,type:"lc",size:"M",main:{pwr:5,shl:120,rng:280,spd:320,itv:600},tunable:{mwp:1}}
 {id:1039,name:"Charge Delay Bazooka",cost:60,wlk:-1,fly:-1,type:"s",size:"M",main:{pwr:16,shl:210,rng:170,spd:365,itv:600},tunable:{mwp:1}}
 {id:1040,name:"Smart Beam Gun Mod",main:{pwr:6,tec:100,shl:90,rng:320,spd:280,itv:640},cost:110,type:"a",size:"M"}

@@ -27,7 +27,7 @@
 var VERSION = "3.4.3",
 	LAST_MODIFIED = "2015.01.26",
 
-	CODEW_URL = "http://blead.github.io/cosmiccalc/",
+	CODEW_URL = "http://hngtuong.github.io/cosmiccalc/",
 	
 	MAXLEVEL_DEF = 10;
 	ADDLEVEL_DEF = 0;
@@ -692,7 +692,7 @@ var part_func = function(i, part){
 	}
 }, task = [];
 
-$.each("fixed,bd,wb,lg,hd,bs,am,mainwp,subwp,hdac,fcac".split(","), function(dummy, part){
+$.each("fixed,bd,wb,lg,hd,bs,am,cwp,mainwp,subwp,hdac,fcac".split(","), function(dummy, part){
 	task.push({file:part, callback:part_func});
 });
 ajaxManager.set(task);

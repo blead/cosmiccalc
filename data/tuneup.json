@@ -8,6 +8,19 @@
 {id:7,name:"Great Power Alpha",cost:20,str:3,tec:-2,material:"3*1|17*17|12*20|27*11|23*11",comment:"60%"}
 {id:8,name:"Great Power Beta",cost:20,str:3,tec:-1,fly:-1,material:"3*1|17*13|12*15|14*15|23*7",comment:"60%"}
 {id:9,name:"Great Power Gamma",cost:10,str:3,tec:-1,wlk:-1,fly:-1,tgh:-1,material:"3*1|17*9|16*3|27*3|23*3",comment:"60%"}
+{id:10,name:"Beast",cost:15,hp:15,str:1,material:"3*1|17*21|35*20|36*12",comment:"50%"}
+{id:11,name:"High Beast",cost:40,hp:30,str:2,material:"4*1|17*33|35*35|36*21|37*10",comment:"55%"}
+
+{group:"EX Strength",prefixID:"EP",commonStat:{target:"ex"}}
+{id:1,name:"EX Power",hp:5,cost:5,str:1,material:"1*1|17*5|44*5|41*1",comment:"35%"}
+{id:2,name:"EX Power Alpha",hp:5,cost:5,str:1,tec:-1,material:"1*1|17*1|12*2|44*2|41*2",comment:"45%"}
+{id:3,name:"EX High Power",hp:15,cost:15,str:2,material:"2*1|17*13|27*11|44*15|41*8|42*2",comment:"40%"}
+{id:4,name:"EX High Power Alpha",hp:10,cost:10,str:2,tec:-1,material:"2*1|17*9|12*10|27*7|44*10|41*12|42*3",comment:"50%"}
+{id:5,name:"EX High Power Beta",hp:10,cost:5,str:2,tec:-1,fly:-1,material:"2*1|17*5|12*5|14*5|27*3|44*10|41*12|42*3",comment:"50%"}
+{id:6,name:"EX Great Power",hp:25,cost:30,str:3,material:"3*1|17*21|27*15|23*15|44*20|41*15|42*4",comment:"50%"}
+{id:7,name:"EX Great Power Alpha",hp:20,cost:20,str:3,tec:-2,material:"3*1|17*17|12*20|27*11|23*11|44*15|41*17|42*5",comment:"60%"}
+{id:8,name:"EX Great Power Beta",hp:20,cost:20,str:3,tec:-1,fly:-1,material:"3*1|17*13|12*15|14*15|23*7|44*15|41*17|42*5",comment:"60%"}
+{id:9,name:"EX Great Power Gamma",hp:20,cost:10,str:3,tec:-1,wlk:-1,fly:-1,tgh:-1,material:"3*1|17*9|16*3|27*3|23*3|44*25|41*12|42*3",comment:"55%"}
 
 {group:"Tech",prefixID:"T",commonStat:{target:"cpt"}}
 {id:1,name:"Tech",cost:5,tec:1,material:"1*1|18*5",comment:"100%"}
@@ -19,6 +32,19 @@
 {id:7,name:"Great Tech Alpha",cost:20,str:-2,tec:3,material:"3*1|18*17|11*20|28*11|24*11",comment:"60%"}
 {id:8,name:"Great Tech Beta",cost:20,str:-1,tec:3,fly:-1,material:"3*1|18*13|11*15|14*15|24*7",comment:"60%"}
 {id:9,name:"Great Tech Gamma",cost:10,str:-1,tec:3,wlk:-1,fly:-1,tgh:-1,material:"3*1|18*9|16*3|28*3|24*3",comment:"60%"}
+{id:10,name:"Ranger",cost:15,hp:15,tec:1,material:"3*1|18*21|35*20|36*12",comment:"50%"}
+{id:11,name:"High Ranger",cost:40,hp:30,tec:2,material:"4*1|18*33|35*35|36*21|37*10",comment:"55%"}
+
+{group:"EX Tech",prefixID:"ET",commonStat:{target:"ex"}}
+{id:1,name:"EX Tech",hp:5,cost:5,tec:1,material:"1*1|18*5|45*5|41*1",comment:"35%"}
+{id:2,name:"EX Tech Alpha",hp:5,cost:5,str:-1,tec:1,material:"1*1|18*1|11*2|45*2|41*2",comment:"45%"}
+{id:3,name:"EX High Tech",hp:15,cost:15,tec:2,material:"2*1|18*13|28*11|45*15|41*8|42*2",comment:"40%"}
+{id:4,name:"EX High Tech Alpha",hp:10,cost:10,str:-1,tec:2,material:"2*1|18*9|11*10|28*7|45*10|41*12|42*3",comment:"50%"}
+{id:5,name:"EX High Tech Beta",hp:10,cost:5,str:-1,tec:2,fly:-1,material:"2*1|18*5|11*5|14*5|28*3|45*10|41*12|42*3",comment:"50%"}
+{id:6,name:"EX Great Tech",hp:25,cost:30,tec:3,material:"3*1|18*21|28*15|24*15|45*20|41*15|42*4",comment:"50%"}
+{id:7,name:"EX Great Tech Alpha",hp:20,cost:20,str:-2,tec:3,material:"3*1|18*17|11*20|28*11|24*11|45*15|41*17|42*5",comment:"60%"}
+{id:8,name:"EX Great Tech Beta",hp:20,cost:20,str:-1,tec:3,fly:-1,material:"3*1|18*13|11*15|14*15|24*7|45*15|41*17|42*5",comment:"60%"}
+{id:9,name:"EX Great Tech Gamma",hp:20,cost:10,str:-1,tec:3,wlk:-1,fly:-1,tgh:-1,material:"3*1|18*9|16*3|28*3|24*3|45*25|41*12|42*3",comment:"55%"}
 
 {group:"Run",prefixID:"R",commonStat:{target:"cpt"}}
 {id:1,name:"Run",cost:5,wlk:1,material:"1*1|19*5",comment:"100%"}
@@ -30,6 +56,19 @@
 {id:7,name:"Great Run Alpha",cost:20,wlk:3,fly:-2,material:"3*1|19*17|14*20|30*11|26*11",comment:"60%"}
 {id:8,name:"Great Run Beta",cost:20,tec:-1,wlk:3,fly:-1,material:"3*1|19*13|14*15|12*15|26*7",comment:"60%"}
 {id:9,name:"Great Run Gamma",cost:10,str:-1,tec:-1,wlk:3,fly:-1,tgh:-1,material:"3*1|19*9|16*3|30*3|26*3",comment:"60%"}
+{id:10,name:"Tank",cost:15,hp:15,wlk:1,material:"3*1|19*21|35*20|36*12",comment:"50%"}
+{id:11,name:"High Tank",cost:40,hp:30,wlk:2,material:"4*1|19*33|35*35|36*21|38*10",comment:"55%"}
+
+{group:"EX Run",prefixID:"ER",commonStat:{target:"ex"}}
+{id:1,name:"EX Run",hp:5,cost:5,wlk:1,material:"1*1|19*5|46*5|41*1",comment:"35%"}
+{id:2,name:"EX Run Alpha",hp:5,cost:5,wlk:1,fly:-1,material:"1*1|19*1|14*2|46*2|41*2",comment:"45%"}
+{id:3,name:"EX High Run",hp:15,cost:15,wlk:2,material:"2*1|19*13|30*11|46*15|41*8|42*2",comment:"40%"}
+{id:4,name:"EX High Run Alpha",hp:10,cost:10,wlk:2,fly:-1,material:"2*1|19*9|14*10|30*7|46*10|41*12|42*3",comment:"50%"}
+{id:5,name:"EX High Run Beta",hp:10,cost:5,tec:-1,wlk:2,fly:-1,material:"2*1|19*5|12*5|14*5|30*3|46*10|41*12|42*3",comment:"50%"}
+{id:6,name:"EX Great Run",hp:25,cost:30,wlk:3,material:"3*1|19*21|30*15|26*15|46*20|41*15|42*4",comment:"50%"}
+{id:7,name:"EX Great Run Alpha",hp:20,cost:20,wlk:3,fly:-2,material:"3*1|19*17|14*20|30*11|26*11|46*15|41*17|42*5",comment:"60%"}
+{id:8,name:"EX Great Run Beta",hp:20,cost:20,tec:-1,wlk:3,fly:-1,material:"3*1|19*13|14*15|12*15|26*7|46*15|41*17|42*5",comment:"60%"}
+{id:9,name:"EX Great Run Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:3,fly:-1,tgh:-1,material:"3*1|19*9|16*3|30*3|26*3|46*25|41*12|42*3",comment:"55%"}
 
 {group:"Boost",prefixID:"B",commonStat:{target:"cpt"}}
 {id:1,name:"Boost",cost:5,fly:1,material:"1*1|20*5",comment:"100%"}
@@ -41,6 +80,19 @@
 {id:7,name:"Great Boost Alpha",cost:20,wlk:-2,fly:3,material:"3*1|20*17|13*20|26*11|25*11",comment:"60%"}
 {id:8,name:"Great Boost Beta",cost:20,str:-1,wlk:-1,fly:3,material:"3*1|20*13|13*15|11*15|26*7",comment:"60%"}
 {id:9,name:"Great Boost Gamma",cost:10,str:-1,tec:-1,wlk:-1,fly:3,tgh:-1,material:"3*1|20*9|16*3|26*3|25*3",comment:"60%"}
+{id:10,name:"Eagle",cost:15,hp:15,fly:1,material:"3*1|20*21|35*20|36*12",comment:"50%"}
+{id:11,name:"High Eagle",cost:40,hp:30,fly:2,material:"4*1|20*33|35*35|36*21|38*10",comment:"55%"}
+
+{group:"EX Boost",prefixID:"EB",commonStat:{target:"ex"}}
+{id:1,name:"EX Boost",hp:5,cost:5,fly:1,material:"1*1|20*5|47*5|41*1",comment:"35%"}
+{id:2,name:"EX Boost Alpha",hp:5,cost:5,wlk:-1,fly:1,material:"1*1|20*1|13*2|47*2|41*2",comment:"45%"}
+{id:3,name:"EX High Boost",hp:15,cost:15,fly:2,material:"2*1|20*13|26*11|47*15|41*8|42*2",comment:"40%"}
+{id:4,name:"EX High Boost Alpha",hp:10,cost:10,wlk:-1,fly:2,material:"2*1|20*9|13*10|26*7|47*10|41*12|42*3",comment:"50%"}
+{id:5,name:"EX High Boost Beta",hp:10,cost:5,str:-1,wlk:-1,fly:2,material:"2*1|20*5|13*5|11*5|26*3|47*10|41*12|42*3",comment:"50%"}
+{id:6,name:"EX Great Boost",hp:25,cost:30,fly:3,material:"3*1|20*21|26*15|25*15|47*20|41*15|42*4",comment:"50%"}
+{id:7,name:"EX Great Boost Alpha",hp:20,cost:20,wlk:-2,fly:3,material:"3*1|20*17|13*20|26*11|25*11|47*15|41*17|42*5",comment:"60%"}
+{id:8,name:"EX Great Boost Beta",hp:20,cost:20,str:-1,wlk:-1,fly:3,material:"3*1|20*13|13*15|11*15|26*7|47*15|41*17|42*5",comment:"60%"}
+{id:9,name:"EX Great Boost Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:-1,fly:3,tgh:-1,material:"3*1|20*9|16*3|26*3|25*3|47*25|41*12|42*3",comment:"55%"}
 
 {group:"Tough",prefixID:"S",commonStat:{target:"cpt"}}
 {id:1,name:"Tough",cost:5,tgh:1,material:"1*1|21*5",comment:"100%"}
@@ -52,6 +104,19 @@
 {id:7,name:"Great Tough Alpha",cost:20,fly:-2,tgh:3,material:"3*1|21*17|14*20|33*11|34*11",comment:"60%"}
 {id:8,name:"Great Tough Beta",cost:20,wlk:-1,fly:-1,tgh:3,material:"3*1|21*13|14*15|13*15|33*7",comment:"60%"}
 {id:9,name:"Great Tough Gamma",cost:10,str:-1,tec:-1,wlk:-1,fly:-1,tgh:3,material:"3*1|21*9|16*3|33*3|34*3",comment:"60%"}
+{id:10,name:"Sentinel",cost:15,hp:15,tgh:1,material:"3*1|22*21|21*21|16*7",comment:"50%"}
+{id:11,name:"High Sentinel",cost:40,hp:30,tgh:2,material:"4*1|22*33|21*33|34*33|16*11",comment:"55%"}
+
+{group:"EX Tough",prefixID:"ES",commonStat:{target:"ex"}}
+{id:1,name:"EX Tough",hp:5,cost:5,tgh:1,material:"1*1|21*5|43*5|41*1",comment:"35%"}
+{id:2,name:"EX Tough Alpha",hp:5,cost:5,fly:-1,tgh:1,material:"1*1|21*1|14*2|43*2|41*2",comment:"45%"}
+{id:3,name:"EX High Tough",hp:15,cost:15,tgh:2,material:"2*1|21*13|33*11|43*15|41*8|42*2",comment:"40%"}
+{id:4,name:"EX High Tough Alpha",hp:10,cost:10,fly:-1,tgh:2,material:"2*1|21*9|14*10|33*7|43*10|41*12|42*3",comment:"50%"}
+{id:5,name:"EX High Tough Beta",hp:10,cost:5,wlk:-1,fly:-1,tgh:2,material:"2*1|21*5|13*5|14*5|33*3|43*10|41*12|42*3",comment:"50%"}
+{id:6,name:"EX Great Tough",hp:25,cost:30,tgh:3,material:"3*1|21*21|33*15|34*15|43*20|41*15|42*4",comment:"50%"}
+{id:7,name:"EX Great Tough Alpha",hp:20,cost:20,fly:-2,tgh:3,material:"3*1|21*17|14*20|33*11|34*11|43*15|41*17|42*5",comment:"60%"}
+{id:8,name:"EX Great Tough Beta",hp:20,cost:20,wlk:-1,fly:-1,tgh:3,material:"3*1|21*13|14*15|13*15|33*7|43*15|41*17|42*5",comment:"60%"}
+{id:9,name:"EX Great Tough Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:-1,fly:-1,tgh:3,material:"3*1|21*9|16*3|33*3|34*3|43*25|41*12|42*3",comment:"55%"}
 
 {group:"Life",prefixID:"L",commonStat:{target:"cpt"}}
 {id:1,name:"Proto Life",cost:5,hp:15,material:"39*1",comment:"100%"}
@@ -69,23 +134,10 @@
 {id:4,name:"High Acrobat",cost:45,tec:2,fly:2,type:"a",material:"4*1|18*33|20*33|26*19|16*11",comment:["55%","Air Type Only"]}
 {id:5,name:"Battery",cost:20,tec:1,tgh:1,type:"c",material:"3*1|18*21|21*21|16*7",comment:["50%","Art Type Only"]}
 {id:6,name:"High Battery",cost:45,tec:2,tgh:2,type:"c",material:"4*1|18*33|21*33|31*33|16*11",comment:["55%","Art Type Only"]}
-
-{group:"Other Combos",prefixID:"SC",commonStat:{target:"cpt"}}
-{id:1,name:"Speeder",cost:20,wlk:1,fly:1,material:"3*1|19*21|20*21|16*7",comment:"50%"}
-{id:2,name:"High Speeder",cost:45,wlk:2,fly:2,material:"4*1|19*33|20*33|30*33|16*11",comment:"55%"}
-{id:5,name:"Assault",cost:20,str:1,tec:1,material:"3*1|17*21|18*21|16*7",comment:"50%"}
-{id:6,name:"High Assault",cost:45,str:2,tec:2,material:"4*1|17*33|18*33|29*33|16*11",comment:"55%"}
-
-{id:7,name:"Beast",cost:15,hp:15,str:1,material:"3*1|17*21|35*20|36*12",comment:"50%"}
-{id:8,name:"High Beast",cost:40,hp:30,str:2,material:"4*1|17*33|35*35|36*21|37*10",comment:"55%"}
-{id:9,name:"Ranger",cost:15,hp:15,tec:1,material:"3*1|18*21|35*20|36*12",comment:"50%"}
-{id:10,name:"High Ranger",cost:40,hp:30,tec:2,material:"4*1|18*33|35*35|36*21|37*10",comment:"55%"}
-{id:11,name:"Tank",cost:15,hp:15,wlk:1,material:"3*1|19*21|35*20|36*12",comment:"50%"}
-{id:12,name:"High Tank",cost:40,hp:30,wlk:2,material:"4*1|19*33|35*35|36*21|38*10",comment:"55%"}
-{id:13,name:"Eagle",cost:15,hp:15,fly:1,material:"3*1|20*21|35*20|36*12",comment:"50%"}
-{id:14,name:"High Eagle",cost:40,hp:30,fly:2,material:"4*1|20*33|35*35|36*21|38*10",comment:"55%"}
-{id:3,name:"Sentinel",cost:15,hp:15,tgh:1,material:"3*1|22*21|21*21|16*7",comment:"50%"}
-{id:4,name:"High Sentinel",cost:40,hp:30,tgh:2,material:"4*1|22*33|21*33|34*33|16*11",comment:"55%"}
+{id:7,name:"Speeder",cost:20,wlk:1,fly:1,material:"3*1|19*21|20*21|16*7",comment:"50%"}
+{id:8,name:"High Speeder",cost:45,wlk:2,fly:2,material:"4*1|19*33|20*33|30*33|16*11",comment:"55%"}
+{id:9,name:"Assault",cost:20,str:1,tec:1,material:"3*1|17*21|18*21|16*7",comment:"50%"}
+{id:10,name:"High Assault",cost:45,str:2,tec:2,material:"4*1|17*33|18*33|29*33|16*11",comment:"55%"}
 
 {group:"Special"}
 {id:"SP1",name:"Eternal",cost:15,hp:15,target:"cpt hd am",material:"10*1|33*33|16*19|22*33|34*33",comment:["55%","Part can no longer be destroyed."]}
@@ -140,7 +192,6 @@
 {id:1,name:"Paralyze",cost:50,material:"10*1|27*33|21*33|15*55",comment:["55%","Stunning probability is doubled"]}
 {id:2,name:"Breaker",cost:25,material:"10*1|35*35|36*33|37*19|38*19",comment:["55%","Chance of destroying parts increased by 25%"]}
 
-
 {group:"Sub Weapon Performance",prefixID:"PP",commonStat:{target:"pwp"}}
 {id:1,name:"Grappler",cost:10,effect:{pwr:3},material:"7*1|23*4",comment:["40%","Force+3%"]}
 {id:2,name:"High Grappler Alpha",cost:20,effect:{pwr:6,spd:-7},material:"8*1|23*5|13*9",comment:["55%","Force+6%、Speed-7%"]}
@@ -155,59 +206,3 @@
 {id:4,name:"Drain",cost:30,material:"10*1|32*33|27*15|16*19",comment:["55%","5% chance to Shell Drain"]}
 {id:5,name:"EX Melt",cost:30,hp:15,material:"10*1|47*20|16*15|41*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Melt"]}
 {id:6,name:"EX Powerless BETA",cost:30,hp:15,material:"10*1|47*20|16*15|45*15",comment:["55%","Reinforce S Drive cartridge required","5% chance to Powerless BETA"]}
-
-
-{group:"EX Strength",prefixID:"EP",commonStat:{target:"ex"}}
-{id:1,name:"EX Power",hp:5,cost:5,str:1,material:"1*1|17*5|44*5|41*1",comment:"35%"}
-{id:2,name:"EX Power Alpha",hp:5,cost:5,str:1,tec:-1,material:"1*1|17*1|12*2|44*2|41*2",comment:"45%"}
-{id:3,name:"EX High Power",hp:15,cost:15,str:2,material:"2*1|17*13|27*11|44*15|41*8|42*2",comment:"40%"}
-{id:4,name:"EX High Power Alpha",hp:10,cost:10,str:2,tec:-1,material:"2*1|17*9|12*10|27*7|44*10|41*12|42*3",comment:"50%"}
-{id:5,name:"EX High Power Beta",hp:10,cost:5,str:2,tec:-1,fly:-1,material:"2*1|17*5|12*5|14*5|27*3|44*10|41*12|42*3",comment:"50%"}
-{id:6,name:"EX Great Power",hp:25,cost:30,str:3,material:"3*1|17*21|27*15|23*15|44*20|41*15|42*4",comment:"50%"}
-{id:7,name:"EX Great Power Alpha",hp:20,cost:20,str:3,tec:-2,material:"3*1|17*17|12*20|27*11|23*11|44*15|41*17|42*5",comment:"60%"}
-{id:8,name:"EX Great Power Beta",hp:20,cost:20,str:3,tec:-1,fly:-1,material:"3*1|17*13|12*15|14*15|23*7|44*15|41*17|42*5",comment:"60%"}
-{id:9,name:"EX Great Power Gamma",hp:20,cost:10,str:3,tec:-1,wlk:-1,fly:-1,tgh:-1,material:"3*1|17*9|16*3|27*3|23*3|44*25|41*12|42*3",comment:"55%"}
-
-{group:"EX Tech",prefixID:"ET",commonStat:{target:"ex"}}
-{id:1,name:"EX Tech",hp:5,cost:5,tec:1,material:"1*1|18*5|45*5|41*1",comment:"35%"}
-{id:2,name:"EX Tech Alpha",hp:5,cost:5,str:-1,tec:1,material:"1*1|18*1|11*2|45*2|41*2",comment:"45%"}
-{id:3,name:"EX High Tech",hp:15,cost:15,tec:2,material:"2*1|18*13|28*11|45*15|41*8|42*2",comment:"40%"}
-{id:4,name:"EX High Tech Alpha",hp:10,cost:10,str:-1,tec:2,material:"2*1|18*9|11*10|28*7|45*10|41*12|42*3",comment:"50%"}
-{id:5,name:"EX High Tech Beta",hp:10,cost:5,str:-1,tec:2,fly:-1,material:"2*1|18*5|11*5|14*5|28*3|45*10|41*12|42*3",comment:"50%"}
-{id:6,name:"EX Great Tech",hp:25,cost:30,tec:3,material:"3*1|18*21|28*15|24*15|45*20|41*15|42*4",comment:"50%"}
-{id:7,name:"EX Great Tech Alpha",hp:20,cost:20,str:-2,tec:3,material:"3*1|18*17|11*20|28*11|24*11|45*15|41*17|42*5",comment:"60%"}
-{id:8,name:"EX Great Tech Beta",hp:20,cost:20,str:-1,tec:3,fly:-1,material:"3*1|18*13|11*15|14*15|24*7|45*15|41*17|42*5",comment:"60%"}
-{id:9,name:"EX Great Tech Gamma",hp:20,cost:10,str:-1,tec:3,wlk:-1,fly:-1,tgh:-1,material:"3*1|18*9|16*3|28*3|24*3|45*25|41*12|42*3",comment:"55%"}
-
-{group:"EX Run",prefixID:"ER",commonStat:{target:"ex"}}
-{id:1,name:"EX Run",hp:5,cost:5,wlk:1,material:"1*1|19*5|46*5|41*1",comment:"35%"}
-{id:2,name:"EX Run Alpha",hp:5,cost:5,wlk:1,fly:-1,material:"1*1|19*1|14*2|46*2|41*2",comment:"45%"}
-{id:3,name:"EX High Run",hp:15,cost:15,wlk:2,material:"2*1|19*13|30*11|46*15|41*8|42*2",comment:"40%"}
-{id:4,name:"EX High Run Alpha",hp:10,cost:10,wlk:2,fly:-1,material:"2*1|19*9|14*10|30*7|46*10|41*12|42*3",comment:"50%"}
-{id:5,name:"EX High Run Beta",hp:10,cost:5,tec:-1,wlk:2,fly:-1,material:"2*1|19*5|12*5|14*5|30*3|46*10|41*12|42*3",comment:"50%"}
-{id:6,name:"EX Great Run",hp:25,cost:30,wlk:3,material:"3*1|19*21|30*15|26*15|46*20|41*15|42*4",comment:"50%"}
-{id:7,name:"EX Great Run Alpha",hp:20,cost:20,wlk:3,fly:-2,material:"3*1|19*17|14*20|30*11|26*11|46*15|41*17|42*5",comment:"60%"}
-{id:8,name:"EX Great Run Beta",hp:20,cost:20,tec:-1,wlk:3,fly:-1,material:"3*1|19*13|14*15|12*15|26*7|46*15|41*17|42*5",comment:"60%"}
-{id:9,name:"EX Great Run Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:3,fly:-1,tgh:-1,material:"3*1|19*9|16*3|30*3|26*3|46*25|41*12|42*3",comment:"55%"}
-
-{group:"EX Boost",prefixID:"EB",commonStat:{target:"ex"}}
-{id:1,name:"EX Boost",hp:5,cost:5,fly:1,material:"1*1|20*5|47*5|41*1",comment:"35%"}
-{id:2,name:"EX Boost Alpha",hp:5,cost:5,wlk:-1,fly:1,material:"1*1|20*1|13*2|47*2|41*2",comment:"45%"}
-{id:3,name:"EX High Boost",hp:15,cost:15,fly:2,material:"2*1|20*13|26*11|47*15|41*8|42*2",comment:"40%"}
-{id:4,name:"EX High Boost Alpha",hp:10,cost:10,wlk:-1,fly:2,material:"2*1|20*9|13*10|26*7|47*10|41*12|42*3",comment:"50%"}
-{id:5,name:"EX High Boost Beta",hp:10,cost:5,str:-1,wlk:-1,fly:2,material:"2*1|20*5|13*5|11*5|26*3|47*10|41*12|42*3",comment:"50%"}
-{id:6,name:"EX Great Boost",hp:25,cost:30,fly:3,material:"3*1|20*21|26*15|25*15|47*20|41*15|42*4",comment:"50%"}
-{id:7,name:"EX Great Boost Alpha",hp:20,cost:20,wlk:-2,fly:3,material:"3*1|20*17|13*20|26*11|25*11|47*15|41*17|42*5",comment:"60%"}
-{id:8,name:"EX Great Boost Beta",hp:20,cost:20,str:-1,wlk:-1,fly:3,material:"3*1|20*13|13*15|11*15|26*7|47*15|41*17|42*5",comment:"60%"}
-{id:9,name:"EX Great Boost Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:-1,fly:3,tgh:-1,material:"3*1|20*9|16*3|26*3|25*3|47*25|41*12|42*3",comment:"55%"}
-
-{group:"EX Tough",prefixID:"ES",commonStat:{target:"ex"}}
-{id:1,name:"EX Tough",hp:5,cost:5,tgh:1,material:"1*1|21*5|43*5|41*1",comment:"35%"}
-{id:2,name:"EX Tough Alpha",hp:5,cost:5,fly:-1,tgh:1,material:"1*1|21*1|14*2|43*2|41*2",comment:"45%"}
-{id:3,name:"EX High Tough",hp:15,cost:15,tgh:2,material:"2*1|21*13|33*11|43*15|41*8|42*2",comment:"40%"}
-{id:4,name:"EX High Tough Alpha",hp:10,cost:10,fly:-1,tgh:2,material:"2*1|21*9|14*10|33*7|43*10|41*12|42*3",comment:"50%"}
-{id:5,name:"EX High Tough Beta",hp:10,cost:5,wlk:-1,fly:-1,tgh:2,material:"2*1|21*5|13*5|14*5|33*3|43*10|41*12|42*3",comment:"50%"}
-{id:6,name:"EX Great Tough",hp:25,cost:30,tgh:3,material:"3*1|21*21|33*15|34*15|43*20|41*15|42*4",comment:"50%"}
-{id:7,name:"EX Great Tough Alpha",hp:20,cost:20,fly:-2,tgh:3,material:"3*1|21*17|14*20|33*11|34*11|43*15|41*17|42*5",comment:"60%"}
-{id:8,name:"EX Great Tough Beta",hp:20,cost:20,wlk:-1,fly:-1,tgh:3,material:"3*1|21*13|14*15|13*15|33*7|43*15|41*17|42*5",comment:"60%"}
-{id:9,name:"EX Great Tough Gamma",hp:20,cost:10,str:-1,tec:-1,wlk:-1,fly:-1,tgh:3,material:"3*1|21*9|16*3|33*3|34*3|43*25|41*12|42*3",comment:"55%"}
