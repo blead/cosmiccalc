@@ -24,8 +24,8 @@
 (function($, undefined){
 
 /* CONST VARS */
-var VERSION = "3.4.3",
-	LAST_MODIFIED = "2019.02.20",
+var VERSION = "3.5.0",
+	LAST_MODIFIED = "2021.01.22",
 
 	CODEW_URL = "http://blead.github.io/cosmiccalc/",
 	
