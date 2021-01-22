@@ -24,6 +24,8 @@
 /* CONST VARS */
 var VERSION = "3.5.0",
 	LAST_MODIFIED = "2021.01.22",
+	LOCALSTORAGE_CONFIG_KEY = "_COSMICCALC",
+	LOCALSTORAGE_VERSION_KEY = LOCALSTORAGE_CONFIG_KEY + "_VERSION",
 
 	CODEW_URL = "http://blead.github.io/cosmiccalc/",
 	
@@ -154,28 +156,28 @@ var Parts_none = {
 		fcac: []
 	},
 	Parts_data_base = {
-		fixed: [],
-		bd: [],
-		wb: [],
-		hd: [],
-		lg: [],
-		bs: [],
-		am: [],
-		wp: [],
-		hdac: [],
-		fcac: []
+		fixed: {},
+		bd: {},
+		wb: {},
+		hd: {},
+		lg: {},
+		bs: {},
+		am: {},
+		wp: {},
+		hdac: {},
+		fcac: {}
 	},
 	Parts_data_overrides_str = {
-		fixed: [],
-		bd: [],
-		wb: [],
-		hd: [],
-		lg: [],
-		bs: [],
-		am: [],
-		wp: [],
-		hdac: [],
-		fcac: []
+		fixed: {},
+		bd: {},
+		wb: {},
+		hd: {},
+		lg: {},
+		bs: {},
+		am: {},
+		wp: {},
+		hdac: {},
+		fcac: {}
 	},
 
 	Result = {
@@ -664,6 +666,41 @@ var checkConversions = function(){
 	}
 }
 
+function loadLocalStorageConfig(){
+	const localStorageSavedConfigStr = localStorage.getItem(LOCALSTORAGE_CONFIG_KEY);
+	const savedVersion = localStorage.getItem(LOCALSTORAGE_VERSION_KEY);
+	if (localStorageSavedConfigStr !== null) {
+		if (savedVersion !== VERSION) {
+			return;
+			// TODO: migrate between versions
+		}
+		let savedConfig = {};
+		try {
+			savedConfig = JSON.parse(LZString.decompressFromUTF16(localStorageSavedConfigStr));
+			if (savedConfig === null) {
+				throw "Decompression error"
+			}
+		} catch (error) {
+			Message.set("Unable to load saved configurations. Your localStorage may be corrupted.");
+			console.error(error);
+			return;
+		}
+
+		if (savedConfig) {
+			Parts_data_overrides_str = savedConfig.partsDataOverridesStr;
+		}
+	}
+}
+
+function saveLocalStorageConfig(){
+	const savingConfig = {
+		partsDataOverridesStr: Parts_data_overrides_str
+	};
+	localStorage.setItem(LOCALSTORAGE_VERSION_KEY, VERSION);
+	localStorage.setItem(LOCALSTORAGE_CONFIG_KEY, LZString.compressToUTF16(JSON.stringify(savingConfig)));
+}
+
+loadLocalStorageConfig();
 
 /* パーツデータ読込:Start */
 var cmn_stat = {}, pd, td, prefixID;
@@ -687,12 +724,13 @@ var part_func = function(i, part){
 	this.id = prefixID + this.id;
 	if(Parts_data[part][this.id]) throw "Duplicate ID @640";
 	Parts_data_base[part][this.id] = {str: JSON.stringify(this), cmn_stat: cmn_stat};
-	// TODO: load override from localstorage somewhere before this
 	let partDataOverride;
-	try {
-		partDataOverride = JSON.parse(Parts_data_overrides_str[part][this.id]);
-	} catch (error) {
-		Message.set("Failed to parse override data of " + part + " " + this.id + " (" + (this.name || "unknown") + ")");
+	if (Parts_data_overrides_str[part][this.id]) {
+		try {
+			partDataOverride = JSON.parse(Parts_data_overrides_str[part][this.id]);
+		} catch (error) {
+			Message.set("Failed to parse override data of " + part + " " + this.id + " (" + (this.name || "unknown") + ")");
+		}
 	}
 	if (partDataOverride) {
 		pd = Parts_data[part][this.id] = setDefault(partDataOverride, part, cmn_stat);
@@ -1567,8 +1605,8 @@ $("#DATA_EDIT_APPLY").click(function(){
 	const partDataStr = $("#DATA_EDIT_TEXTAREA")[0].value;
 
 	if (partDataStr === Parts_data_base[part][id].str) {
-		// TODO: save it into localstorage
 		delete Parts_data_overrides_str[part][id];
+		saveLocalStorageConfig();
 	}
 
 	let applyingPartData;
@@ -1581,9 +1619,9 @@ $("#DATA_EDIT_APPLY").click(function(){
 
 	if (applyingPartData) {
 		if (partDataStr !== Parts_data_base[part][id].str) {
-			// TODO: save it into localstorage
 			// TODO: add another button to clear all overrides
 			Parts_data_overrides_str[part][id] = partDataStr;
+			saveLocalStorageConfig();
 		}
 		$.extend(Parts_data[part][id], setDefault(applyingPartData, part, Parts_data_base[part][id].cmn_stat));
 		autoSetup(readCompData(compOut()));
