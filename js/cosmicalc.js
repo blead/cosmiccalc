@@ -153,6 +153,30 @@ var Parts_none = {
 		hdac: [],
 		fcac: []
 	},
+	Parts_data_base = {
+		fixed: [],
+		bd: [],
+		wb: [],
+		hd: [],
+		lg: [],
+		bs: [],
+		am: [],
+		wp: [],
+		hdac: [],
+		fcac: []
+	},
+	Parts_data_overrides_str = {
+		fixed: [],
+		bd: [],
+		wb: [],
+		hd: [],
+		lg: [],
+		bs: [],
+		am: [],
+		wp: [],
+		hdac: [],
+		fcac: []
+	},
 
 	Result = {
 		type:"-",
@@ -455,7 +479,7 @@ $.fn.extend({
 /* CosmiCalc Init処理 */
 $(function(){
 
-$("#VERSION").text("CosmiCalc Ver." + VERSION + "(Not updated for CBUNI)");
+$("#VERSION").text("CosmiCalc Ver." + VERSION + " (Not updated for CBUNI)");
 $("#LAST_MODIFIED").text(LAST_MODIFIED);
 
 $.extend(Settings, {
@@ -662,7 +686,19 @@ var part_func = function(i, part){
 	if(this.id === undefined) throw "ID not found @638";
 	this.id = prefixID + this.id;
 	if(Parts_data[part][this.id]) throw "Duplicate ID @640";
-	pd = Parts_data[part][this.id] = setDefault(this, part, cmn_stat);
+	Parts_data_base[part][this.id] = {str: JSON.stringify(this), cmn_stat: cmn_stat};
+	// TODO: load override from localstorage somewhere before this
+	let partDataOverride;
+	try {
+		partDataOverride = JSON.parse(Parts_data_overrides_str[part][this.id]);
+	} catch (error) {
+		Message.set("Failed to parse override data of " + part + " " + this.id + " (" + (this.name || "unknown") + ")");
+	}
+	if (partDataOverride) {
+		pd = Parts_data[part][this.id] = setDefault(partDataOverride, part, cmn_stat);
+	} else {
+		pd = Parts_data[part][this.id] = setDefault(this, part, cmn_stat);
+	}
 
 	if(part!="fixed"){
 		if(Parts_data[pd.name]) throw "Duplicate name @644";
@@ -681,9 +717,9 @@ var part_func = function(i, part){
 		else if(part!="bd") cls += " "+typeToClass(pd.type)+" "+sizeToClass(pd.size)+(pd.jointPart ? " joint" : "");
 		$('<li value="'+i+'" class="prtlst '+cls+'"></li>').text(pd.name).appendTo(List_elms[part])
 			.each(function(){
-				this.ccd = {parts_ref: pd};
+				this.ccd = {part: part, parts_ref: pd};
 			}).mouseenter(function(){
-				renewPdv(this.ccd.parts_ref, Prop.target.ccd.parts_ref);
+				renewPdv(this, this.ccd.parts_ref, Prop.target.ccd.parts_ref);
 			});
 	}else{
 		if(Parts_data.fixed[pd.name]) throw "Duplicate name @655";
@@ -760,7 +796,7 @@ ajaxManager.set({
 			.each(function(){
 				this.ccd = {tune_ref: td};
 			}).mouseenter(function(){
-				renewPdv(this.ccd.tune_ref, Prop.target.ccd.tune_ref);
+				renewPdv(this, this.ccd.tune_ref, Prop.target.ccd.tune_ref);
 			});
 	}
 });/* チューンアップデータ読込:End */
@@ -858,7 +894,7 @@ $("#REDO").click(function(){
 
 /* パーツ解除 */
 $("#UNSET_PARTS").mouseenter(function(){
-	renewPdv(Parts_none, Prop.target.ccd.tuned);
+	renewPdv(this, Parts_none, Prop.target.ccd.tuned);
 }).click(function(){
 	if($(Prop.target).hasClass("slot")){
 		UnRedo(Prop.target);
@@ -1157,7 +1193,7 @@ $(".select_box").each(function(){
 		this.ccd.list = $("#LIST_WB")[0];
 	}
 }).mouseenter(function(){
-	renewPdv(this.ccd.tuned);
+	renewPdv(this, this.ccd.tuned);
 }).blur(function(){
 	if(!$(this).hasClass("fixed")) this.value = this.ccd.parts_ref.name;
 }).click(function(){
@@ -1308,7 +1344,7 @@ $(".slot").each(function(){
 	this.ccd_sb = $(this).siblings(".select_box")[0];
 	this.ccd = {tune_ref: Parts_none};
 }).mouseenter(function(){
-	renewPdv(this.ccd.tune_ref);
+	renewPdv(this, this.ccd.tune_ref);
 }).click(function(){
 	var pos = $(this).position();
 	pos.left += Settings.left_offset;
@@ -1489,7 +1525,6 @@ $("#TIO_READ").click(function(){
 	}else{
 		str = str.replace(/^\s+|\s+$/g, '');
 		if(str) ccd = readCompData(unescape(uncompress(str)));
-		//console.log(unescape(uncompress(str)));
 	}
 	
 	if(ccd.part.length){
@@ -1502,6 +1537,62 @@ $("#TIO_READ").click(function(){
 	Prop.changed = false;
 
 
+});
+
+
+$("#DATA_EDIT_CONTAINER").click(function(){return false;})
+	.parent().click(function(){$(this).hide();});
+$("#DATA_EDIT_CLOSE").click(function(){$("#DATA_EDIT_CONTAINER").parent().hide();});
+$("#DATA_EDIT_BUTTON").click(function(){
+	if (!this.partDataRef || !this.partDataRef.ccd || !this.partDataRef.ccd.part || !this.partDataRef.ccd.parts_ref) {
+		return;
+	}
+	const part = this.partDataRef.ccd.part;
+	const id = this.partDataRef.ccd.parts_ref.id;
+	const name = this.partDataRef.ccd.parts_ref.name;
+	if (part && id) {
+		$("#DATA_EDIT_APPLY")[0].partDataRef = this.partDataRef;
+		$("#DATA_EDIT_RESET")[0].partDataRef = this.partDataRef;
+		$("#DATA_EDIT_TOP").text("Editing Data: " + name);
+		$("#DATA_EDIT_TEXTAREA").val(Parts_data_overrides_str[part][id] || Parts_data_base[part][id].str);
+		$("#DATA_EDIT_CONTAINER").parent().show();
+	}
+});
+$("#DATA_EDIT_RESET").click(function(){
+	$("#DATA_EDIT_TEXTAREA").val(Parts_data_base[this.partDataRef.ccd.part][this.partDataRef.ccd.parts_ref.id].str);
+});
+$("#DATA_EDIT_APPLY").click(function(){
+	const part = this.partDataRef.ccd.part;
+	const id = this.partDataRef.ccd.parts_ref.id;
+	const partDataStr = $("#DATA_EDIT_TEXTAREA")[0].value;
+
+	if (partDataStr === Parts_data_base[part][id].str) {
+		// TODO: save it into localstorage
+		delete Parts_data_overrides_str[part][id];
+	}
+
+	let applyingPartData;
+	try {
+		applyingPartData = JSON.parse(partDataStr);
+	} catch (error) {
+		alert(error);
+		return;
+	}
+
+	if (applyingPartData) {
+		if (partDataStr !== Parts_data_base[part][id].str) {
+			// TODO: save it into localstorage
+			// TODO: add another button to clear all overrides
+			Parts_data_overrides_str[part][id] = partDataStr;
+		}
+		$.extend(Parts_data[part][id], setDefault(applyingPartData, part, Parts_data_base[part][id].cmn_stat));
+		autoSetup(readCompData(compOut()));
+		if (this.partDataRef.ccd.tuned) {
+			renewPdv(this.partDataRef, this.partDataRef.ccd.tuned);
+		} else {
+			renewPdv(this.partDataRef, Parts_data[part][id])
+		}
+	}
 });
 
 /* クッキー保存 */
@@ -2346,7 +2437,6 @@ function restrictCheck(trg){
 		$(SIZE_TO_CLASS[Result.size]).hide();
 
 		$(trg.ccd.list).children(".conversion").hide();
-		// console.log(trg.parentNode.parentNode.children[1].ccd);
 		var parentPart = trg.parentNode.parentNode.children[1];
 		if($(parentPart).hasClass('fixed'))
 			$("."+parentPart.ccd.parts_ref.id).show();
@@ -2376,10 +2466,10 @@ function renewRes(){
 	Res_elms.check.container[judgeSortie ? "removeClass" : "addClass"]("ng");
 };
 
-function renewPdv(data, sdat, f){
+function renewPdv(callerRef, data, sdat, f){
 	if(!f){
 		if(pdvTimer) clearTimeout(pdvTimer);
-		pdvTimer = setTimeout(function(){renewPdv(data, sdat, true);}, 80);
+		pdvTimer = setTimeout(function(){renewPdv(callerRef, data, sdat, true);}, 80);
 		return;
 	}
 	
@@ -2413,6 +2503,11 @@ function renewPdv(data, sdat, f){
 	Res_elms.cost.add.css("color", Result.cost+(data.cost-sdat.cost)>Result.capa+(data.capa-sdat.capa) ? "red" : "");
 
 	PDV_elms.name.text(data.name || "");
+	if (data.id && typeof callerRef === 'object' && callerRef !== null && callerRef.ccd && callerRef.ccd.part) {
+		$("#DATA_EDIT_BUTTON").attr("disabled", false)[0].partDataRef = callerRef;
+	} else {
+		delete ($("#DATA_EDIT_BUTTON").attr("disabled", true)[0].partDataRef);
+	}
 	PDV_elms.comment.empty();
 	if(data.comment) $.each(data.comment, function(n, comment){
 			PDV_elms.comment.row.clone().text(comment).appendTo(PDV_elms.comment);

@@ -415,6 +415,11 @@ input{
 .bltin_wb{color:#efe63f;}
 .hoverlst{background-color:#ea7b03;}
 
+#DATA_EDIT_BUTTON{
+	margin:0;
+	height:22px;
+}
+
 /* PARTS DATA VIEW */
 #PARTS_DATA_VIEW{
 	background-color:#178395;
@@ -423,15 +428,20 @@ input{
 	margin-left:4px;
 	float:left;
 }
+#PDV_HEADER_CONTAINER{
+	display:flex;
+	margin:5px 5px 0 5px;
+}
 #PDV_NAME{
 	background-color:#003438;
 	height:16px;
-	margin:5px 5px 0 5px;
+	margin-right: 5px;
 	padding:3px 7px;
 	border-radius:4px;
 	-moz-border-radius:4px;
 	font: 14px/16px "ＭＳ Ｐゴシック",sans-serif;
 	overflow:auto;
+	flex: 1;
 }
 #PDV_COMMENT{
 	background-color:#003438;
@@ -674,14 +684,14 @@ th.even{
 #STR_DAMAGE_MAP{color:#5491f6;}
 
 /* テキスト入出力 */
-#TEXT_IO_CONTAINER, #COMP_OUT_CONTAINER{
+#TEXT_IO_CONTAINER, #COMP_OUT_CONTAINER, #DATA_EDIT_CONTAINER{
 	background-color:#000;
 	opacity:0.9;
 	margin:50px auto;
 	border:1px #666 solid;
 	width:632px;
 }
-#TIO_TOP, #COMP_OUT_TOP{
+#TIO_TOP, #COMP_OUT_TOP, #DATA_EDIT_TOP{
 	font-size:16px;
 	margin:3px 10px;
 	color:#ffe;
@@ -691,7 +701,7 @@ th.even{
 	margin:3px 30px;
 	color:#ffe;
 }
-#TIO_CLOSE, #COMP_OUT_CLOSE{
+#TIO_CLOSE, #COMP_OUT_CLOSE, #DATA_EDIT_CLOSE{
 	color:#ffe;
 	margin:3px 10px;
 	background-color:#900;
@@ -701,7 +711,7 @@ th.even{
 	font:bold 10px/14px "ＭＳ ゴシック",monospace;
 	padding:1px 3px;
 }
-#TIO_CLOSE:active, #COMP_OUT_CLOSE:active{
+#TIO_CLOSE:active, #COMP_OUT_CLOSE:active, #DATA_EDIT_CLOSE:active{
 	border:1px inset #900;
 }
 #TIO_TEXTAREA{
@@ -711,6 +721,14 @@ th.even{
 	padding:10px 0 10px 10px;
 	margin:0 10px;
 	font: 14px/16px "ＭＳ ゴシック",monospace;
+}
+#DATA_EDIT_TEXTAREA{
+	border:1px #999 inset;
+	width:600px;
+	height:500px;
+	padding:10px 0 10px 10px;
+	margin:0 10px;
+	font: 14px/16px monospace;
 }
 #COMP_OUT_TEXTAREA_1, #COMP_OUT_TEXTAREA_2{
 	border:1px #999 inset;
@@ -727,7 +745,7 @@ th.even{
 #TIO_CLOSE{
 }
 
-#TIO_BOTTOM{
+#TIO_BOTTOM, #DATA_EDIT_BOTTOM{
 	margin:3px 10px;
 }
 .tio_button{

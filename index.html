@@ -257,7 +257,11 @@
 		</div>
 
 		<div id="PARTS_DATA_VIEW">
-			<div id="PDV_NAME"></div>
+			<div id="PDV_HEADER_CONTAINER">
+				<div id="PDV_NAME"></div>
+				<button id="DATA_EDIT_BUTTON" disabled="disabled">Edit</button>
+			</div>
+			
 			<div id="PDV_COMMENT"></div>
 
 			<div id="PDV_TYPE" class="pdv_item_container"><div class="pdv_item_name">TYPE</div><div class="pdv_val">-</div></div>
@@ -335,6 +339,14 @@
 				<button id="RENAME_CHANGE" class="rename_button">Change</button>
 				<button id="RENAME_CANCEL" class="rename_button">Cancel</button>
 			</div>
+		</div>
+	</div>
+
+	<div class="transparent_field">
+		<div id="DATA_EDIT_CONTAINER">
+			<div id="DATA_EDIT_CLOSE">X</div><div id="DATA_EDIT_TOP"></div>
+			<textarea id="DATA_EDIT_TEXTAREA"></textarea>
+			<div id="DATA_EDIT_BOTTOM" disabled><button id="DATA_EDIT_APPLY">Apply</button> <button id="DATA_EDIT_RESET">Reset</button></div>
 		</div>
 	</div>
 
