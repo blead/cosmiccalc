@@ -516,6 +516,7 @@ PDV_elms = new function(){
 		}
 	});
 
+	p.name = p.container.find("#PDV_NAME");
 	p.comment = p.container.find("#PDV_COMMENT");
 	p.comment.row = $('<div class=".comment_row"></div>');
 	p.materials = p.container.find("#MATERIALS");
@@ -2411,6 +2412,7 @@ function renewPdv(data, sdat, f){
 
 	Res_elms.cost.add.css("color", Result.cost+(data.cost-sdat.cost)>Result.capa+(data.capa-sdat.capa) ? "red" : "");
 
+	PDV_elms.name.text(data.name || "");
 	PDV_elms.comment.empty();
 	if(data.comment) $.each(data.comment, function(n, comment){
 			PDV_elms.comment.row.clone().text(comment).appendTo(PDV_elms.comment);

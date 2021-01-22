@@ -423,6 +423,16 @@ input{
 	margin-left:4px;
 	float:left;
 }
+#PDV_NAME{
+	background-color:#003438;
+	height:16px;
+	margin:5px 5px 0 5px;
+	padding:3px 7px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	font: 14px/16px "ＭＳ Ｐゴシック",sans-serif;
+	overflow:auto;
+}
 #PDV_COMMENT{
 	background-color:#003438;
 	height:50px;
@@ -514,7 +524,7 @@ td.pdv_add_val{width:35px;}
 #CARTRIDGE_CONTAINER{
 	background-color:#5789bf;
 	width:412px;
-	height:441px;
+	height:419px;
 	border-radius:8px;
 	-moz-border-radius:8px;
 	border:2px outset #5789bf;
