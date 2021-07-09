@@ -32,6 +32,9 @@
 {id:27,name:"Damascus Knife",size:"M",type:"l",cost:140,sub:{str:100,pwr:31,rng:105,spd:128,itv:1000}}
 {id:28,name:"Blank Staff",size:"S",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
 {id:29,name:"Crim Blade",size:"S",type:"a",cost:100,sub:{pwr:28,rng:70,spd:85,itv:1000}}
+{id:30,name:"Fuujin-ken",size:"M",type:"a",cost:120,sub:{pwr:30,rng:70,spd:85,itv:1000}}
+{id:31,name:"Zero Knight Calibur",size:"M",type:"a",cost:160,sub:{pwr:28,shl:200,rng:70,spd:75,itv:2000}}
+{id:32,name:"Bloom Cutlass",size:"M",type:"a",cost:70,sub:{pwr:28,,shl:100,rng:250,spd:150,itv:2000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
