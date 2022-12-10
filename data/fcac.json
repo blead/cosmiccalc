@@ -4,11 +4,11 @@
 {id:1003,name:"+5 hp +1 wlk +5 capa",capa:5,wlk:1,hp:5}
 {id:1004,name:"+5 hp +1 fly +5 capa",capa:5,fly:1,hp:5}
 {id:1005,name:"+5 hp +1 tgh +5 capa",capa:5,tgh:1,hp:5}
-{id:2001,name:"AC Memory (STR)",capa:5,str:1,hp:5,joint:{hdac:1}}
-{id:2002,name:"AC Memory (TEC)",capa:5,tec:1,hp:5,joint:{hdac:1}}
-{id:2003,name:"AC Memory (WLK)",capa:5,wlk:1,hp:5,joint:{hdac:1}}
-{id:2004,name:"AC Memory (FLY)",capa:5,fly:1,hp:5,joint:{hdac:1}}
-{id:2005,name:"AC Memory (TGH)",capa:5,tgh:1,hp:5,joint:{hdac:1}}
+{id:3001,name:"+10 hp +1 str",str:1,hp:10}
+{id:3002,name:"+10 hp +1 tec",tec:1,hp:10}
+{id:3003,name:"+10 hp +1 wlk",wlk:1,hp:10}
+{id:3004,name:"+10 hp +1 fly",fly:1,hp:10}
+{id:3005,name:"+10 hp +1 tgh",tgh:1,hp:10}
 {id:0,name:"No stats"}
 {id:1,name:"+2 str",str:2}
 {id:2,name:"+1 str +1 tec",str:1,tec:1}
@@ -27,3 +27,8 @@
 {id:15,name:"+2 tgh",tgh:2}
 {id:16,name:"10 Capa",capa:10}
 {id:103,name:"+5 hp +1 str +1 fly",hp:5,str:1,fly:1}
+{id:2001,name:"AC Memory (STR)",capa:5,str:1,hp:5,joint:{hdac:1}}
+{id:2002,name:"AC Memory (TEC)",capa:5,tec:1,hp:5,joint:{hdac:1}}
+{id:2003,name:"AC Memory (WLK)",capa:5,wlk:1,hp:5,joint:{hdac:1}}
+{id:2004,name:"AC Memory (FLY)",capa:5,fly:1,hp:5,joint:{hdac:1}}
+{id:2005,name:"AC Memory (TGH)",capa:5,tgh:1,hp:5,joint:{hdac:1}}
