@@ -74,6 +74,7 @@
 {id:5,name:"Elongating Halberd",size:"M",type:"l",cost:130,sub:{str:100,pwr:31,rng:70,spd:85,itv:1000}}
 {id:6,name:"VariLance",size:"M",type:"a",cost:200,main:{pwr:13,shl:390,rng:275,spd:400,itv:300},sub:{pwr:30,shl:130,rng:120,spd:220,itv:2000},tunable:{mwp:1}}
 {id:7,name:"Jumper Halberd",size:"M",type:"a",cost:60,sub:{str:100,pwr:23,rng:120,spd:200,itv:500}}
+{id:8,name:"Stag Claw",size:"M",type:"a",cost:100,sub:{str:100,pwr:26,rng:100,spd:200,itv:500}}
 
 {group:"Staffs",prefixID:"SF"}
 {id:1,name:"Homura Staff",size:"M",cost:90,sub:{pwr:25,shl:180,rng:250,spd:290,itv:1000}}

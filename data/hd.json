@@ -379,6 +379,10 @@
 {id:327,name:"Beetlander HD",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{pwr:32,rng:0,spd:25,itv:1000},tunable:{pwp:1}}
 {id:328,name:"Machintlet HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
 {id:329,name:"Steel Rider HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:0,tgh:2}
+{id:330,name:"Windlynx HD",cost:40,hp:25,str:1,tec:-1,wlk:0,fly:2,tgh:3}
+{id:331,name:"Blitzelt HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:332,name:"Raystag HD",type:"a",cost:110,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,main:{pwr:4,shl:780,rng:275,spd:315,itv:1000},tunable:{mwp:1}}
+{id:333,name:"Big Mountaiz HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

@@ -235,6 +235,10 @@
 {id:123,name:"Date Max LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2}
 {id:124,name:"Growldian LG",cost:45,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:2}
 {id:125,name:"Beetlander LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
+{id:126,name:"Windlynx LG",cost:45,hp:25,str:1,tec:2,wlk:2,fly:2,tgh:-1}
+{id:127,name:"Blitzelt LG2",cost:45,hp:25,str:0,tec:2,wlk:3,fly:-1,tgh:1}
+{id:128,name:"Raystag LG",cost:45,hp:25,str:1,tec:2,wlk:2,fly:-1,tgh:1}
+{id:129,name:"Cinbydion LG",cost:40,hp:25,str:1,tec:1,wlk:2,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -349,6 +353,8 @@
 {id:110,name:"Armada LG2",type:"a",cost:75,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,joint:{wp:1},fixedParts:{wp:{name:"Armada LG2@",slot:0,sub:{pwr:5,shl:200,rng:275,spd:320,itv:1000}}}}
 {id:111,name:"Daemon LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:2,tgh:-1}
 {id:112,name:"Steel Rider LG",cost:45,hp:35,str:1,tec:0,wlk:4,fly:-1,tgh:1}
+{id:113,name:"Armada LG",type:"a",cost:125,hp:70,str:-1,tec:2,wlk:3,fly:2,tgh:0,joint:{wp:1},fixedParts:{wp:{name:"Armada LG@",slot:0,main:{pwr:14,shl:180,rng:275,spd:400,itv:600}}}}
+{id:114,name:"Big Mountaiz LG",cost:50,hp:70,str:0,tec:1,wlk:3,fly:1,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}

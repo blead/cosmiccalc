@@ -208,7 +208,7 @@
 {id:61,name:"Geograsis AM4",type:"a",cost:85,hp:20,str:0,tec:3,wlk:-1,fly:2,tgh:1,main:{pwr:10,shl:350,rng:275,spd:290,itv:1000},tunable:{mwp:1}}
 {id:62,name:"Bugsycait AM3",type:"s",cost:95,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2,sub:{str:100,pwr:25,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:63,name:"Cinbydion AM2",type:"a",cost:65,hp:20,str:0,tec:3,wlk:0,fly:1,tgh:1,main:{pwr:10,shl:240,rng:275,spd:290,itv:900},tunable:{mwp:1}}
-{id:64,name:"Initone AM",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,comment:"No Subweapons"}
+{id:64,name:"Initone AM2",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,comment:"No Subweapons"}
 {id:65,name:"Antlion AM3",type:"c",cost:85,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:5,shl:640,rng:150,spd:400,itv:200},tunable:{mwp:1}}
 {id:66,name:"Gotrun AM",type:"l",cost:165,hp:20,str:4,tec:-1,wlk:0,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:67,name:"Gotrun AM2",type:"l",cost:85,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2,main:{pwr:16,shl:200,rng:250,spd:360,itv:600},tunable:{mwp:1}}
@@ -325,6 +325,11 @@
 {id:178,name:"Date Max AM",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:0,tgh:3}
 {id:179,name:"Shadow Kinesis AM2",type:"a",cost:105,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:14,shl:280,rng:275,spd:400,itv:600},tunable:{mwp:1}}
 {id:180,name:"Beetlander AM",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:181,name:"Initone AM",cost:35,hp:20,str:0,tec:2,wlk:0,fly:1,tgh:2}
+{id:182,name:"Windlynx AM",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:183,name:"Blitzelt AM2",cost:35,hp:20,str:2,tec:0,wlk:0,fly:2,tgh:1}
+{id:184,name:"Raystag AM",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:185,name:"Cinbydion AM",type:"a",cost:65,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:15,shl:210,rng:275,spd:290,itv:900},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -491,6 +496,9 @@
 {id:162,name:"Cydron AM",type:"l",cost:55,hp:20,str:2,tec:-1,wlk:1,fly:0,tgh:3}
 {id:163,name:"Dragonail AM",type:"l",cost:145,hp:25,str:3,tec:-1,wlk:1,fly:1,tgh:1,main:{pwr:12,shl:180,rng:225,spd:570,itv:340},sub:{str:100,pwr:29,shl:50,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1}}
 {id:164,name:"Steel Rider AM",cost:35,hp:20,str:2,tec:1,wlk:1,fly:0,tgh:1}
+{id:165,name:"Armada AM",type:"a",cost:100,hp:25,str:0,tec:3,wlk:-1,fly:1,tgh:2,joint:{wp:0},main:{pwr:13,shl:500,rng:275,spd:255,itv:360},tunable:{mwp:1}}
+{id:166,name:"Steel Burn AM2",type:"a",cost:100,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,sub:{pwr:12,shl:200,rng:275,spd:350,itv:1000}}
+{id:167,name:"Big Mountaiz AM",cost:135,hp:20,str:2,tec:1,wlk:0,fly:0,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
