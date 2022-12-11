@@ -48,6 +48,7 @@
 {id:45,name:"Butterflea HD2",type:"as",cost:125,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:5,shl:840,rng:200,spd:480,itv:140},tunable:{mwp:1}}
 {id:46,name:"Serpilis HD",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:1,tgh:1}
 {id:47,name:"Poul HD",type:"a",cost:130,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:32,shl:120,rng:275,spd:440,itv:1000},tunable:{mwp:1}}
+{id:48,name:"Pawnger HD2",cost:35,hp:20,str:3,tec:0,wlk:1,fly:0,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -369,6 +370,15 @@
 {id:318,name:"Growldian HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 {id:319,name:"K Nonna HD2",cost:35,hp:20,str:0,tec:3,wlk:-1,fly:1,tgh:2}
 {id:320,name:"Shadow Kinesis HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
+{id:321,name:"Wardus HD",cost:40,hp:25,str:3,tec:0,wlk:-1,fly:0,tgh:3}
+{id:322,name:"Daemon HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
+{id:323,name:"Daemon HD2",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:324,name:"Gyallanbard HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:0,tgh:3}
+{id:325,name:"Cydron HD",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
+{id:326,name:"Dragonail HD",cost:40,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
+{id:327,name:"Beetlander HD",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{pwr:32,rng:0,spd:25,itv:1000},tunable:{pwp:1}}
+{id:328,name:"Machintlet HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
+{id:329,name:"Steel Rider HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:0,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

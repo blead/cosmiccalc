@@ -107,6 +107,7 @@
 {id:98,name:"Lepscepter LG",cost:45,hp:25,str:1,tec:2,wlk:2,fly:0,tgh:1}
 {id:99,name:"Poul LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:0}
 {id:100,name:"Kagetama LG",cost:45,hp:25,str:0,tec:1,wlk:4,fly:0,tgh:1}
+{id:101,name:"Pawnger LG2",cost:40,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -233,6 +234,7 @@
 {id:122,name:"Quadra LG2",cost:45,hp:25,str:0,tec:2,wlk:4,fly:-1,tgh:1}
 {id:123,name:"Date Max LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2}
 {id:124,name:"Growldian LG",cost:45,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:2}
+{id:125,name:"Beetlander LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -345,6 +347,8 @@
 {id:108,name:"Baltheon LG2",type:"a",cost:150,hp:80,str:-1,tec:3,wlk:2,fly:1,tgh:1,sub:{pwr:20,shl:240,rng:275,spd:280,itv:1000}}
 {id:109,name:"Artilus LG2",type:"c",cost:80,hp:30,str:-1,tec:3,wlk:2,fly:0,tgh:2,sub:{pwr:5,shl:240,rng:300,spd:340,itv:1000}}
 {id:110,name:"Armada LG2",type:"a",cost:75,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,joint:{wp:1},fixedParts:{wp:{name:"Armada LG2@",slot:0,sub:{pwr:5,shl:200,rng:275,spd:320,itv:1000}}}}
+{id:111,name:"Daemon LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:2,tgh:-1}
+{id:112,name:"Steel Rider LG",cost:45,hp:35,str:1,tec:0,wlk:4,fly:-1,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:2500},tunable:{pwp:1}}
@@ -364,6 +368,7 @@
 {id:15,name:"Giganberg LG",cost:45,hp:70,str:-1,tec:2,wlk:3,fly:0,tgh:2}
 {id:16,name:"Mountos Homura AM",type:"l",cost:110,hp:25,str:3,tec:-1,wlk:0,fly:0,tgh:3,sub:{str:100,pwr:32,shl:"-",rng:120,spd:250,itv:500},tunable:{pwp:1}}
 {id:17,name:"Vellsneil LG",type:"a",cost:90,hp:30,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{pwr:0,shl:60,rng:0,spd:200,itv:1000}}
+{id:18,name:"Machintlet LG",cost:50,hp:70,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}

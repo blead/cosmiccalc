@@ -322,6 +322,8 @@
 {id:172,name:"Artilus BS",type:"c",cost:40,hp:25,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:173,name:"Growldian BS",type:"s",cost:115,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:14,shl:500,rng:275,spd:220,itv:800},sub:{pwr:14,shl:40,rng:250,spd:320,itv:1000},tunable:{mwp:1}}
 {id:174,name:"Shadow Kinesis BS2",type:"a",cost:115,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,joint:{bs:1},main:{pwr:14,shl:420,rng:275,spd:400,itv:800},tunable:{mwp:1}}
+{id:175,name:"Gyallanbard BS",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
+{id:176,name:"Beetlander BS",type:"l",cost:40,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -413,6 +415,9 @@
 {id:97,name:"Hovermill BS",type:"c",cost:235,hp:20,str:0,tec:3,wlk:0,fly:2,tgh:0,main:{pwr:11,shl:660,rng:330,spd:300,itv:300},sub:{pwr:21,shl:210,rng:350,spd:300,itv:1000},tunable:{mwp:1}}
 {id:98,name:"Cordyceps BS2",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:7,shl:760,rng:330,spd:280,itv:900},tunable:{mwp:1}}
 {id:99,name:"Margrethe BS",type:"l",cost:40,hp:25,str:0,tec:-1,wlk:1,fly:3,tgh:2}
+{id:100,name:"Wardus BS",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
+{id:101,name:"Daemon BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:1,fly:3,tgh:0}
+{id:102,name:"Machintlet BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

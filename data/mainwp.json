@@ -47,6 +47,7 @@
 {id:39,name:"Polyus Beam Gun",size:"S",type:"a",cost:110,main:{pwr:15,shl:360,rng:275,spd:320,itv:500}}
 {id:40,name:"SBC-Beam Cannon",size:"M",type:"a",cost:160,main:{pwr:32,shl:200,rng:275,spd:440,itv:1000}}
 {id:41,name:"Eaglet Buster",size:"M",type:"a",cost:110,main:{pwr:9,shl:660,rng:275,spd:350,itv:800}}
+{id:42,name:"Beetle Gun",size:"M",type:"l",cost:100,main:{pwr:19,shl:330,rng:225,spd:440,itv:500}}
 
 {group:"Machineguns",prefixID:"MG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Nano Machinegun",size:"SS",cost:30,main:{pwr:4,shl:880,rng:160,spd:480,itv:140}}
