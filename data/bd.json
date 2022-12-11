@@ -625,6 +625,6 @@
 {id:14,name:"Dismoke BD2",cost:475,hp:275,str:5,tec:11,wlk:8,fly:12,tgh:9,capa:800,wbid:0,comment:"CANNON / Gacha No.19 / Cart",main:{pwr:20,shl:360,rng:250,spd:400,itv:500},cartridge:{hpup:18,capaup:85,ecapaup:65,lv1:"1*5@20|2*2@30|17@20|18@20|20@20|19@20|22@25|25@25|12@20|25@25|21@20|29@10|13@20|31@30|32@40",lv6:"",lv9:""}}
 {id:15,name:"Rotten Lemures BD",cost:555,hp:275,str:9,tec:10,wlk:10,fly:6,tgh:10,capa:800,wbid:0,comment:"Robo Cube / Cart",main:{pwr:11,shl:200,rng:275,spd:250,itv:800},sub:{pwr:20,shl:150,rng:275,spd:200,itv:1000},cartridge:{hpup:18,capaup:85,ecapaup:65,lv1:"1*5@20|2*2@30|17@20|21@20|20@20|15@30|25@25|16@20|12@20|14@10|28@20|29@10|13@20|31@30|32@40",lv6:"",lv9:""}}
 
-//Missing: Predobytez BD, Beetlander BD, Gatorbacker BD, Lily Rain EVE ALPHA BD, Kuten Jikun Long Alpha BD, Regina Winberrl Alpha BD, Chibis, エスカゴットBD
+//Missing: Gatorbacker BD, Lily Rain EVE ALPHA BD, Kuten Jikun Long Alpha BD, Regina Winberrl Alpha BD, Chibis, エスカゴットBD
 //Chivalry Claymore
 //アントリオンAM2, タケノコランチャー
