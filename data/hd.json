@@ -383,6 +383,10 @@
 {id:331,name:"Blitzelt HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:332,name:"Raystag HD",type:"a",cost:110,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,main:{pwr:4,shl:780,rng:275,spd:315,itv:1000},tunable:{mwp:1}}
 {id:333,name:"Big Mountaiz HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:1,tgh:2}
+{id:334,name:"AchtSieben HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:335,name:"Gaderoga HD2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:336,name:"Hiverion HD",cost:40,hp:25,str:2,tec:3,wlk:0,fly:1,tgh:-1}
+{id:337,name:"Predatobytez HD",cost:40,hp:20,str:1,tec:2,wlk:0,fly:0,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

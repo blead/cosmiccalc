@@ -147,6 +147,7 @@
 {id:123,name:"Poul BS",type:"a",cost:85,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:9,shl:460,rng:275,spd:260,itv:900},tunable:{mwp:1}}
 {id:124,name:"Lino Falcon BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
 {id:125,name:"Kagetama BS",type:"l",cost:35,hp:20,str:1,tec:2,wlk:0,fly:3,tgh:-1}
+{id:126,name:"Hiverion BS",type:"c",cost:40,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -326,6 +327,7 @@
 {id:176,name:"Beetlander BS",type:"l",cost:40,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0}
 {id:177,name:"Windlynx BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
 {id:178,name:"Raystag BS",type:"a",cost:40,hp:20,str:2,tec:2,wlk:-1,fly:3,tgh:-1}
+{id:179,name:"Ogreil BS",type:"c",cost:40,hp:25,str:1,tec:2,wlk:0,fly:2,tgh:0}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -421,6 +423,8 @@
 {id:101,name:"Daemon BS",type:"l",cost:40,hp:25,str:1,tec:0,wlk:1,fly:3,tgh:0}
 {id:102,name:"Machintlet BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:103,name:"Steel Burn BS",type:"a",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
+{id:104,name:"Dagomure BS",type:"c",cost:40,hp:25,str:-1,tec:3,wlk:0,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Dagomure BS@",cost:80,slot:0,main:{pwr:13,shl:300,rng:350,spd:500,itv:800}}}}
+{id:105,name:"Hygerkun BS",type:"c",cost:140,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Hygerkun BS@",cost:0,slot:0,main:{pwr:7,shl:300,rng:330,spd:290,itv:880},sub:{pwr:17,shl:140,rng:350,spd:300,itv:1000}}}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:125,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
