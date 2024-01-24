@@ -140,6 +140,7 @@
 {id:139,conversion:"BDAS60AM",name:"Wonder Key Rod",cost:150,joint:{wp:1},fixedParts:{wp:{name:"Cheshire Cannon",slot:0,main:{pwr:34,shl:50,rng:300,spd:220,itv:1000}}},main:{pwr:6,shl:2000,rng:275,spd:320,itv:400}}
 {id:140,conversion:"BDAS60AM",name:"Wonder Vorpal Sword",cost:150,joint:{wp:1},fixedParts:{wp:{name:"Mad Hatter Cannon",slot:0,main:{pwr:36,shl:50,rng:300,spd:440,itv:1000}}},main:{pwr:10,shl:840,rng:275,spd:350,itv:700}}
 {id:141,conversion:"BSO23",name:"M1 Ignited",cost:20,slot:0,main:{pwr:35,shl:80,rng:350,spd:340,itv:1000}}
+{id:142,conversion:"BDLS113AM",name:"Airbrush Gun GD",cost:80,main:{pwr:8,shl:1500,rng:180,spd:480,itv:100},tunable:{mwp:1}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -245,4 +246,4 @@
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
 {id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM"}

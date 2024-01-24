@@ -200,9 +200,9 @@
 {id:18,name:"Smart Blaster",size:"M",type:"a",cost:135,main:{pwr:6,shl:930,rng:275,spd:320,itv:940}}
 
 {group:"Others",prefixID:"MO",commonStat:{tunable:{mwp:1}}}
-{id:1,name:"Glass Burner",size:"S",cost:40,type:"lcs",main:{pwr:5,shl:760,rng:120,spd:480,itv:100}}
-{id:2,name:"Burner",size:"M",cost:85,type:"lcs",main:{pwr:8,shl:780,rng:120,spd:480,itv:100}}
-{id:3,name:"Ceramic Burner",size:"M",cost:150,type:"l",main:{pwr:12,shl:810,rng:120,spd:480,itv:100}}
+{id:1,name:"Glass Burner",size:"S",cost:40,type:"lcs",main:{pwr:9,shl:1100,rng:160,spd:480,itv:100}}
+{id:2,name:"Burner",size:"M",cost:85,type:"lcs",main:{pwr:13,shl:1160,rng:160,spd:480,itv:100}}
+{id:3,name:"Ceramic Burner",size:"M",cost:150,type:"l",main:{pwr:18,shl:1200,rng:160,spd:480,itv:100}}
 {id:4,name:"Handy Laser",size:"M",type:"as",cost:60,main:{pwr:6,shl:780,rng:225,spd:480,itv:100}}
 {id:5,name:"Laser",size:"M",type:"as",cost:100,main:{pwr:9,shl:750,rng:225,spd:480,itv:100}}
 {id:6,name:"Proton Laser",size:"L",type:"a",cost:140,main:{pwr:12,shl:750,rng:225,spd:480,itv:100}}
@@ -220,7 +220,7 @@
 {id:18,name:"Gernia Rod",size:"M",type:"c",cost:100,sub:{pwr:32,shl:160,rng:330,spd:440,itv:900}}
 {id:19,name:"Berzelius Anima",size:"M",type:"c",cost:200,sub:{pwr:23,shl:1050,rng:350,spd:400,itv:500}}
 {id:20,name:"Blast Magnet Gun",size:"S",type:"c",cost:120,main:{pwr:23,shl:230,rng:330,spd:290,itv:800}}
-{id:21,name:"Long Burner",size:"M",cost:150,type:"cs",main:{pwr:9,shl:840,rng:160,spd:480,itv:100}}
+{id:21,name:"Long Burner",size:"M",cost:150,type:"cs",main:{pwr:16,shl:980,rng:200,spd:480,itv:100}}
 {id:22,name:"Fractulus Anima",size:"M",cost:200,type:"a",main:{pwr:7,shl:800,rng:275,spd:400,itv:200}}
 {id:23,name:"Rapid Pulse Missile",size:"M",type:"a",cost:110,main:{pwr:11,shl:350,rng:275,spd:350,itv:320}}
 {id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
