@@ -21,8 +21,8 @@
 {id:20,name:"Brave Axe",cost:30,slot:0,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},conversion:"WPCO8"}
 {id:21,name:"Beam Crystal",cost:70,main:{pwr:11,shl:500,rng:275,spd:440,itv:700},conversion:"BDAS27LG BDAS77LG"}
 {id:22,name:"Crystal Wall",cost:90,slot:0,main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},conversion:"BDAS27 BDAS77"}
-{id:23,name:"Berzel Bazooka",cost:90,main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCO9"}
-{id:24,name:"Zelius Psygun",cost:60,main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCO9"}
+{id:23,name:"Berzel Bazooka",cost:70,main:{pwr:20,shl:500,rng:330,spd:400,itv:400},conversion:"WPCO9 WPCO39"}
+{id:24,name:"Zelius Psygun",cost:50,main:{pwr:11,shl:630,rng:330,spd:280,itv:300},conversion:"WPCO9 WPCO39"}
 {id:25,name:"Aqua Shot",cost:70,main:{pwr:19,shl:340,rng:250,spd:400,itv:500},conversion:"BDLS39AM2"}
 {id:26,name:"Kaiser Gewitter",cost:70,main:{pwr:10,shl:390,rng:300,spd:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},conversion:"AML77"}
 {id:27,name:"Longinus",cost:100,main:{pwr:32,shl:280,rng:330,spd:440,itv:700},conversion:"BDCS24AM"}
@@ -60,8 +60,8 @@
 {id:59,name:"Donor Musket",cost:30,joint:{wp:1},conversion:"BDAS44AM",fixedParts:{wp:{name:"Donor Musket@",slot:0,main:{pwr:25,shl:50,rng:275,spd:400,itv:1000}}}}
 {id:60,name:"Blitz B Machinegun",cost:120,joint:{wp:1},main:{pwr:14,shl:720,rng:275,spd:440,itv:240},conversion:"BDAS44AM2",fixedParts:{wp:{name:"Connect Blast",slot:0,main:{pwr:20,shl:430,rng:350,spd:400,itv:500}}}}
 {id:61,name:"Gale Rod",cost:120,joint:{wp:1},main:{pwr:24,shl:340,rng:275,spd:400,itv:500},sub:{pwr:10,shl:60,rng:0,spd:150,itv:1000},conversion:"BDAS13AM BDAS46AM"}
-{id:62,name:"Guardian Rook L/R",cost:60,main:{pwr:10,shl:700,rng:275,spd:330,itv:300},conversion:"BDAS48"}
-{id:63,name:"Mega Rook Cannon",cost:30,slot:0,main:{pwr:35,shl:100,rng:300,spd:440,itv:1000},conversion:"BDAS48"}
+{id:62,name:"Guardian Rook L/R",cost:60,main:{pwr:12,shl:700,rng:275,spd:330,itv:300},conversion:"BDAS48"}
+{id:63,name:"Mega Rook Cannon",cost:30,slot:0,main:{pwr:42,shl:60,rng:300,spd:480,itv:1000},conversion:"BDAS48"}
 {id:64,name:"Guardian Bishop",cost:190,main:{pwr:7,shl:450,rng:300,spd:260,itv:1200},sub:{pwr:8,shl:1020,rng:350,spd:320,itv:1000},conversion:"BDCS44"}
 {id:65,name:"Revenant Dart",cost:30,main:{str:100,pwr:15,shl:50,rng:200,spd:500,itv:1000},conversion:"AMM137"}
 {id:66,name:"Revenant Shield",cost:20,slot:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},conversion:"AMM137"}
@@ -141,6 +141,14 @@
 {id:140,conversion:"BDAS60AM",name:"Wonder Vorpal Sword",cost:150,joint:{wp:1},fixedParts:{wp:{name:"Mad Hatter Cannon",slot:0,main:{pwr:36,shl:50,rng:300,spd:440,itv:1000}}},main:{pwr:10,shl:840,rng:275,spd:350,itv:700}}
 {id:141,conversion:"BSO23",name:"M1 Ignited",cost:20,slot:0,main:{pwr:35,shl:80,rng:350,spd:340,itv:1000}}
 {id:142,conversion:"BDLS113AM",name:"Airbrush Gun GD",cost:80,main:{pwr:8,shl:1500,rng:180,spd:480,itv:100},tunable:{mwp:1}}
+{id:143,conversion:"AML212",name:"Argocap AM@",cost:40,slot:0,main:{pwr:16,shl:240,rng:350,spd:265,itv:800}}
+{id:144,conversion:"WPCO9 WPCO39",name:"Persis Missile",cost:60,main:{pwr:14,shl:480,rng:330,spd:300,itv:400}}
+{id:145,conversion:"WPCO9 WPCO39",name:"Anomaly Bazooka",cost:80,main:{pwr:22,shl:380,rng:330,spd:360,itv:500}}
+{id:146,conversion:"AMM216",name:"ExCreR Rifle",size:"M",type:"l",cost:100,main:{str:100,pwr:24,shl:380,rng:250,spd:400,itv:500},tunable:{mwp:1},comment:"Type/Size restriction applies"}
+{id:147,conversion:"AMM216",name:"ExCreR Gatling",size:"M",type:"l",cost:100,main:{str:100,pwr:9,shl:960,rng:250,spd:400,itv:200},tunable:{mwp:1},comment:"Type/Size restriction applies"}
+{id:148,conversion:"AMM217",name:"Gustclaw L Rifle",size:"M",type:"a",cost:150,main:{pwr:33,shl:230,rng:275,spd:520,itv:900},sub:{pwr:34,shl:100,rng:150,spd:300,itv:1000},tunable:{mwp:1,pwp:1},comment:"Type/Size restriction applies"}
+{id:149,conversion:"AMM217",name:"Gustclaw Shield",size:"M",type:"a",cost:30,main:{pwr:0,shl:100,rng:0,spd:10,itv:1000},tunable:{mwp:1},comment:"Type/Size restriction applies"}
+{id:150,conversion:"AMM217",name:"Gustclaw S Rifle",size:"M",type:"a",cost:100,main:{pwr:12,shl:550,rng:275,spd:400,itv:340},tunable:{mwp:1},comment:"Type/Size restriction applies"}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -206,6 +214,7 @@
 {id:62,conversion:"WPCO33",name:"Phobian Axe",cost:50,slot:0,sub:{str:100,pwr:28,shl:30,rng:200,spd:290,itv:1000}}
 {id:63,conversion:"BDAS76AM2",name:"Kaltos Sword",cost:120,sub:{str:100,pwr:28,shl:"-",rng:77,spd:94,itv:1000}}
 {id:64,conversion:"BDLS33AM BDLS106AM",name:"Jager Shield",cost:140,joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",cost:30,slot:0,main:{str:100,pwr:25,shl:80,rng:200,spd:400,itv:500}}},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:35,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1}}
+{id:65,conversion:"AMM216",name:"ExCreR Blade",size:"M",type:"l",cost:100,sub:{str:100,pwr:33,shl:"-",rng:77,spd:94,itv:500},tunable:{pwp:1},comment:"Type/Size restriction applies"}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -216,7 +225,7 @@
 {id:6,name:"Valiant BD@",cost:230,slot:0,sub:{spd:150,itv:500},conversion:"BDAM29"}
 {id:7,name:"Bit Holder",slot:0,joint:{wp:2},conversion:"BDAS26"}
 {id:8,name:"Brave Arts",slot:0,joint:{wp:3},conversion:"AMM93",comment:"Type restriction applies"}
-{id:9,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM"}
+{id:9,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM BDCS67AM"}
 {id:10,name:"Expiation",slot:0,joint:{wp:2},conversion:"BDAM32AM"}
 {id:11,name:"Lunar Ring (New Moon)",cost:20,slot:0,conversion:"BDLS46"}
 {id:12,name:"General Shield",cost:40,slot:0,conversion:"AML83"}
@@ -246,4 +255,5 @@
 {id:36,conversion:"BDAS76LG",name:"Kaltos Tail",cost:50,sub:{pwr:0,shl:60,rng:200,spd:350,itv:1000}}
 {id:37,conversion:"BDCM56",name:"Ogreil BD2@",cost:30,slot:0,sub:{pwr:10,shl:20,rng:300,spd:250,itv:500}}
 {id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM"}
+{id:39,conversion:"BDCS22AM BDCS67AM",name:"Greed Weapon II",slot:0,joint:{wp:2},conversion:"BDCS22AM BDCS67AM"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM BDCS67AM"}

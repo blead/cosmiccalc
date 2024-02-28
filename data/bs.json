@@ -198,6 +198,8 @@
 {id:160,name:"Shadow Hunter BS3",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:13,shl:450,rng:250,spd:320,itv:240},tunable:{mwp:1}}
 {id:161,name:"Leveil BS",type:"c",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:162,name:"Ray BS",type:"l",cost:35,hp:20,str:2,tec:0,wlk:0,fly:3,tgh:0}
+{id:163,name:"Sword Wing BS2",type:"a",cost:65,hp:20,str:-1,tec:2,wlk:0,fly:4,tgh:0,sub:{pwr:0,shl:60,rng:0,spd:200,itv:1000}}
+{id:164,name:"Setsuka BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -397,6 +399,8 @@
 {id:196,name:"Jaguar Arm BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
 {id:197,name:"R Duke BS",type:"a",cost:150,hp:20,str:-1,tec:2,wlk:0,fly:4,tgh:0,joint:{bs:1},main:{pwr:9,shl:810,rng:275,spd:350,itv:400},tunable:{mwp:1}}
 {id:198,name:"Shingen BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:199,name:"ExCreR BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
+{id:200,name:"ExCreR BS2",type:"a",cost:35,hp:20,str:0,tec:0,wlk:0,fly:4,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -473,7 +477,7 @@
 {id:82,name:"Centaur X BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 {id:83,name:"Aquila Airs BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:0,fly:4,tgh:-1}
 {id:84,name:"Aquila Airs BS2",type:"a",cost:35,hp:20,str:1,tec:0,wlk:0,fly:2,tgh:1}
-{id:85,name:"Herianzus BS",type:"c",cost:185,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Herianzus BS@",slot:0,main:{pwr:11,shl:1000,rng:250,spd:480,itv:100}}}}
+{id:85,name:"Herianzus BS",type:"c",cost:185,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Herianzus BS@",slot:0,main:{pwr:16,shl:800,rng:250,spd:480,itv:100}}}}
 {id:86,name:"Galsteel BS",type:"c",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:87,name:"Kotengu BS",type:"a",cost:150,hp:20,str:-1,tec:2,wlk:0,fly:4,tgh:0,main:{pwr:10,shl:560,rng:275,spd:280,itv:700},sub:{pwr:0,shl:60,rng:100,spd:120,itv:1000},tunable:{mwp:1}}
 {id:88,name:"Gozu BS2",type:"l",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
@@ -514,6 +518,10 @@
 {id:123,name:"Geograsis BS4",type:"l",cost:35,hp:20,str:1,tec:0,wlk:1,fly:4,tgh:-1}
 {id:124,name:"Ettion BS",type:"l",cost:35,hp:20,fly:3,tgh:2}
 {id:125,name:"Blitzelt TB BS",type:"a",cost:65,hp:20,str:1,tec:-1,wlk:0,fly:4,tgh:1,sub:{pwr:0,shl:75,rng:150,spd:220,itv:1000}}
+{id:126,name:"Gadion BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:3,tgh:1}
+{id:127,name:"Argocap BS",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:0,fly:3,tgh:0,main:{pwr:17,shl:440,rng:330,spd:480,itv:900},tunable:{mwp:1}}
+{id:128,name:"Argocap BS2",type:"c",cost:35,hp:20,str:0,tec:0,wlk:2,fly:2,tgh:1}
+{id:129,name:"Aeolius BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:0,fly:4,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

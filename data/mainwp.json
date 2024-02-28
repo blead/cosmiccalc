@@ -200,12 +200,12 @@
 {id:18,name:"Smart Blaster",size:"M",type:"a",cost:135,main:{pwr:6,shl:930,rng:275,spd:320,itv:940}}
 
 {group:"Others",prefixID:"MO",commonStat:{tunable:{mwp:1}}}
-{id:1,name:"Glass Burner",size:"S",cost:40,type:"lcs",main:{pwr:9,shl:1100,rng:160,spd:480,itv:100}}
-{id:2,name:"Burner",size:"M",cost:85,type:"lcs",main:{pwr:13,shl:1160,rng:160,spd:480,itv:100}}
-{id:3,name:"Ceramic Burner",size:"M",cost:150,type:"l",main:{pwr:18,shl:1200,rng:160,spd:480,itv:100}}
-{id:4,name:"Handy Laser",size:"M",type:"as",cost:60,main:{pwr:6,shl:780,rng:225,spd:480,itv:100}}
-{id:5,name:"Laser",size:"M",type:"as",cost:100,main:{pwr:9,shl:750,rng:225,spd:480,itv:100}}
-{id:6,name:"Proton Laser",size:"L",type:"a",cost:140,main:{pwr:12,shl:750,rng:225,spd:480,itv:100}}
+{id:1,name:"Glass Burner",size:"S",cost:40,type:"lcs",main:{pwr:9,shl:1100,rng:140,spd:480,itv:100}}
+{id:2,name:"Burner",size:"M",cost:85,type:"lcs",main:{pwr:13,shl:1160,rng:140,spd:480,itv:100}}
+{id:3,name:"Ceramic Burner",size:"M",cost:150,type:"l",main:{pwr:18,shl:1200,rng:140,spd:480,itv:100}}
+{id:4,name:"Handy Laser",size:"M",type:"as",cost:60,main:{pwr:6,shl:780,rng:200,spd:480,itv:100}}
+{id:5,name:"Laser",size:"M",type:"as",cost:100,main:{pwr:9,shl:750,rng:200,spd:480,itv:100}}
+{id:6,name:"Proton Laser",size:"L",type:"a",cost:140,main:{pwr:12,shl:750,rng:200,spd:480,itv:100}}
 {id:7,name:"Magnet Gun",size:"S",type:"cs",cost:60,main:{pwr:12,shl:270,rng:330,spd:290,itv:700}}
 {id:8,name:"Phenom Gun",size:"S",type:"cs",cost:110,main:{pwr:19,shl:270,rng:330,spd:290,itv:700}}
 {id:9,name:"Genius Magnet Gun",size:"M",type:"c",cost:140,main:{pwr:13,shl:440,rng:330,spd:290,itv:380}}
@@ -220,18 +220,18 @@
 {id:18,name:"Gernia Rod",size:"M",type:"c",cost:100,sub:{pwr:32,shl:160,rng:330,spd:440,itv:900}}
 {id:19,name:"Berzelius Anima",size:"M",type:"c",cost:200,sub:{pwr:23,shl:1050,rng:350,spd:400,itv:500}}
 {id:20,name:"Blast Magnet Gun",size:"S",type:"c",cost:120,main:{pwr:23,shl:230,rng:330,spd:290,itv:800}}
-{id:21,name:"Long Burner",size:"M",cost:150,type:"cs",main:{pwr:16,shl:980,rng:200,spd:480,itv:100}}
+{id:21,name:"Long Burner",size:"L",cost:150,type:"cs",main:{pwr:16,shl:980,rng:180,spd:480,itv:100}}
 {id:22,name:"Fractulus Anima",size:"M",cost:200,type:"a",main:{pwr:7,shl:800,rng:275,spd:400,itv:200}}
 {id:23,name:"Rapid Pulse Missile",size:"M",type:"a",cost:110,main:{pwr:11,shl:350,rng:275,spd:350,itv:320}}
-{id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:225,spd:480,itv:100}}
-{id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:4,shl:900,rng:90,spd:480,itv:100}}
+{id:24,name:"Powered Laser",size:"L",type:"a",cost:110,main:{pwr:17,shl:430,rng:200,spd:480,itv:100}}
+{id:25,name:"Squidol Gun",size:"S",type:"s",cost:50,main:{pwr:6,shl:1050,rng:180,spd:480,itv:100}}
 {id:26,name:"Squidol Bazooka",size:"S",type:"s",cost:70,main:{pwr:12,shl:220,rng:275,spd:290,itv:700}}
 {id:27,name:"Brink Mace",size:"M",type:"c",cost:190,main:{pwr:12,shl:390,rng:330,spd:330,itv:1000},sub:{pwr:30,rng:75,spd:100,itv:1000},tunable:{pwp:1}}
 {id:28,name:"Brink Shield",size:"M",type:"c",cost:30,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000}}
 {id:29,name:"Wizamel Wand",size:"M",type:"a",cost:150,main:{pwr:7,shl:840,rng:275,spd:340,itv:900},sub:{pwr:32,shl:50,rng:250,spd:400,itv:1000}}
 {id:30,name:"Laser Rifle",size:"M",type:"a",cost:130,main:{pwr:11,shl:420,rng:275,spd:480,itv:100}}
 {id:31,name:"Beam Bomb Launcher",size:"M",type:"a",cost:80,main:{pwr:30,shl:360,rng:100,spd:300,itv:1000}}
-{id:32,name:"Hadron Shooter",size:"M",type:"lc",cost:160,main:{pwr:12,shl:1180,rng:180,spd:480,itv:100}}
+{id:32,name:"Hadron Shooter",size:"M",type:"lc",cost:160,main:{pwr:15,shl:1040,rng:180,spd:480,itv:100}}
 {id:33,name:"Bioron Bow",size:"M",type:"s",cost:120,main:{pwr:16,shl:330,rng:250,spd:250,itv:500},sub:{pwr:20,rng:0,spd:150,itv:1000}}
 {id:34,name:"Tornado Fan",size:"L",type:"a",cost:120,main:{pwr:20,shl:320,rng:275,spd:260,itv:600}}
 {id:35,name:"Beam SB Pitcher",size:"M",type:"a",cost:150,main:{pwr:20,shl:360,rng:275,spd:100,itv:600}}
