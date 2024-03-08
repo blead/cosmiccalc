@@ -51,7 +51,8 @@
 {id:44,name:"Kodachi",size:"S",type:"l",cost:40,sub:{str:100,pwr:32,shl:"-",rng:10,spd:10,itv:1000}}
 {id:45,name:"Brave Blade",size:"S",type:"l",cost:130,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
 {id:46,name:"Blitz Blade",size:"M",type:"a",cost:140,sub:{str:100,pwr:30,shl:100,rng:0,spd:10,itv:1600},auraStat:{sub:{str:100,pwr:32,shl:100,rng:150,spd:300,itv:1600}}}
-{id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
+{id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000}}
+{id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}

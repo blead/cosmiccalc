@@ -460,6 +460,10 @@
 {id:395,name:"Aeolius HD",cost:40,hp:25,str:2,tec:0,wlk:0,fly:2,tgh:1}
 {id:396,name:"ExCreR HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
 {id:397,name:"ExCreR HD2",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2}
+{id:398,name:"Cyburning HD2",cost:35,hp:20,str:2,wlk:2,fly:-1,tgh:2}
+{id:399,name:"Transonic HD2",cost:35,hp:20,wlk:1,fly:2,tgh:3}
+{id:400,name:"Scyllon HD2",type:"c",cost:35,hp:20,tec:3,fly:1,tgh:1}
+{id:401,name:"Liozen HD2",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
