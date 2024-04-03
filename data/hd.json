@@ -72,6 +72,7 @@
 {id:69,name:"Leveil HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:70,name:"Sword Wing HD3",type:"a",cost:95,hp:20,str:-1,tec:0,wlk:3,fly:0,tgh:3,main:{pwr:13,shl:380,rng:275,spd:320,itv:500},tunable:{mwp:1}}
 {id:71,name:"Setsuka HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:72,name:"Toy Khan HD2",cost:35,hp:20,str:1,tec:1,tgh:3}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -464,6 +465,8 @@
 {id:399,name:"Transonic HD2",cost:35,hp:20,wlk:1,fly:2,tgh:3}
 {id:400,name:"Scyllon HD2",type:"c",cost:35,hp:20,tec:3,fly:1,tgh:1}
 {id:401,name:"Liozen HD2",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
+{id:402,name:"Gigant Arms HD",cost:35,hp:20,str:3,tec:1,fly:-1,tgh:2}
+{id:403,name:"Artilus HD3",cost:35,hp:20,tec:2,wlk:3,fly:-1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
