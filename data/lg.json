@@ -397,14 +397,14 @@
 {id:106,name:"Cordyceps LG2",type:"c",cost:65,hp:35,str:0,tec:2,wlk:3,fly:1,tgh:0,sub:{pwr:0,shl:"-",rng:0,spd:200,itv:1000}}
 {id:107,name:"Gatomare LG",type:"l",cost:115,hp:25,str:3,tec:-1,wlk:3,fly:0,tgh:1,sub:{str:100,pwr:26,shl:"-",rng:150,spd:300,itv:1000},tunable:{pwp:1}}
 {id:108,name:"Baltheon LG2",type:"a",cost:150,hp:80,str:-1,tec:3,wlk:2,fly:1,tgh:1,sub:{pwr:20,shl:240,rng:275,spd:280,itv:1000}}
-{id:109,name:"Artilus LG2",type:"c",cost:80,hp:30,str:-1,tec:3,wlk:2,fly:0,tgh:2,sub:{pwr:5,shl:240,rng:350,spd:340,itv:1000}}
+{id:109,name:"Artilus LG2",type:"c",cost:80,hp:55,str:-1,tec:3,wlk:2,fly:0,tgh:2,sub:{pwr:5,shl:240,rng:350,spd:340,itv:1000}}
 {id:110,name:"Armada LG2",type:"a",cost:75,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,joint:{wp:1},fixedParts:{wp:{name:"Armada LG2@",slot:0,sub:{pwr:5,shl:200,rng:275,spd:320,itv:1000}}}}
 {id:111,name:"Daemon LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:2,tgh:-1}
 {id:112,name:"Steel Rider LG",cost:45,hp:35,str:1,tec:0,wlk:4,fly:-1,tgh:1}
 {id:113,name:"Armada LG",type:"a",cost:125,hp:70,str:-1,tec:2,wlk:3,fly:2,tgh:0,joint:{wp:1},fixedParts:{wp:{name:"Armada LG@",slot:0,main:{pwr:21,shl:300,rng:300,spd:480,itv:600}}}}
 {id:114,name:"Big Mountaiz LG",cost:50,hp:70,str:0,tec:1,wlk:3,fly:1,tgh:1}
 {id:115,name:"Antlion LG",type:"lc",cost:45,hp:60,str:0,tec:1,wlk:3,fly:-1,tgh:2}
-{id:116,name:"Artilus LG",type:"c",cost:90,hp:30,str:-1,tec:3,wlk:3,fly:0,tgh:1,sub:{pwr:30,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
+{id:116,name:"Artilus LG",type:"c",cost:90,hp:55,str:-1,tec:3,wlk:3,fly:0,tgh:1,sub:{pwr:30,rng:120,spd:250,itv:1000},tunable:{pwp:1}}
 {id:117,name:"Rotten Lemures LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1,tgh:0}
 {id:118,name:"Garulabird LG2",type:"a",cost:120,hp:30,str:3,tec:-1,wlk:2,fly:2,tgh:0,sub:{str:100,pwr:28,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
 {id:119,name:"Astro Trooper LG",type:"l",cost:65,hp:55,str:0,tec:1,wlk:4,fly:0,tgh:1,sub:{pwr:0,shl:"-",rng:100,spd:200,itv:1000}}
