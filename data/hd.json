@@ -470,6 +470,10 @@
 {id:404,name:"Gun Arms HD2",cost:35,hp:20,tec:3,wlk:2,fly:-1,tgh:1}
 {id:405,name:"Albatreos HD2",cost:35,hp:20,tec:2,fly:1,tgh:2}
 {id:406,name:"Berylskid HD",cost:35,hp:20,tec:1,wlk:2,fly:-1,tgh:3}
+{id:407,name:"Tentrion HD2",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
+{id:408,name:"Hadelos HD2",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2}
+{id:409,name:"Apollion HD",cost:35,hp:20,str:2,fly:1,tgh:2}
+{id:410,name:"Mururugaru HD",cost:35,hp:20,wlk:3,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

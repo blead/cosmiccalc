@@ -440,6 +440,7 @@
 {id:168,name:"Gigant Arms LG",type:"l",joint:{lg:1},cost:175,hp:70,str:2,tec:-1,wlk:3,tgh:2}
 {id:169,name:"Albatreos LG3",cost:50,hp:35,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:170,name:"Berylskid LG",type:"l",cost:45,hp:70,tec:1,wlk:4,fly:-1,tgh:2}
+{id:171,name:"Apollion LG",cost:50,hp:75,wlk:3,fly:1,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}

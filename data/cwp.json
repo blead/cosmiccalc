@@ -40,7 +40,7 @@
 {id:39,name:"Battleship DNAM2",cost:45,slot:0,main:{pwr:6,shl:780,rng:330,spd:480,itv:1000},conversion:"AML91"}
 {id:40,name:"Kuschelb AM2@",cost:15,slot:0,main:{str:100,pwr:5,shl:60,rng:200,spd:500,itv:300},conversion:"AML93"}
 {id:41,name:"Hunt Gewehr",cost:60,main:{str:100,pwr:16,shl:540,rng:225,spd:440,itv:300},conversion:"BDLS51AMR"}
-{id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:4,shl:1600,rng:350,spd:480,itv:200},conversion:"BDCS34AMS"}
+{id:42,name:"Lisel Gatling",cost:45,slot:0,main:{pwr:5,shl:2000,rng:350,spd:480,itv:200},conversion:"BDCS34AMS BDCS71AMS"}
 {id:43,name:"Nora Schneid@",cost:30,slot:0,main:{pwr:5,shl:90,rng:200,spd:300,itv:500},conversion:"BDLS52"}
 {id:44,name:"Storen Gewehr",cost:70,main:{pwr:17,shl:540,rng:250,spd:400,itv:340},conversion:"BDLS52AM"}
 {id:45,name:"Bouclier Cannon",cost:100,joint:{wp:2},main:{pwr:28,shl:300,rng:330,spd:400,itv:600},sub:{itv:500},conversion:"BDCS37AM2",fixedParts:{wp:{name:"Bouclier Cannon@",cost:60,slot:0,main:{pwr:33,shl:600,rng:400,spd:350,itv:200}}}}
@@ -151,6 +151,10 @@
 {id:150,conversion:"AMM217",name:"Gustclaw S Rifle",size:"M",type:"a",cost:100,main:{pwr:12,shl:550,rng:275,spd:400,itv:340},tunable:{mwp:1},comment:"Type/Size restriction applies"}
 {id:151,conversion:"BDLS116AM",name:"Angel Shooter",cost:115,main:{str:100,pwr:17,shl:750,rng:250,spd:440,itv:200},sub:{str:100,pwr:14,shl:240,rng:250,spd:400,itv:500}}
 {id:152,conversion:"AMO15",name:"Smart Missile",cost:65,main:{pwr:15,shl:310,rng:330,spd:330,itv:600}}
+{id:153,conversion:"BDAL56",name:"Apollion BD@",cost:40,slot:0,main:{str:100,pwr:8,shl:200,rng:275,spd:480,itv:500},auraStat:{main:{str:100,pwr:10,shl:200,rng:275,spd:480,itv:500}}}
+{id:154,conversion:"BDCL66",name:"Mururugaru BD@2",cost:160,main:{pwr:46,shl:220,rng:350,spd:440,itv:900}}
+{id:155,conversion:"BDLS51R",name:"Eisen Faust",cost:30,main:{shl:20,spd:10,itv:1000}}
+{id:166,conversion:"BDCS34AMS BDCS71AMS",name:"Lise Flak",cost:45,slot:0,main:{pwr:27,shl:200,rng:350,spd:400,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -218,6 +222,8 @@
 {id:64,conversion:"BDLS33AM BDLS106AM",name:"Jager Shield",cost:140,joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",cost:30,slot:0,main:{str:100,pwr:25,shl:80,rng:200,spd:400,itv:500}}},main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:35,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1}}
 {id:65,conversion:"AMM216",name:"ExCreR Blade",size:"M",type:"l",cost:100,sub:{str:100,pwr:33,shl:"-",rng:77,spd:94,itv:500},tunable:{pwp:1},comment:"Type/Size restriction applies"}
 {id:66,conversion:"BDLS117AM",name:"Shinki Null Moon Shuriken",cost:100,main:{str:100,pwr:20,shl:50,rng:200,spd:400,itv:1000},sub:{str:100,pwr:32,shl:"-",rng:77,spd:94,itv:1000},tunable:{mwp:1}}
+{id:67,conversion:"BDLS51AML",name:"Spit Eizen D",cost:160,main:{str:100,pwr:10,shl:120,rng:200,spd:570,itv:300},sub:{str:100,pwr:34,shl:20,rng:90,spd:115,itv:1000},tunable:{mwp:1}}
+{id:68,conversion:"BDLS51",name:"Blitz Eisen",cost:50,slot:0,sub:{str:100,pwr:33,shl:"-",rng:150,spd:350,itv:1000}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -260,4 +266,4 @@
 {id:38,conversion:"BDAS82",name:"Battle Frame E ALPHA",slot:50,sub:{pwr:0,shl:"-",rng:0,spd:180,itv:1000}}
 {id:39,conversion:"BDCS22AM BDCS67AM",name:"Greed Weapon II",slot:0,joint:{wp:2},conversion:"BDCS22AM BDCS67AM"}
 {id:998,name:"Memory Slot'",conversion:"BDAS89"}
-{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM BDCS67AM BDLS115 BDCS69 BDLS117AM"}
+{id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM BDCS67AM BDLS115 BDCS69 BDLS117AM AMS80 AMS81 BDCS71"}
