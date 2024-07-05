@@ -6,6 +6,7 @@
 {id:5,conversion:"LGL147",name:"Armada LG3@",cost:130,slot:0,sub:{pwr:0,shl:"-",rng:10,spd:0,itv:1000}}
 {id:6,conversion:"LGL168",name:"Gigant Arms LG@",sub:{str:100,pwr:30,shl:"-",rng:150,spd:80,itv:1000},tunable:{pwp:1}}
 {id:7,conversion:"BDLL75",name:"Berylskid LG@",cost:40,main:{shl:10,itv:500}}
+{id:8,conversion:"BDSS63LG",name:"Regina Winberrl LG@",slot:0,cost:100,sub:{shl:12,itv:1000}}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 {id:1,name:"Tristar LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:0}
@@ -288,13 +289,14 @@
 {id:146,name:"Blitzelt TB LG",cost:45,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1}
 {id:147,name:"ExCreR LG",cost:45,hp:25,str:2,tec:-1,wlk:4,fly:0,tgh:1}
 {id:148,name:"ExCreR LG2",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
+{id:149,name:"Valiant LG2",cost:45,hp:25,tec:1,wlk:3,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
 {id:2,name:"Saggitary Maxis LG",cost:50,hp:60,str:0,tec:1,wlk:4,fly:0,tgh:1}
 {id:3,name:"Pulsardio LG",cost:50,hp:60,str:0,tec:1,wlk:2,fly:1,tgh:2}
 {id:4,name:"Hound Dog LG",cost:45,hp:50,str:1,tec:0,wlk:3,fly:0,tgh:1}
-{id:5,name:"Scaregant LG",cost:45,hp:25,str:0,tec:0,wlk:2,fly:1,tgh:3}
+{id:5,name:"Scaregant LG",cost:45,hp:40,str:0,tec:0,wlk:2,fly:1,tgh:3}
 {id:6,name:"Mighty Byne LG",type:"l",cost:90,hp:65,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 {id:7,name:"Aquila LG",type:"a",cost:50,hp:60,str:0,tec:1,wlk:2,fly:2,tgh:1,joint:{bs:1}}
 {id:8,name:"Baltheon LG",cost:50,hp:80,str:-1,tec:1,wlk:2,fly:2,tgh:2}
@@ -463,6 +465,7 @@
 {id:18,name:"Machintlet LG",cost:50,hp:70,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:19,name:"Gaderoga LG",cost:45,hp:65,str:-1,tec:-1,wlk:4,fly:1,tgh:3,joint:{bs:1}}
 {id:20,name:"Saggitary Maxis C LG",cost:90,hp:60,str:0,tec:2,wlk:2,fly:0,tgh:2}
+{id:21,name:"Big Mountaiz Tri LG",type:"a",cost:80,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{shl:150,spd:100,itv:1000}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}

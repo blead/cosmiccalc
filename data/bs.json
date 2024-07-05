@@ -34,6 +34,7 @@
 {id:8,name:"Turn Air 1080 BS",type:"a",cost:30,hp:15,str:1,tec:1,wlk:1,fly:2,tgh:-1}
 {id:9,name:"Tina BS",type:"s",cost:35,hp:20,str:0,tec:1,wlk:1,fly:3,tgh:0}
 {id:10,name:"P. Juana BS",type:"c",cost:30,hp:15,str:0,tec:1,wlk:1,fly:2,tgh:0}
+{id:11,name:"Regina Winberrl BS2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
 {id:1,name:"Zero Saber BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2,tgh:0}
@@ -202,6 +203,8 @@
 {id:164,name:"Setsuka BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,tgh:0}
 {id:165,name:"Feng Mei BS2",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:166,name:"Tentrion BS2",type:"a",cost:55,hp:20,str:-1,fly:4,tgh:2,sub:{shl:50,spd:200,itv:1000}}
+{id:167,name:"Ion BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
+{id:168,name:"Regina Winberrl BS",type:"s",cost:35,hp:20,wlk:1,fly:2,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -303,7 +306,7 @@
 {id:97,name:"Lucca Decho BS",cost:40,hp:25,str:1,tec:1,wlk:1,fly:3,tgh:-1}
 {id:98,name:"Hygerkun BS2",type:"c",cost:90,hp:25,str:-1,tec:2,wlk:1,fly:3,tgh:0,main:{pwr:11,shl:340,rng:330,spd:290,itv:500},tunable:{mwp:1}}
 {id:99,name:"Hoverion Magna BS",type:"c",cost:40,hp:25,str:0,tec:2,wlk:0,fly:3,tgh:0}
-{id:100,name:"Valiant BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:9,shl:480,rng:275,spd:350,itv:440},tunable:{mwp:1},comment:"Unusable without other Valiant parts"}
+{id:100,name:"Valiant BS",type:"a",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:3,tgh:1,main:{pwr:11,shl:560,rng:275,spd:350,itv:440},tunable:{mwp:1},comment:"Unusable without other Valiant parts"}
 {id:101,name:"Sovlancer BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2,tgh:0}
 {id:102,name:"Insernect BS",type:"a",cost:35,hp:20,str:2,tec:0,wlk:1,fly:3,tgh:-1}
 {id:103,name:"Gaster BS",type:"c",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:2}
@@ -332,7 +335,7 @@
 {id:126,name:"Zephyr BS",type:"a",cost:35,hp:20,str:1,tec:0,wlk:2,fly:3,tgh:-1}
 {id:127,name:"Garnerimp BS",type:"l",cost:35,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1}
 {id:128,name:"Galaxy Commando BS",type:"c",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
-{id:129,name:"Papo BS",type:"s",cost:135,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1,sub:{pwr:0,shl:20,rng:0,spd:0,itv:13000}}
+{id:129,name:"Papo BS",type:"s",cost:135,hp:20,str:0,tec:0,wlk:1,fly:3,tgh:1,sub:{pwr:0,shl:20,rng:0,spd:0,itv:1000}}
 {id:130,name:"Dugdriver BS",type:"c",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 {id:131,name:"Reversunder BS",type:"c",cost:115,hp:30,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:11,shl:360,rng:350,spd:280,itv:1000}}
 {id:132,name:"Yngvi BS",type:"a",cost:115,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0,joint:{bs:1},fixedParts:{bs:{name:"Yngvi BS@",slot:0,main:{pwr:11,shl:460,rng:275,spd:280,itv:780}}}}
@@ -407,6 +410,7 @@
 {id:202,name:"Gigant Arms BS",type:"l",cost:35,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
 {id:203,name:"Satyx BS2",type:"a",cost:145,hp:20,str:-1,tec:2,fly:3,tgh:1,main:{pwr:8,shl:720,rng:275,spd:300,itv:1000},sub:{pwr:10,shl:50,rng:275,spd:300,itv:1000},tunable:{mwp:1}}
 {id:204,name:"Gun Arms BS2",type:"c",cost:35,hp:20,wlk:1,fly:3,tgh:1}
+{id:205,name:"Build Arm BS2",type:"c",cost:170,hp:20,str:-1,tec:4,fly:2,main:{pwr:13,shl:1560,rng:330,spd:440,itv:140},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -530,6 +534,7 @@
 {id:129,name:"Aeolius BS",type:"a",cost:40,hp:25,str:0,tec:0,wlk:0,fly:4,tgh:1}
 {id:130,name:"Berylskid BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3}
 {id:131,name:"Apollion BS",type:"a",cost:35,hp:20,str:3,fly:2}
+{id:132,name:"Big Mountaiz Tri BS",type:"a",cost:35,hp:20,wlk:1,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

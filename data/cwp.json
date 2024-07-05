@@ -155,6 +155,9 @@
 {id:154,conversion:"BDCL66",name:"Mururugaru BD@2",cost:160,main:{pwr:46,shl:220,rng:350,spd:440,itv:900}}
 {id:155,conversion:"BDLS51R",name:"Eisen Faust",cost:30,main:{shl:20,spd:10,itv:1000}}
 {id:166,conversion:"BDCS34AMS BDCS71AMS",name:"Lise Flak",cost:45,slot:0,main:{pwr:27,shl:200,rng:350,spd:400,itv:1000}}
+{id:167,conversion:"BDLS118WP",name:"Aqua Pot@",cost:70,main:{pwr:27,shl:240,rng:250,spd:180,itv:1000}}
+{id:168,conversion:"BDLS118",name:"Ion BD@",cost:140,main:{pwr:15,shl:660,rng:250,spd:350,itv:700},sub:{shl:"-",spd:250,itv:1000}}
+{id:169,conversion:"BDSS63",name:"Regina Winberrl BD@",cost:60,joint:{bs:1},main:{pwr:12,shl:630,rng:250,spd:280,itv:660},sub:{str:100,pwr:5,shl:30,spd:250,itv:1000}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -231,7 +234,7 @@
 {id:3,name:"Third Eye Magatama",conversion:"WPCO2"}
 {id:4,name:"Aurora Cannon",slot:0,joint:{wp:2},conversion:"BDAS20AM BDAS43AM"}
 {id:5,name:"Transform",cost:50,capa:50,slot:0,sub:{spd:150,itv:500},conversion:"BDAM28 BDAM42"}
-{id:6,name:"Valiant BD@",cost:230,slot:0,sub:{spd:150,itv:500},conversion:"BDAM29"}
+{id:6,name:"Valiant BD@",cost:250,slot:0,sub:{spd:150,itv:500},conversion:"BDAM29 BDAM67"}
 {id:7,name:"Bit Holder",slot:0,joint:{wp:2},conversion:"BDAS26"}
 {id:8,name:"Brave Arts",slot:0,joint:{wp:3},conversion:"AMM93",comment:"Type restriction applies"}
 {id:9,name:"Greed Weapon",slot:0,joint:{wp:2},conversion:"BDCS22AM BDCS67AM"}
