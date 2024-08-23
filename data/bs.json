@@ -411,6 +411,11 @@
 {id:203,name:"Satyx BS2",type:"a",cost:145,hp:20,str:-1,tec:2,fly:3,tgh:1,main:{pwr:8,shl:720,rng:275,spd:300,itv:1000},sub:{pwr:10,shl:50,rng:275,spd:300,itv:1000},tunable:{mwp:1}}
 {id:204,name:"Gun Arms BS2",type:"c",cost:35,hp:20,wlk:1,fly:3,tgh:1}
 {id:205,name:"Build Arm BS2",type:"c",cost:170,hp:20,str:-1,tec:4,fly:2,main:{pwr:13,shl:1560,rng:330,spd:440,itv:140},tunable:{mwp:1}}
+{id:206,name:"Jaguar Arm BS2",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:3}
+{id:207,name:"Bloody Star BS2",type:"c",cost:30,hp:15,tec:1,wlk:1,fly:2}
+{id:208,name:"Istina Bullet BS3",type:"a",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:2}
+{id:209,name:"ExCreR BS3",type:"l",cost:35,hp:20,str:1,fly:2,tgh:2}
+{id:210,name:"ExCreR BS4",type:"c",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:13,shl:380,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -535,6 +540,9 @@
 {id:130,name:"Berylskid BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3}
 {id:131,name:"Apollion BS",type:"a",cost:35,hp:20,str:3,fly:2}
 {id:132,name:"Big Mountaiz Tri BS",type:"a",cost:35,hp:20,wlk:1,fly:2,tgh:2}
+{id:133,name:"Elaphastag BS",type:"a",cost:55,hp:20,str:-1,tec:1,fly:3,tgh:2,sub:{shl:20,spd:230,itv:1000}}
+{id:134,name:"Elaphastag BS2",type:"a",cost:35,hp:20,str:1,tec:-1,fly:4,tgh:1}
+{id:135,name:"Beeportarius BS",type:"l",cost:35,hp:20,str:1,fly:2,tgh:2}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

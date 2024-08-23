@@ -477,6 +477,9 @@
 {id:410,name:"Mururugaru HD",cost:35,hp:20,wlk:3,fly:1,tgh:1}
 {id:411,name:"Valiant HD2",type:"a",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2}
 {id:412,name:"Scaregant HD4",cost:40,hp:25,str:2,tec:-1,wlk:3,tgh:1}
+{id:413,name:"Jaguar Arm HD2",cost:35,hp:20,str:3,tec:-1,fly:1,tgh:2}
+{id:414,name:"ExCreR HD3",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:1,tgh:1}
+{id:415,name:"ExCreR HD4",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -509,6 +512,9 @@
 {id:28,name:"Shingen HD",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2}
 {id:29,name:"Gadion HD2",type:"l",cost:85,hp:20,str:-1,tec:4,wlk:0,fly:0,tgh:2,main:{pwr:38,shl:120,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
 {id:30,name:"Big Mountaiz Tri HD",type:"a",cost:95,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:10,shl:480,rng:275,spd:350,itv:400},tunable:{mwp:1}}
+{id:31,name:"Elaphastag HD",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
+{id:32,name:"Beeportarius HD",type:"l",cost:85,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:19,shl:330,rng:250,spd:570,itv:600},tunable:{mwp:1}}
+{id:33,name:"Beeportarius HD2",type:"l",cost:85,hp:20,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:30,rng:100,spd:250,itv:1000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}

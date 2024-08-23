@@ -71,6 +71,7 @@
 {id:14,name:"Old Slicer",size:"L",type:"l",cost:160,sub:{pwr:27,rng:70,spd:85,itv:2000}}
 {id:15,name:"Flame Mace",size:"L",type:"l",cost:150,sub:{str:100,pwr:35,shl:50,rng:70,spd:85,itv:1000}}
 {id:16,name:"Daemon Mace",size:"LL",type:"l",cost:155,sub:{str:100,pwr:34,rng:100,spd:85,itv:500}}
+{id:17,name:"Thor Hammer",size:"L",type:"l",cost:160,sub:{str:100,pwr:37,rng:70,spd:85,itv:1000}}
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Spear",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}
