@@ -38,8 +38,8 @@
 {id:31,name:"Zero Knight Calibur",size:"M",type:"a",cost:160,sub:{pwr:28,shl:200,rng:70,spd:75,itv:2000}}
 {id:32,name:"Bloom Cutlass",size:"M",type:"a",cost:70,sub:{pwr:28,shl:100,rng:250,spd:150,itv:2000}}
 {id:33,name:"Light Freed",size:"M",type:"l",cost:120,sub:{str:100,pwr:33,rng:77,spd:94,itv:500}}
-{id:34,name:"End Galatine (STR)",size:"L",type:"a",cost:120,sub:{str:100,pwr:31,rng:70,spd:85,itv:1600},auraStat:{sub:{str:100,pwr:34,rng:70,spd:85,itv:1600}},comment:"AURA"}
-{id:35,name:"End Galatine (TEC)",size:"L",type:"a",cost:120,sub:{pwr:31,rng:70,spd:85,itv:1600},auraStat:{sub:{pwr:34,rng:70,spd:85,itv:1600}},comment:"AURA"}
+{id:34,name:"End Galatine (STR)",size:"L",type:"a",cost:160,sub:{str:100,shl:300,pwr:34,rng:70,spd:85,itv:1000},auraStat:{sub:{str:100,pwr:36,shl:300,rng:70,spd:85,itv:1000}},comment:"AURA"}
+{id:35,name:"End Galatine (TEC)",size:"L",type:"a",cost:160,sub:{pwr:34,shl:300,rng:70,spd:85,itv:1000},auraStat:{sub:{pwr:36,shl:300,rng:70,spd:85,itv:1000}},comment:"AURA"}
 {id:36,name:"Blitz Cutlass",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,shl:30,rng:77,spd:94,itv:1000}}
 {id:37,name:"Gozu Cleaver",size:"L",type:"l",cost:120,sub:{str:100,pwr:36,rng:63,spd:77,itv:1800}}
 {id:38,name:"Yaegaki",size:"M",type:"c",cost:40,sub:{pwr:32,rng:70,spd:85,itv:500}}
@@ -53,6 +53,7 @@
 {id:46,name:"Blitz Blade",size:"M",type:"a",cost:140,sub:{str:100,pwr:30,shl:100,rng:0,spd:10,itv:1600},auraStat:{sub:{str:100,pwr:32,shl:100,rng:150,spd:300,itv:1600}}}
 {id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000}}
 {id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:94,itv:1000}}
+{id:49,name:"Long Blade",size:"L",type:"l",cost:150,sub:{str:100,pwr:30,shl:100,rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
