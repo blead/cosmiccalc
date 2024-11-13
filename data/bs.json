@@ -421,6 +421,7 @@
 {id:212,name:"Paladi Knight BS",type:"l",cost:65,hp:20,str:2,tec:-1,fly:3,tgh:1,main:{str:100,pwr:10,shl:100,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
 {id:213,name:"C.S. Rucksack BS",cost:35,hp:20,wlk:1,fly:3,tgh:1}
 {id:214,name:"C.S. BS",cost:35,hp:20,wlk:1,fly:3,tgh:1}
+{id:215,name:"Blumechius BS",type:"l",cost:35,hp:20,str:1,fly:3,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -548,6 +549,7 @@
 {id:133,name:"Elaphastag BS",type:"a",cost:55,hp:20,str:-1,tec:1,fly:3,tgh:2,sub:{shl:20,spd:230,itv:1000}}
 {id:134,name:"Elaphastag BS2",type:"a",cost:35,hp:20,str:1,tec:-1,fly:4,tgh:1}
 {id:135,name:"Beeportarius BS",type:"l",cost:35,hp:20,str:1,fly:2,tgh:2}
+{id:136,name:"Zild Gigas BS",type:"c",cost:105,hp:20,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:5,shl:960,rng:330,spd:300,itv:300},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

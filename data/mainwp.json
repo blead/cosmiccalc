@@ -181,6 +181,7 @@
 {id:21,name:"Six Missile Launcher",size:"M",type:"c",cost:160,main:{pwr:15,shl:300,rng:330,spd:290,itv:500}}
 {id:22,name:"Flare Star",size:"M",type:"c",cost:60,main:{pwr:12,shl:440,rng:330,spd:290,itv:400}}
 {id:23,name:"Missle Shotgun",size:"M",type:"c",cost:140,main:{pwr:12,shl:170,rng:330,spd:290,itv:1000}}
+{id:24,name:"Electro Missile Launcher",size:"L",type:"c",cost:160,main:{pwr:15,shl:480,rng:330,spd:280,itv:800}}
 
 {group:"Shotguns",prefixID:"SG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"Shotgun",size:"M",cost:50,main:{pwr:10,shl:1090,rng:150,spd:400,itv:560}}

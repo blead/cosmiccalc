@@ -8,7 +8,7 @@
 {id:7,conversion:"BDLL50",name:"Katto Baldo AM",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
 {id:8,conversion:"BDLL50",name:"Katto Baldo AM2",cost:35,hp:20,str:2,tec:0,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{pwr:0,shl:80,rng:0,spd:10,itv:1000},tunable:{mwp:1}}
 {id:9,conversion:"AML186",name:"Dieranarcam AM@",cost:30,slot:0,joint:{wp:0},main:{pwr:14,shl:390,rng:300,spd:400,itv:500}}
-{id:10,conversion:"BDLS97",name:"Renny Lop AM",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1,slot:0,joint:{wp:2}}
+{id:10,conversion:"BDLS97 BDLS120",name:"Renny Lop AM",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1,slot:0,joint:{wp:2}}
 {id:11,conversion:"BDCS20 BDCS58",name:"Illumis AM2",cost:40,hp:25,str:0,tec:3,wlk:1,fly:1,tgh:0}
 {id:12,conversion:"BDSS60",name:"Medi Aide AM2",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
 {id:13,conversion:"BDLS102",name:"Elcott AM",cost:35,hp:20,str:2,tec:0,wlk:2,fly:0,tgh:1}
@@ -420,6 +420,7 @@
 {id:227,name:"ExCreR AM3",type:"l",joint:{wp:1},cost:55,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:15,shl:50,rng:200,spd:500,itv:500},tunable:{mwp:1}}
 {id:228,name:"ExCreR AM4",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2}
 {id:229,name:"Paladi Knight AM",cost:30,hp:15,str:2,tec:-1,wlk:1,tgh:2}
+{id:230,name:"Voltis AM2",type:"a",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:25,shl:190,rng:275,spd:300,itv:1100},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -640,6 +641,9 @@
 {id:226,name:"Beeportarius AM",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:26,shl:30,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:227,name:"Gwyain Absol AM3",type:"a",joint:{wp:0},cost:165,hp:20,str:-1,tec:3,tgh:3,main:{pwr:19,shl:480,rng:275,spd:350,itv:400},tunable:{mwp:1}}
 {id:228,name:"Agnizyne AM",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:2,fly:1,main:{pwr:26,shl:260,rng:330,spd:440,itv:700},tunable:{mwp:1}}
+{id:229,name:"Blumechius AM",cost:35,hp:20,str:3,tgh:2}
+{id:230,name:"Zild Gigas AM",type:"c",cost:35,hp:20,tec:2,tgh:3}
+{id:231,name:"Zild Gigas AM2",type:"c",joint:{wp:0},cost:155,hp:20,tec:2,tgh:3,sub:{pwr:25,shl:150,rng:170,spd:250,itv:500}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
