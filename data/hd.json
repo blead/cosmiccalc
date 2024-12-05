@@ -487,6 +487,10 @@
 {id:419,name:"Agnizyne HD",cost:35,hp:20,tec:1,wlk:1,tgh:3}
 {id:420,name:"Victory HD4",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2}
 {id:421,name:"Voltis HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:422,name:"Cydron HD3",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2}
+{id:423,name:"Locomotive HD3",cost:35,hp:20,tec:1,wlk:2,tgh:2}
+{id:424,name:"Kuschelb HD3",cost:35,hp:20,str:2,tec:-1,wlk:1,tgh:1}
+{id:425,name:"Amanotatsu HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}

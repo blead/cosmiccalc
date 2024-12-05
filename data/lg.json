@@ -174,7 +174,7 @@
 {id:30,name:"Blitzelt LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:1,tgh:-1}
 {id:31,name:"Ghost Rider LG",type:"a",cost:45,hp:25,str:1,tec:0,wlk:3,fly:0,tgh:1}
 {id:32,name:"Landoss LG",cost:45,hp:30,str:0,tec:2,wlk:4,fly:-1,tgh:1}
-{id:33,name:"Cydron LG",cost:45,hp:25,str:2,tec:0,wlk:2,fly:-1,tgh:2}
+{id:33,name:"Cydron LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:34,name:"Hoplites LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:1,tgh:0}
 {id:35,name:"Voltis LG",cost:45,hp:30,str:1,tec:1,wlk:3,fly:2,tgh:-1}
 {id:36,name:"Vanguard LG",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:0,tgh:2}
@@ -298,6 +298,7 @@
 {id:154,name:"Paladi Knight LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
 {id:155,name:"Victory LG4",type:"c",cost:65,hp:25,str:-1,tec:2,wlk:4,tgh:1,sub:{shl:30,spd:200,itv:1000}}
 {id:156,name:"Voltis LG2",type:"a",cost:95,hp:30,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:33,shl:80,rng:275,spd:440,itv:1000},tunable:{pwp:1}}
+{id:157,name:"Locomotive LG3",type:"c",cost:75,hp:25,str:-1,tec:1,wlk:3,tgh:3,sub:{pwr:28,shl:"-",rng:0,spd:240,itv:1000},tunable:{pwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -458,6 +459,7 @@
 {id:176,name:"Agnizyne LG",cost:50,hp:65,tec:2,wlk:3,tgh:1}
 {id:177,name:"Blumechius LG",cost:50,hp:30,str:2,wlk:4,fly:-1,tgh:1}
 {id:178,name:"Zild Gigas LG",type:"c",cost:50,hp:55,wlk:2,fly:2,tgh:1}
+{id:179,name:"Kuschelb LG3",type:"l",cost:75,hp:50,str:2,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,shl:30,rng:75,spd:250,itv:1000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}
@@ -490,3 +492,4 @@
 {id:5,name:"Nine Tailed LGJ",cost:10,hp:5}
 {id:6,name:"Zarid LGJ",size:"L"}
 {id:7,name:"Pietta LGJ",size:"S"}
+{id:8,name:"Locomotive LGJ",type:"c",cost:60,main:{pwr:21,shl:220,rng:330,spd:320,itv:900},tunable:{mwp:1}}

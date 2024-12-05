@@ -420,7 +420,9 @@
 {id:227,name:"ExCreR AM3",type:"l",joint:{wp:1},cost:55,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:15,shl:50,rng:200,spd:500,itv:500},tunable:{mwp:1}}
 {id:228,name:"ExCreR AM4",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2}
 {id:229,name:"Paladi Knight AM",cost:30,hp:15,str:2,tec:-1,wlk:1,tgh:2}
-{id:230,name:"Voltis AM2",type:"a",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:25,shl:190,rng:275,spd:300,itv:1100},tunable:{mwp:1}}
+{id:230,name:"Voltis AM2",type:"a",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:24,shl:190,rng:275,spd:300,itv:1100},tunable:{mwp:1}}
+{id:231,name:"Cydron AM3",type:"l",joint:{wp:0},cost:115,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:11,shl:1000,rng:200,spd:440,itv:140},sub:{pwr:26,shl:120,rng:225,spd:440,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:232,name:"Locomotive AM3",type:"c",joint:{wp:0},cost:75,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:24,shl:270,rng:330,spd:440,itv:700},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -644,6 +646,8 @@
 {id:229,name:"Blumechius AM",cost:35,hp:20,str:3,tgh:2}
 {id:230,name:"Zild Gigas AM",type:"c",cost:35,hp:20,tec:2,tgh:3}
 {id:231,name:"Zild Gigas AM2",type:"c",joint:{wp:0},cost:155,hp:20,tec:2,tgh:3,sub:{pwr:25,shl:150,rng:170,spd:250,itv:500}}
+{id:232,name:"Amanotatsu RAM2",cost:35,hp:20,tec:2,fly:2,tgh:1,comment:"StatStick only when transformed"}
+{id:233,name:"Amanotatsu LAM",type:"a",cost:135,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:21,shl:280,rng:275,spd:320,itv:700},tunable:{mwp:1},auraStat:{hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:32,shl:280,rng:290,spd:350,itv:900},tunable:{mwp:1}},comment:"StatStick only when transformed"}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
@@ -692,6 +696,7 @@
 {id:44,name:"Albatreos AM3",type:"c",joint:{wp:0},cost:165,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:16,shl:720,rng:330,spd:570,itv:300},tunable:{mwp:1}}
 {id:45,name:"Apollion AM",type:"a",joint:{wp:0},cost:105,hp:20,str:3,tec:-1,fly:1,tgh:2,sub:{str:100,pwr:30,shl:60,rng:120,spd:200,itv:2000},tunable:{pwp:1},auraStat:{hp:20,str:3,tec:-1,fly:1,tgh:2,sub:{str:100,pwr:33,shl:60,rng:120,spd:200,itv:1600},tunable:{pwp:1}}}
 {id:46,name:"Big Mountaiz Tri AM2",type:"a",joint:{wp:0},cost:135,hp:20,str:-1,tec:4,fly:1,tgh:1,main:{pwr:12,shl:680,rng:275,spd:280,itv:900},tunable:{mwp:1}}
+{id:47,name:"Kuschelb AM3",type:"l",cost:155,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:13,shl:440,rng:225,spd:480,itv:500},sub:{str:100,pwr:32,shl:"-",rng:150,spd:250,itv:1000},tunable:{mwp:1,pwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{size:"M",jointPart:1,slot:1}}
 {id:1,name:"Generic AMJ"}
