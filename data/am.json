@@ -189,6 +189,10 @@
 {id:158,name:"Toy Khan AM2",type:"c",joint:{wp:0},cost:75,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:17,shl:280,rng:330,spd:290,itv:500},tunable:{mwp:1}}
 {id:159,name:"Build Arm AM2",type:"c",joint:{wp:0},cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2,sub:{shl:30,itv:1000}}
 {id:160,name:"G. Remoire AM2",type:"c",cost:95,hp:20,str:-1,tec:3,fly:1,tgh:2,main:{pwr:21,shl:220,rng:330,spd:230,itv:900},tunable:{mwp:1}}
+{id:161,name:"Turtlebacker AM2",type:"l",joint:{wp:0},cost:105,hp:20,str:3,tec:-1,wlk:2,tgh:1,sub:{str:100,pwr:34,shl:"-",rng:84,spd:94,itv:1000},tunable:{pwp:1}}
+{id:162,name:"Setsuka AM2",type:"l",joint:{wp:0},cost:135,hp:20,str:-1,tec:4,tgh:2,sub:{pwr:32,shl:"-",rng:70,spd:85,itv:1000},tunable:{pwp:1}}
+{id:163,name:"Setsuka AM3",type:"l",cost:85,hp:20,str:-1,tec:4,wlk:1,tgh:1,main:{pwr:30,shl:240,rng:200,spd:440,itv:1000},tunable:{mwp:1}}
+{id:164,name:"Sheeno AM",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Baltheon AM",type:"a",cost:120,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,joint:{wp:0},main:{pwr:12,shl:960,rng:200,spd:480,itv:140},tunable:{mwp:1}}
@@ -303,8 +307,8 @@
 {id:110,name:"High Priestol G AM",type:"s",cost:85,hp:20,str:2,tec:2,wlk:0,fly:0,tgh:1,main:{pwr:0,shl:220,rng:300,spd:300,itv:800},tunable:{mwp:1}}
 {id:111,name:"Hard Bomber AM",type:"c",cost:85,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:19,shl:250,rng:330,spd:480,itv:700},tunable:{mwp:1}}
 {id:112,name:"Byakkou AM2",type:"l",cost:120,hp:25,str:3,tec:-1,wlk:2,fly:1,tgh:0,main:{str:100,pwr:18,shl:480,rng:225,spd:400,itv:400},auraStat:{str:3,tec:-1,wlk:2,fly:1,tgh:0,main:{str:100,pwr:20,shl:50,rng:225,spd:480,itv:500},sub:{str:100,pwr:32,rng:77,spd:94,itv:500}},tunable:{mwp:1,pwp:1}}
-{id:113,name:"Dreblitz AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
-{id:114,name:"Dreblitz AM2",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:3,fly:0,tgh:0,joint:{wp:0},main:{pwr:19,shl:320,rng:330,spd:500,itv:500},tunable:{mwp:1}}
+{id:113,name:"Dreiblitz AM",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
+{id:114,name:"Dreiblitz AM2",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:3,fly:0,tgh:0,joint:{wp:0},main:{pwr:23,shl:380,rng:330,spd:480,itv:500},tunable:{mwp:1}}
 {id:115,name:"Axion AM",type:"l",cost:110,hp:25,str:-1,tec:3,wlk:2,fly:0,tgh:1,main:{pwr:14,shl:240,rng:250,spd:400,itv:300},tunable:{mwp:1}}
 {id:116,name:"Axion AM2",type:"l",cost:80,hp:25,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:28,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:117,name:"Axion AM3",type:"l",cost:110,hp:25,str:-1,tec:2,wlk:2,fly:0,tgh:2,main:{pwr:14,shl:580,rng:250,spd:440,itv:300},tunable:{mwp:1}}
@@ -423,6 +427,10 @@
 {id:230,name:"Voltis AM2",type:"a",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:24,shl:190,rng:275,spd:300,itv:1100},tunable:{mwp:1}}
 {id:231,name:"Cydron AM3",type:"l",joint:{wp:0},cost:115,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:11,shl:1000,rng:200,spd:440,itv:140},sub:{pwr:26,shl:120,rng:225,spd:440,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:232,name:"Locomotive AM3",type:"c",joint:{wp:0},cost:75,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:24,shl:270,rng:330,spd:440,itv:700},tunable:{mwp:1}}
+{id:233,name:"Gerkun AM",type:"c",joint:{wp:0},cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:24,shl:280,rng:330,spd:440,itv:700},tunable:{mwp:1}}
+{id:234,name:"Yngvi AM3",type:"a",joint:{wp:0},cost:165,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:34,shl:270,rng:275,spd:440,itv:800},tunable:{mwp:1}}
+{id:235,name:"Mururugaru AM2",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:21,shl:300,rng:330,spd:350,itv:700},tunable:{mwp:1}}
+{id:236,name:"Dreiblitz AM3",type:"c",joint:{wp:0},cost:185,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:27,shl:120,rng:330,spd:400,itv:1000},tunable:{mwp:1}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain AM",type:"a",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3,joint:{am:1},fixedParts:{am:{name:"Gwyain AM@",slot:0,joint:{wp:0}}}}
@@ -648,6 +656,8 @@
 {id:231,name:"Zild Gigas AM2",type:"c",joint:{wp:0},cost:155,hp:20,tec:2,tgh:3,sub:{pwr:25,shl:150,rng:170,spd:250,itv:500}}
 {id:232,name:"Amanotatsu RAM2",cost:35,hp:20,tec:2,fly:2,tgh:1,comment:"StatStick only when transformed"}
 {id:233,name:"Amanotatsu LAM",type:"a",cost:135,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:21,shl:280,rng:275,spd:320,itv:700},tunable:{mwp:1},auraStat:{hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:32,shl:280,rng:290,spd:350,itv:900},tunable:{mwp:1}},comment:"StatStick only when transformed"}
+{id:234,name:"Azwester AM",cost:35,hp:20,tec:1,fly:2,tgh:2}
+{id:235,name:"Azwester AM2",type:"a",joint:{wp:0},cost:165,hp:20,str:-1,tec:4,fly:1,tgh:1,main:{pwr:8,shl:900,rng:275,spd:350,itv:1000},sub:{pwr:50,shl:30,rng:180,spd:350,itv:1000},tunable:{mwp:1,pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Persecius AM2",cost:80,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
@@ -684,7 +694,7 @@
 {id:32,name:"Saggitary Maxis C AM2",type:"c",cost:140,hp:25,str:-1,tec:3,wlk:0,fly:0,tgh:3,main:{pwr:20,shl:360,rng:350,spd:570,itv:300},tunable:{mwp:1}}
 {id:33,name:"King Megaton AM2",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,joint:{wp:0},main:{pwr:30,shl:260,rng:330,spd:360,itv:700},tunable:{mwp:1}}
 {id:34,name:"Thoarla AM3",type:"a",cost:170,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2,joint:{wp:0},main:{pwr:29,shl:240,rng:275,spd:280,itv:800},tunable:{mwp:1}}
-{id:35,name:"Joste Gunder AM",type:"l",cost:170,hp:25,str:3,tec:-1,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{str:100,pwr:10,shl:720,rng:120,spd:480,itv:100},sub:{str:100,pwr:34,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:35,name:"Joste Gunder AM",type:"l",cost:150,hp:25,str:3,tec:-1,wlk:0,fly:0,tgh:3,joint:{wp:0},main:{str:100,pwr:10,shl:750,rng:160,spd:480,itv:100},sub:{str:100,pwr:36,shl:"-",rng:63,spd:77,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:36,name:"Steel Burn AM4",type:"a",cost:120,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:17,shl:360,rng:275,spd:520,itv:300},tunable:{mwp:1}}
 {id:37,name:"Torque Mighty Byne AM",type:"l",cost:155,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2,joint:{wp:0},main:{str:100,pwr:20,shl:30,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,shl:30,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1}}
 {id:38,name:"Torque Mighty Byne AM2",type:"l",cost:115,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2,sub:{str:100,pwr:34,shl:30,rng:80,spd:300,itv:1000},tunable:{pwp:1}}
@@ -697,6 +707,8 @@
 {id:45,name:"Apollion AM",type:"a",joint:{wp:0},cost:105,hp:20,str:3,tec:-1,fly:1,tgh:2,sub:{str:100,pwr:30,shl:60,rng:120,spd:200,itv:2000},tunable:{pwp:1},auraStat:{hp:20,str:3,tec:-1,fly:1,tgh:2,sub:{str:100,pwr:33,shl:60,rng:120,spd:200,itv:1600},tunable:{pwp:1}}}
 {id:46,name:"Big Mountaiz Tri AM2",type:"a",joint:{wp:0},cost:135,hp:20,str:-1,tec:4,fly:1,tgh:1,main:{pwr:12,shl:680,rng:275,spd:280,itv:900},tunable:{mwp:1}}
 {id:47,name:"Kuschelb AM3",type:"l",cost:155,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:13,shl:440,rng:225,spd:480,itv:500},sub:{str:100,pwr:32,shl:"-",rng:150,spd:250,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:48,name:"Falke Armor AM",type:"a",cost:125,hp:20,str:-1,tec:3,tgh:3,main:{pwr:14,shl:260,rng:275,spd:280,itv:800},sub:{shl:10,itv:1000},tunable:{mwp:1}}
+{id:49,name:"Joste Gunder AM2",type:"l",joint:{wp:0},cost:150,hp:25,str:3,tec:-1,tgh:3,main:{str:100,pwr:9,shl:700,rng:120,spd:480,itv:100},sub:{str:100,pwr:30,shl:"-",rng:100,spd:70,itv:1000},tunable:{mwp:1,pwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{size:"M",jointPart:1,slot:1}}
 {id:1,name:"Generic AMJ"}
@@ -729,3 +741,4 @@
 {id:28,name:"Psycho Formula AMJ",size:"S",type:"c",cost:40,main:{pwr:7,shl:560,rng:330,spd:300,itv:740},tunable:{mwp:1}}
 {id:29,name:"Giganberg AMJ",type:"l",cost:40,main:{pwr:8,shl:400,rng:250,spd:320,itv:1200},tunable:{mwp:1}}
 {id:30,conversion:"BDLL75",name:"Berylskid AMJ",joint:{wp:1},cost:25,hp:-20,wlk:-1,fly:-1}
+{id:31,name:"Raclaboros AMJ2",type:"s",cost:40,main:{pwr:13,shl:360,rng:300,spd:350,itv:500},tunable:{mwp:1}}

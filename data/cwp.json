@@ -112,7 +112,7 @@
 {id:111,conversion:"BDAS59AM2",name:"ECM Lightning Buster",cost:100,main:{pwr:17,shl:440,rng:275,spd:400,itv:440},sub:{pwr:0,shl:"-",rng:0,spd:0,itv:500}}
 {id:112,conversion:"BDAS75AM",name:"Twin Recurve Bow",cost:100,main:{pwr:12,shl:680,rng:275,spd:300,itv:300}}
 {id:113,conversion:"AMO10",name:"Spade Gadget (TEC)",cost:70,main:{pwr:20,shl:270,rng:250,spd:250,itv:800}}
-//
+{id:114,conversion:"WPCO31",name:"Full power Drive II",cost:30,slot:0,main:{shl:20,spd:10,itv:1000}}
 {id:115,conversion:"AMO10",name:"Four-Of-A-Kind Gadget",cost:80,main:{pwr:9,shl:1080,rng:250,spd:400,itv:800}}
 {id:116,conversion:"AMO10",name:"Three-Of-A-Kind Gadget",cost:70,main:{pwr:13,shl:720,rng:200,spd:400,itv:800}}
 {id:117,conversion:"BDLS98WP",name:"Gadget Shield",cost:20,slot:0,main:{pwr:0,shl:15,rng:0,spd:10,itv:1000}}
@@ -152,7 +152,7 @@
 {id:151,conversion:"BDLS116AM",name:"Angel Shooter",cost:115,main:{str:100,pwr:17,shl:750,rng:250,spd:440,itv:200},sub:{str:100,pwr:14,shl:240,rng:250,spd:400,itv:500}}
 {id:152,conversion:"AMO15",name:"Smart Missile",cost:65,main:{pwr:15,shl:310,rng:330,spd:330,itv:600}}
 {id:153,conversion:"BDAL56",name:"Apollion BD@",cost:40,slot:0,main:{str:100,pwr:8,shl:200,rng:275,spd:480,itv:500},auraStat:{main:{str:100,pwr:10,shl:200,rng:275,spd:480,itv:500}}}
-{id:154,conversion:"BDCL66",name:"Mururugaru BD@2",cost:160,main:{pwr:46,shl:220,rng:350,spd:440,itv:900}}
+{id:154,conversion:"BDCL66 BDCL70",name:"Mururugaru BD@2",cost:160,main:{pwr:46,shl:220,rng:350,spd:440,itv:900}}
 {id:155,conversion:"BDLS51R",name:"Eisen Faust",cost:30,main:{shl:20,spd:10,itv:1000}}
 {id:166,conversion:"BDCS34AMS BDCS71AMS",name:"Lise Flak",cost:45,slot:0,main:{pwr:27,shl:200,rng:350,spd:400,itv:1000}}
 {id:167,conversion:"BDLS118WP",name:"Aqua Pot@",cost:70,main:{pwr:25,shl:240,rng:250,spd:180,itv:1000}}
@@ -163,6 +163,7 @@
 {id:172,conversion:"WPCO10 WPCO40",name:"Expiation @3",cost:120,slot:0,main:{pwr:21,shl:600,rng:380,spd:500,itv:200}}
 {id:173,conversion:"WPCO10 WPCO40",name:"Expiation @4",slot:0,main:{pwr:44,shl:60,rng:450,spd:420,itv:500}}
 {id:174,conversion:"AMM228",name:"CB Launcher",cost:130,main:{pwr:29,shl:330,rng:350,spd:400,itv:600},comment:"Type/Size restriction applies"}
+{id:175,conversion:"BDCL66 BDCL70",name:"Mururugaru BD2@2",cost:130,main:{pwr:16,shl:1200,rng:350,spd:440,itv:200}}
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Gradd Chainsaw",cost:60,sub:{str:100,pwr:32,rng:70,spd:85,itv:500},conversion:"BDLS3AM"}
@@ -236,6 +237,7 @@
 {id:70,conversion:"WPCO41 WPCO42",name:"Elixir Blade",cost:40,sub:{str:100,pwr:35,rng:63,spd:77,itv:1000}}
 {id:71,conversion:"AMM228",name:"CB Shield",cost:20,sub:{pwr:36,shl:30,rng:70,spd:350,itv:1000},tunable:{pwp:0},comment:"Type/Size restriction applies"}
 {id:72,conversion:"BDLL80",name:"Blumechius BD@",cost:50,slot:0,sub:{str:100,pwr:34,spd:180,itv:1000}}
+{id:73,conversion:"WPCO30",name:"Drill Claw",cost:160,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:32,shl:2,rng:77,spd:94,itv:500},tunable:{mwp:1}}
 
 {group:"Conversion-Other",prefixID:"CO"}
 {id:1,name:"Memory Slot",conversion:"Slot BDLS49 BDCS37AM2 BDLS53 BDLS53AM BDLS53AM2 BDLS57AM BDLS57AM2 BDLS61AM2 BDLS61WP BDCS43 BDAS46 BDAS46AM BDLS63 BDLS64 BDCS44 BDLS67 BDAS50 BDCS45 BDAM45 AMS99 BDAM46LG BDLS72 BDAS53 AMS104 BDCS49 BDCS49AM2 BDLS75 BDLS76 BDLS77 BDLS78 BDLS78AM2 BDCS50 BDCS50AM BDLS81 BDSS43 BDAS57 BDSS44 BDCS52 BDCS53 BDCS54 BDLS84AM BDLS84AM2 BDLS84 BDLL51 BDCL47AM"}
@@ -280,5 +282,6 @@
 {id:40,conversion:"BDAM32AM",name:"Expiation II",slot:0,joint:{wp:2},sub:{itv:500}}
 {id:41,conversion:"AMM227",name:"ExCreR AM3@",slot:0,joint:{wp:1},cost:40,sub:{str:100,pwr:30,shl:30,rng:150,spd:350,itv:1000}}
 {id:42,conversion:"AMM227",name:"ExCreR AM3@2",slot:0,joint:{wp:1}}
+{id:43,conversion:"BDLS124",name:"Titania BD@",slot:0,joint:{wp:1}}
 {id:998,name:"Memory Slot (1)",conversion:"BDAS89 BDLS117AM AMS80 AMS81 BDCS71 BDLS120 BDLS121 AML232 AML233"}
 {id:999,name:"Memory Slot ",conversion:"BDLS87LG BDAS61AM BDAS61AM2 BDAS62AM2 BDLL54 BDSS47 BDSS48 BDSS49 BDLS91 BDLS91AM2 BDLS94 AMS131 BDAS72AM2 BDSS53 BDLS95 BDLS95AM BDLS97 AMO10 BDLS98 AMS138 BDLS100 BDCS59AM LGS114 AMS143 AMO13 BSJ6 BDAS77 BDCS60AM BDAS78 BDAS79 BDAS80AM BDAS80AM2 BDAS82 BDLS105 BDLS106 AML199 BDCS62AM BDLS107 BDCS63 BDLS111 BSO23 BDLS113 BDLS113AM BDCS67AM BDLS115 BDCS69"}

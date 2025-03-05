@@ -206,6 +206,9 @@
 {id:167,name:"Ion BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3}
 {id:168,name:"Regina Winberrl BS",type:"s",cost:35,hp:20,wlk:1,fly:2,tgh:2}
 {id:169,name:"Connie Sheriff BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2}
+{id:170,name:"Asuka BS",type:"c",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:1}
+{id:171,name:"Setsuka BS2",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
+{id:172,name:"Sheeno BS",type:"l",cost:35,hp:20,wlk:2,fly:4,tgh:-1}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion BS",type:"l",cost:45,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
@@ -327,7 +330,7 @@
 {id:117,name:"Theoreigne BS2",type:"c",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
 {id:118,name:"Dimension FBS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1,joint:{bs:2},fixedParts:{bs:[{name:"Dimension Flyer BS@",cost:100,slot:0,main:{pwr:3,shl:1600,rng:275,spd:350,itv:140}},{name:"Dimension Flyer BS@2",cost:60,slot:0,sub:{pwr:5,shl:550,rng:275,spd:350,itv:140}}]}}
 {id:119,name:"Griest BS2",type:"a",cost:135,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1,sub:{pwr:15,shl:300,rng:275,spd:350,itv:1000}}
-{id:120,name:"Dreblitz BS",type:"c",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:10,shl:300,rng:350,spd:320,itv:1000}}
+{id:120,name:"Dreiblitz BS",type:"c",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0,sub:{pwr:13,shl:300,rng:350,spd:320,itv:1000}}
 {id:121,name:"Tierouge BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:3,tgh:1}
 {id:122,name:"Nova Dikaros BS",type:"a",cost:55,hp:20,str:0,tec:0,wlk:-1,fly:4,tgh:2,sub:{pwr:0,shl:40,rng:0,spd:150,itv:1000}}
 {id:123,name:"Seiron BS2",type:"a",cost:40,hp:25,str:0,tec:2,wlk:0,fly:4,tgh:-1}
@@ -424,6 +427,11 @@
 {id:215,name:"Blumechius BS",type:"l",cost:35,hp:20,str:1,fly:3,tgh:1}
 {id:216,name:"Cydron BS2",type:"l",cost:35,hp:20,str:-1,wlk:3,fly:3}
 {id:217,name:"Locomotive BS2",type:"c",cost:35,hp:20,wlk:2,fly:2,tgh:1}
+{id:218,name:"Mecha Jetter BS2 (TEC)",type:"a",cost:90,hp:20,str:-1,tec:2,fly:4,sub:{pwr:28,shl:75,rng:275,spd:280,itv:1000},tunable:{pwp:1}}
+{id:219,name:"Mecha Jetter BS2 (STR)",type:"a",cost:90,hp:20,str:-1,tec:2,fly:4,sub:{str:100,pwr:28,shl:75,rng:275,spd:280,itv:1000},tunable:{pwp:1}}
+{id:220,name:"Gerkun BS",type:"c",cost:115,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:11,shl:480,rng:330,spd:260,itv:800},tunable:{mwp:1}}
+{id:221,name:"Yngvi BS2",type:"a",joint:{bs:1},cost:105,hp:20,str:-1,tec:2,fly:4,fixedParts:{wp:{name:"Yngvi BS2@",slot:0,main:{pwr:13,shl:480,rng:300,spd:350,itv:800}}}}
+{id:222,name:"Dreiblitz BS2",type:"c",cost:85,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,sub:{pwr:32,shl:90,rng:350,spd:280,itv:1000}}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain BS",type:"a",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
@@ -553,6 +561,8 @@
 {id:135,name:"Beeportarius BS",type:"l",cost:35,hp:20,str:1,fly:2,tgh:2}
 {id:136,name:"Zild Gigas BS",type:"c",cost:105,hp:20,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:5,shl:960,rng:330,spd:300,itv:300},tunable:{mwp:1}}
 {id:137,name:"Amanotatsu BS",type:"a",cost:35,hp:20,tec:1,wlk:1,fly:3}
+{id:138,name:"Azwester BS",type:"a",cost:35,hp:20,str:1,tec:-1,fly:3,tgh:2}
+{id:139,name:"Falke Armor BS",type:"a",cost:35,hp:20,tec:2,fly:3}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shaden BS",type:"a",cost:100,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}
@@ -568,6 +578,7 @@
 {id:11,name:"Vellsneil BS",type:"a",cost:190,hp:25,str:-1,tec:2,wlk:0,fly:4,tgh:0,main:{pwr:6,shl:1200,rng:275,spd:280,itv:1200},tunable:{mwp:1}}
 {id:12,name:"Shaden RIN BS",type:"a",cost:120,hp:25,str:0,tec:0,wlk:0,fly:5,tgh:0,sub:{pwr:0,shl:5,rng:0,spd:160,itv:100}}
 {id:13,name:"Zeunesis BS",type:"l",cost:125,hp:20,str:2,tec:-1,wlk:1,fly:3,tgh:0,main:{str:100,pwr:16,shl:330,rng:250,spd:440,itv:500},sub:{str:100,pwr:30,shl:30,rng:120,spd:200,itv:500},tunable:{mwp:1,pwp:1}}
+{id:14,name:"Joste Gunder BS2",type:"l",cost:105,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1,main:{pwr:6,shl:20,rng:200,spd:200,itv:1000},tunable:{mwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic BSJ"}

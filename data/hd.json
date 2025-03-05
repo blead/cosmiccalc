@@ -75,6 +75,8 @@
 {id:72,name:"Toy Khan HD2",cost:35,hp:20,str:1,tec:1,tgh:3}
 {id:73,name:"Build Arm HD2",cost:35,hp:20,tec:3,wlk:1,tgh:1}
 {id:74,name:"G. Remoire HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:2}
+{id:75,name:"Turtlebacker HD2",cost:35,hp:20,str:1,tec:-1,wlk:2,tgh:3}
+{id:76,name:"Setsuka HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
@@ -271,7 +273,7 @@
 {id:193,name:"Kuschelb HD2",cost:35,hp:20,str:2,tec:0,wlk:0,fly:0,tgh:3}
 {id:194,name:"Sturbanger HD4",cost:40,hp:25,str:3,tec:-1,wlk:0,fly:1,tgh:2}
 {id:195,name:"Griest HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:196,name:"Dreblitz HD",cost:30,hp:15,str:0,tec:2,wlk:2,fly:-1,tgh:1}
+{id:196,name:"Dreiblitz HD",cost:30,hp:15,str:0,tec:2,wlk:2,fly:-1,tgh:1}
 {id:197,name:"Crugis HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:0,tgh:3}
 {id:198,name:"Axion HD2",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
 {id:199,name:"Tierouge HD",cost:40,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2}
@@ -491,6 +493,15 @@
 {id:423,name:"Locomotive HD3",cost:35,hp:20,tec:1,wlk:2,tgh:2}
 {id:424,name:"Kuschelb HD3",cost:35,hp:20,str:2,tec:-1,wlk:1,tgh:1}
 {id:425,name:"Amanotatsu HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:426,name:"Mecha Jetter HD2",type:"a",cost:75,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:7,shl:460,rng:275,spd:350,itv:400},tunable:{mwp:1}}
+{id:427,name:"Azwester HD",cost:35,hp:20,tec:2,fly:1,tgh:2}
+{id:428,name:"Gerkun HD",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1}
+{id:429,name:"Yngvi HD2",type:"a",cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:7,shl:980,rng:160,spd:480,itv:140},tunable:{mwp:1}}
+{id:430,name:"Mururugaru HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,tgh:2}
+{id:431,name:"Raclaboros HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:432,name:"Sheeno HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:433,name:"Falke Armor HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
@@ -531,6 +542,7 @@
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
+{id:2,name:"Joste Gunder HD2",cost:35,hp:20,str:1,wlk:1,tgh:3}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}

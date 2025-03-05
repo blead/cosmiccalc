@@ -138,8 +138,10 @@
 {id:123,name:"Shadow Hunter LG2 (STR)",type:"l",cost:105,hp:25,str:0,tec:0,wlk:4,fly:1,tgh:1,sub:{str:100,pwr:8,shl:540,rng:250,spd:450,itv:1000}}
 {id:124,name:"Shadow Hunter LG2 (TEC)",type:"l",cost:105,hp:25,str:0,tec:0,wlk:4,fly:1,tgh:1,sub:{pwr:8,shl:540,rng:250,spd:450,itv:1000}}
 {id:125,name:"Leveil LG",type:"c",cost:95,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1,joint:{bs:1},main:{pwr:8,shl:550,rng:330,spd:350,itv:700},tunable:{mwp:1}}
-{id:126,name:"Setsuka LG",type:"l",cost:75,hp:25,str:0,tec:1,wlk:4,fly:-1,tgh:2,sub:{pwr:35,shl:"-",rng:120,spd:200,itv:1000},tunable:{pwp:1}}
+{id:126,name:"Setsuka LG",type:"l",cost:75,hp:25,tec:1,wlk:4,fly:-1,tgh:2,sub:{pwr:35,shl:"-",rng:120,spd:200,itv:1000},tunable:{pwp:1}}
 {id:127,name:"G. Remoire LG2",type:"c",cost:65,hp:25,wlk:3,fly:2,tgh:1}
+{id:128,name:"Turtlebacker LG2",cost:45,hp:25,str:2,wlk:2,fly:-1,tgh:3}
+{id:129,name:"Sheeno LG",cost:45,hp:25,str:1,tec:-1,wlk:4,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Axion LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}
@@ -223,7 +225,7 @@
 {id:79,name:"High Priestol G LG",cost:45,hp:25,str:2,tec:0,wlk:3,fly:-1,tgh:2}
 {id:80,name:"Hard Bomber LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 {id:81,name:"Byakkou LG2",type:"l",cost:80,hp:25,str:2,tec:-1,wlk:4,fly:1,tgh:0,auraStat:{str:2,tec:-1,wlk:4,fly:1,tgh:0,sub:{str:100,pwr:32,rng:150,spd:350,itv:1000}},tunable:{pwp:1}}
-{id:82,name:"Dreblitz LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:2,tgh:-1}
+{id:82,name:"Dreiblitz LG",cost:45,hp:25,str:0,tec:2,wlk:3,fly:2,tgh:-1}
 {id:83,name:"Vishra LG",cost:45,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:3}
 {id:84,name:"Zephyr LG",type:"a",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:85,name:"Galaxy Commando LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
@@ -299,6 +301,9 @@
 {id:155,name:"Victory LG4",type:"c",cost:65,hp:25,str:-1,tec:2,wlk:4,tgh:1,sub:{shl:30,spd:200,itv:1000}}
 {id:156,name:"Voltis LG2",type:"a",cost:95,hp:30,str:-1,tec:2,wlk:2,fly:2,tgh:1,sub:{pwr:33,shl:80,rng:275,spd:440,itv:1000},tunable:{pwp:1}}
 {id:157,name:"Locomotive LG3",type:"c",cost:75,hp:25,str:-1,tec:1,wlk:3,tgh:3,sub:{pwr:28,shl:"-",rng:0,spd:240,itv:1000},tunable:{pwp:1}}
+{id:158,name:"Mecha Jetter LG2",type:"a",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:3,tgh:1}
+{id:159,name:"Gerkun LG",type:"cs",cost:75,hp:25,str:-1,tec:2,wlk:3,tgh:2,sub:{pwr:34,shl:"-",rng:150,spd:350,itv:1000},tunable:{pwp:1}}
+{id:160,name:"Yngvi LG2",cost:45,hp:25,str:-1,tec:2,wlk:2,tgh:3}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Gwyain LG",cost:50,hp:40,str:1,tec:1,wlk:3,fly:0,tgh:1}
@@ -460,6 +465,8 @@
 {id:177,name:"Blumechius LG",cost:50,hp:30,str:2,wlk:4,fly:-1,tgh:1}
 {id:178,name:"Zild Gigas LG",type:"c",cost:50,hp:55,wlk:2,fly:2,tgh:1}
 {id:179,name:"Kuschelb LG3",type:"l",cost:75,hp:50,str:2,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,shl:30,rng:75,spd:250,itv:1000},tunable:{pwp:1}}
+{id:180,name:"Azwester LG",type:"a",joint:{bs:1},cost:80,hp:75,str:-1,wlk:2,fly:3,tgh:2,sub:{shl:60,spd:200,itv:1000}}
+{id:181,name:"Falke Armor LG",type:"a",cost:90,hp:55,wlk:2,fly:2,tgh:2,sub:{pwr:30,shl:100,spd:200,itv:1000},tunable:{pwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Shino Exroad LG",type:"l",cost:145,hp:55,str:2,tec:-1,wlk:4,fly:0,tgh:1,joint:{bs:1},sub:{str:100,pwr:28,rng:150,spd:150,itv:1500},tunable:{pwp:1}}
@@ -483,6 +490,7 @@
 {id:19,name:"Gaderoga LG",cost:45,hp:65,str:-1,tec:-1,wlk:4,fly:1,tgh:3,joint:{bs:1}}
 {id:20,name:"Saggitary Maxis C LG",cost:90,hp:60,str:0,tec:2,wlk:2,fly:0,tgh:2}
 {id:21,name:"Big Mountaiz Tri LG",type:"a",cost:80,hp:70,str:-1,tec:1,wlk:2,fly:2,tgh:2,sub:{shl:150,spd:100,itv:1000}}
+{id:22,name:"Raclaboros LG2",type:"s",cost:200,hp:60,str:-1,tec:3,wlk:3,tgh:1,main:{pwr:7,shl:1380,rng:300,spd:400,itv:300},sub:{pwr:7,shl:1600,spd:160,itv:1000},tunable:{mwp:1,pwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic LGJ"}
