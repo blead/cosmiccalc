@@ -31,11 +31,11 @@
 {id:35,name:"Zero Cartridge",comment:"Other special carts for 'Zero' type."}
 {id:36,name:"Accele Roll",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot."}
 {id:37,name:"Air Loop",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot."}
-//{id:38,name:"Ninja Run",comment:"Allows you to use the custom running action [Ninja Run]. Uses boost gauge to hide while running. Note: Cannot be used with Boost Run."}
+{id:38,name:"Riding Sniper",comment:"Reduce speed but increase range and projectiles speed by 1.2 when on the ground."}
 {id:39,name:"Glide Boost",comment:"Allows you to use the custom aerial dash action [Glide Boost]"}
 {id:42,name:"Boost Step",comment:"Allows you to use the custom dash action [Boost Step]. By flying just above the ground, allows for quick turns and rapid evasion."}
 {id:43,name:"Hyper Radiator",comment:"Reduces damage from Burning and Melt status, also reduces Slow from Melt status into Light Slow."}
-//{id:44,ex:1,name:"エクスラズ用ダミーカートリッジ",comment:"エクスラズフラム用ダミーカートッジ",cost:180}
+{id:44,name:"Meditation",comment:"Flight gauge recovers when using subweapons on the ground."}
 {id:47,name:"Air Step",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot."}
 // {id:48,name:"483",comment:"Increase Shell type attack by 15%."}
 // {id:49,name:"484",comment:"Increase Blast type attack by 15%."}

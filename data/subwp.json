@@ -2,7 +2,7 @@
 {id:1,name:"Garud Dagger",size:"S",type:"l",cost:120,sub:{str:100,pwr:28,rng:100,spd:250,itv:500}}
 {id:2,name:"Combination Dagger",size:"S",type:"la",cost:120,sub:{str:100,pwr:24,rng:80,spd:180,itv:500}}
 {id:3,name:"Cydron Knife",size:"M",type:"l",cost:80,sub:{str:100,pwr:28,rng:84,spd:102,itv:2000}}
-{id:4,name:"Assasin Edge",size:"SS",type:"l",cost:60,sub:{str:100,pwr:30,shl:"-",rng:150,spd:250,itv:1000}}
+{id:4,name:"Assasin Edge",size:"SS",type:"l",cost:60,sub:{str:100,pwr:30,rng:150,spd:250,itv:1000}}
 
 {group:"Swords",prefixID:"SW",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Short Sword",size:"M",cost:40,sub:{str:100,pwr:28,rng:77,spd:94,itv:500}}
@@ -10,8 +10,8 @@
 {id:3,name:"Broad Sword",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
 {id:4,name:"Great Sword",size:"L",type:"l",cost:120,sub:{str:100,pwr:33,rng:77,spd:94,itv:500}}
 {id:5,name:"Orge Sword",size:"LL",type:"l",cost:160,sub:{str:100,pwr:35,rng:77,spd:94,itv:500}}
-{id:6,name:"Metal Slayer",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:500}}
-{id:7,name:"Doom Slayer",size:"L",type:"l",cost:150,sub:{str:100,pwr:34,rng:84,spd:102,itv:500}}
+{id:6,name:"Metal Slayer",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
+{id:7,name:"Doom Slayer",size:"L",type:"l",cost:200,sub:{str:100,pwr:36,rng:80,spd:102,itv:500}}
 {id:8,name:"Reaper Scythe",size:"M",type:"la",cost:160,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:9,name:"Omnious Scythe",size:"M",type:"las",cost:200,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:10,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
@@ -47,12 +47,12 @@
 {id:40,name:"Byron Balde",size:"M",type:"l",cost:130,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 {id:41,name:"Oar Edge",size:"S",type:"l",cost:140,sub:{str:100,pwr:32,rng:100,spd:200,itv:2000}}
 {id:42,name:"Avalanche Sword",size:"L",type:"l",cost:160,sub:{str:100,pwr:36,rng:70,spd:90,itv:1000}}
-{id:43,name:"Kurenai Edge",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:84,itv:1000}}
-{id:44,name:"Kodachi",size:"S",type:"l",cost:40,sub:{str:100,pwr:32,shl:"-",rng:10,spd:10,itv:1000}}
-{id:45,name:"Brave Blade",size:"S",type:"l",cost:130,sub:{str:100,pwr:30,shl:"-",rng:77,spd:94,itv:1000}}
-{id:46,name:"Blitz Blade",size:"M",type:"a",cost:140,sub:{str:100,pwr:30,shl:100,rng:0,spd:10,itv:1600},auraStat:{sub:{str:100,pwr:32,shl:100,rng:150,spd:300,itv:1600}}}
+{id:43,name:"Kurenai Edge",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:84,itv:1000}}
+{id:44,name:"Kodachi",size:"S",type:"l",cost:40,sub:{str:100,pwr:32,rng:10,spd:10,itv:1000}}
+{id:45,name:"Brave Blade",size:"S",type:"l",cost:130,sub:{str:100,pwr:30,rng:77,spd:94,itv:1000}}
+{id:46,name:"Blitz Blade",size:"M",type:"a",cost:140,sub:{str:100,pwr:30,shl:100,spd:10,itv:1600},auraStat:{sub:{str:100,pwr:32,shl:100,rng:150,spd:300,itv:1600}}}
 {id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000}}
-{id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,shl:"-",rng:77,spd:94,itv:1000}}
+{id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
 {id:49,name:"Long Blade",size:"L",type:"l",cost:150,sub:{str:100,pwr:30,shl:100,rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
@@ -86,7 +86,7 @@
 {id:8,name:"Stag Claw",size:"M",type:"a",cost:100,sub:{str:100,pwr:26,rng:100,spd:200,itv:500}}
 {id:9,name:"Knight Lance",size:"S",type:"l",cost:130,sub:{str:100,pwr:28,rng:150,spd:80,itv:1000}}
 {id:10,name:"Halberd",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
-{id:11,name:"Zeus Brand",size:"LL",type:"l",cost:150,sub:{str:100,pwr:28,shl:"-",rng:150,spd:80,itv:500},auraStat:{sub:{str:100,pwr:30,shl:"-",rng:150,spd:80,itv:500}},tunable:{pwp:1}}
+{id:11,name:"Zeus Brand",size:"LL",type:"l",cost:150,sub:{str:100,pwr:28,rng:150,spd:80,itv:500},auraStat:{sub:{str:100,pwr:30,rng:150,spd:80,itv:500}},tunable:{pwp:1}}
 
 {group:"Staffs",prefixID:"SF"}
 {id:1,name:"Homura Staff",size:"M",cost:90,sub:{pwr:25,shl:180,rng:250,spd:290,itv:1000}}
@@ -101,7 +101,7 @@
 {id:6,name:"Canvas Shield",size:"M",cost:40}
 {id:7,name:"Crystalight Shield ALPHA",size:"M",cost:35}
 {id:8,name:"Riot Shield",size:"L",cost:40}
-{id:9,name:"Blitz Shield",size:"S",type:"l",cost:70,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},sub:{str:100,pwr:27,rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:9,name:"Blitz Shield",size:"S",type:"l",cost:70,main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:27,rng:70,spd:85,itv:1000},tunable:{mwp:1,pwp:1}}
 //{id:16,name:"-",slot:0}
 
 {group:"Others",prefixID:"SO"}
@@ -111,4 +111,4 @@
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
 {id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}
 {id:6,name:"Shinobi Dagger",size:"S",type:"l",cost:60,sub:{pwr:15,shl:270,rng:250,spd:480,itv:1000}}
-{id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,shl:"-",rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,shl:"-",rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}
+{id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}

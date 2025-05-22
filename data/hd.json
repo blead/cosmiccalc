@@ -1,76 +1,77 @@
 ﻿{group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
+{id:1,name:"Oboromaru HD2",type:"a",cost:105,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:31,shl:140,rng:275,spd:220,itv:1300},tunable:{mwp:1}}
 
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
-{id:1,name:"Zero Saber HD",cost:40,hp:25,str:2,tec:2,wlk:0,fly:0,tgh:1}
-{id:2,name:"Frog Lander HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
-{id:3,name:"Sword Wing HD",type:"a",cost:100,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:7,shl:600,rng:200,spd:480,itv:140},tunable:{mwp:1}}
-{id:4,name:"Cannon Baller HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:5,name:"Build Arm HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:0,tgh:1}
-{id:6,name:"Dikaros HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:1}
-{id:7,name:"Ace Braver HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:0,tgh:2}
-{id:8,name:"Misside HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:9,name:"Pawnger HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:1,name:"Zero Saber HD",cost:40,hp:25,str:2,tec:2,tgh:1}
+{id:2,name:"Frog Lander HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2}
+{id:3,name:"Sword Wing HD",type:"a",cost:100,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:7,shl:600,rng:200,spd:480,itv:140},tunable:{mwp:1}}
+{id:4,name:"Cannon Baller HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:5,name:"Build Arm HD",cost:40,hp:25,str:1,tec:2,wlk:1,tgh:1}
+{id:6,name:"Dikaros HD",cost:40,hp:25,str:1,wlk:2,fly:1,tgh:1}
+{id:7,name:"Ace Braver HD",cost:40,hp:25,str:1,tec:1,wlk:1,tgh:2}
+{id:8,name:"Misside HD",cost:40,hp:25,tec:2,wlk:1,tgh:2}
+{id:9,name:"Pawnger HD",cost:35,hp:20,str:2,wlk:1,tgh:2}
 {id:10,name:"Forcedriver HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:11,name:"Shine Buster HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:12,name:"Shine Battler HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:13,name:"Turtlebacker HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:0,tgh:2}
-{id:14,name:"Zero Saber NEXT HD",cost:40,hp:25,str:1,tec:0,wlk:3,fly:-1,tgh:2}
-{id:15,name:"Arteris HD",cost:80,hp:25,str:0,tec:2,wlk:1,fly:2,tgh:0,main:{pwr:6,shl:1560,rng:120,spd:400,itv:200},tunable:{mwp:1}}
-{id:16,name:"Zero Saber HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
-{id:17,name:"Wanders HD",type:"s",cost:135,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0,sub:{pwr:13,shl:420,rng:275,spd:290,itv:1000}}
-{id:18,name:"Alestar HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:0,tgh:2}
-{id:19,name:"Wanders HD2",type:"s",cost:75,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,sub:{pwr:30,shl:150,rng:250,spd:250,itv:1000}}
-{id:20,name:"Blume HD",type:"s",cost:70,hp:25,str:0,tec:0,wlk:2,fly:1,tgh:2,sub:{pwr:0,shl:20,rng:43,spd:63,itv:1000}}
+{id:13,name:"Turtlebacker HD",cost:35,hp:20,str:1,tec:2,tgh:2}
+{id:14,name:"Zero Saber NEXT HD",cost:40,hp:25,str:1,wlk:3,fly:-1,tgh:2}
+{id:15,name:"Arteris HD",cost:80,hp:25,tec:2,wlk:1,fly:2,main:{pwr:6,shl:1560,rng:120,spd:400,itv:200},tunable:{mwp:1}}
+{id:16,name:"Zero Saber HD2",cost:40,hp:25,tec:2,wlk:2,fly:-1,tgh:2}
+{id:17,name:"Wanders HD",type:"s",cost:135,hp:20,tec:2,wlk:2,fly:1,sub:{pwr:13,shl:420,rng:275,spd:290,itv:1000}}
+{id:18,name:"Alestar HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,tgh:2}
+{id:19,name:"Wanders HD2",type:"s",cost:75,hp:20,tec:2,fly:2,tgh:1,sub:{pwr:30,shl:150,rng:250,spd:250,itv:1000}}
+{id:20,name:"Blume HD",type:"s",cost:70,hp:25,wlk:2,fly:1,tgh:2,sub:{shl:20,rng:43,spd:63,itv:1000}}
 {id:21,name:"Yaksha HD",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}
 {id:22,name:"Zero Knight HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
-{id:23,name:"Tristan HD",cost:30,hp:15,str:0,tec:2,wlk:0,fly:0,tgh:2}
-{id:24,name:"F Ruhl HD",cost:35,hp:20,str:0,tec:1,wlk:0,fly:3,tgh:1}
-{id:25,name:"Rayminious HD",cost:35,hp:20,str:1,tec:2,wlk:-1,fly:3,tgh:0}
-{id:26,name:"Wanders HD4",type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1,sub:{pwr:0,shl:5,rng:0,spd:0,itv:1000}}
-{id:27,name:"G. Remoire HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:0,tgh:1}
-{id:28,name:"Kealmes HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0}
-{id:29,name:"M. Arch HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:30,name:"Swift HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:0}
+{id:23,name:"Tristan HD",cost:30,hp:15,tec:2,tgh:2}
+{id:24,name:"F Ruhl HD",cost:35,hp:20,tec:1,fly:3,tgh:1}
+{id:25,name:"Rayminious HD",cost:35,hp:20,str:1,tec:2,wlk:-1,fly:3}
+{id:26,name:"Wanders HD4",type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1,sub:{shl:5,itv:1000}}
+{id:27,name:"G. Remoire HD",cost:35,hp:20,str:-1,tec:3,wlk:2,tgh:1}
+{id:28,name:"Kealmes HD",cost:35,hp:20,tec:2,wlk:2,fly:1}
+{id:29,name:"M. Arch HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:30,name:"Swift HD",cost:35,hp:20,tec:2,wlk:2,fly:1}
 {id:31,name:"Sithina HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:32,name:"Pietta HD",cost:35,hp:20,str:-1,tec:3,wlk:0,fly:1,tgh:2}
+{id:32,name:"Pietta HD",cost:35,hp:20,str:-1,tec:3,fly:1,tgh:2}
 {id:33,name:"Dark Revenant HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:1,tgh:3}
 {id:34,name:"Wanders HD3",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:500,itv:700},sub:{pwr:1,shl:10,rng:60,spd:70,itv:1000},tunable:{mwp:1}}
-{id:35,name:"Medicarest HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
-{id:36,name:"Cloria HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
-{id:37,name:"Rabislip HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:1,tgh:0}
-{id:38,name:"Rayminious HD2",cost:35,hp:15,str:1,tec:2,wlk:0,fly:2,tgh:-1}
-{id:39,name:"Toy Khan HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:40,name:"S Irene HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
-{id:41,name:"Syverion HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0}
-{id:42,name:"Parasector Asis HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
-{id:43,name:"Mechled HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:0,tgh:1}
-{id:44,name:"A. Maid HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:1,tgh:1}
+{id:35,name:"Medicarest HD",cost:35,hp:20,str:1,wlk:2,tgh:2}
+{id:36,name:"Cloria HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:37,name:"Rabislip HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:1}
+{id:38,name:"Rayminious HD2",cost:35,hp:15,str:1,tec:2,fly:2,tgh:-1}
+{id:39,name:"Toy Khan HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:40,name:"S Irene HD",cost:40,hp:25,wlk:1,fly:3,tgh:1}
+{id:41,name:"Syverion HD",cost:30,hp:15,tec:2,wlk:1,fly:1}
+{id:42,name:"Parasector Asis HD",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
+{id:43,name:"Mechled HD",cost:30,hp:15,tec:2,wlk:1,tgh:1}
+{id:44,name:"A. Maid HD",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
 {id:45,name:"Butterflea HD2",type:"as",cost:125,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:5,shl:840,rng:200,spd:480,itv:140},tunable:{mwp:1}}
 {id:46,name:"Serpilis HD",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:1,tgh:1}
-{id:47,name:"Poul HD",type:"a",cost:130,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:32,shl:120,rng:275,spd:440,itv:1000},tunable:{mwp:1}}
-{id:48,name:"Pawnger HD2",cost:35,hp:20,str:3,tec:0,wlk:1,fly:0,tgh:1}
+{id:47,name:"Poul HD",type:"a",cost:130,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:32,shl:120,rng:275,spd:440,itv:1000},tunable:{mwp:1}}
+{id:48,name:"Pawnger HD2",cost:35,hp:20,str:3,wlk:1,tgh:1}
 {id:49,name:"Alestar HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1}
-{id:50,name:"Shadow Master HD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:2,tgh:-1}
+{id:50,name:"Shadow Master HD",cost:35,hp:20,str:2,wlk:2,fly:2,tgh:-1}
 {id:51,name:"Zero Saber HD3",cost:35,hp:20,str:1,tec:-1,wlk:3,fly:1,tgh:1}
 {id:52,name:"F Ruhl HD2",type:"a",cost:130,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:1,shl:1120,rng:200,spd:440,itv:140},tunable:{mwp:1}}
-{id:53,name:"Turn Air 1080 HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:2,tgh:0}
+{id:53,name:"Turn Air 1080 HD",cost:35,hp:20,str:2,wlk:1,fly:2}
 {id:54,name:"Elme S. HD",type:"s",cost:100,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:7,shl:720,rng:275,spd:150,itv:200},tunable:{mwp:1}}
-{id:55,name:"Pelena HD",type:"s",cost:80,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1,sub:{pwr:0,shl:10,rng:43,spd:63,itv:1000}}
-{id:56,name:"Shadow Hunter HD",cost:30,hp:15,str:0,tec:1,wlk:2,fly:0,tgh:1}
-{id:57,name:"Tina HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0}
+{id:55,name:"Pelena HD",type:"s",cost:80,hp:25,tec:2,wlk:1,fly:1,tgh:1,sub:{shl:10,rng:43,spd:63,itv:1000}}
+{id:56,name:"Shadow Hunter HD",cost:30,hp:15,tec:1,wlk:2,tgh:1}
+{id:57,name:"Tina HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
 {id:58,name:"Ace Braver HD2",cost:35,hp:20,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 {id:59,name:"Staggeed HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:60,name:"Beatram HD",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:1,tgh:3}
 {id:61,name:"Arteris HD2",type:"lcs",cost:80,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2,main:{pwr:5,shl:1000,rng:250,spd:400,itv:340},tunable:{mwp:1}}
-{id:62,name:"Stild HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1}
-{id:63,name:"S. Irene HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:3,tgh:1}
-{id:64,name:"Poul HD2",type:"a",cost:105,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,main:{pwr:17,shl:450,rng:275,spd:400,itv:300},tunable:{mwp:1}}
-{id:65,name:"Marine Diver HD",cost:95,hp:20,str:-1,tec:2,wlk:2,fly:0,tgh:2,main:{pwr:15,shl:280,rng:330,spd:280,itv:680},auraStat:{str:-1,tec:2,wlk:2,fly:0,tgh:2,main:{pwr:16,shl:340,rng:330,spd:280,itv:580}},tunable:{mwp:1}}
-{id:66,name:"Beezle HD",cost:30,hp:15,str:1,tec:1,wlk:0,fly:2,tgh:0}
-{id:67,name:"Crabberoid HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:1,tgh:0}
-{id:68,name:"Shadow Hunter HD3",type:"l",cost:75,hp:20,str:-1,tec:2,wlk:3,fly:0,tgh:1,main:{pwr:6,shl:1260,rng:225,spd:440,itv:300},tunable:{mwp:1}}
+{id:62,name:"Stild HD",cost:35,hp:20,tec:1,wlk:2,fly:1,tgh:1}
+{id:63,name:"S. Irene HD",cost:40,hp:25,wlk:1,fly:3,tgh:1}
+{id:64,name:"Poul HD2",type:"a",cost:105,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:17,shl:450,rng:275,spd:400,itv:300},tunable:{mwp:1}}
+{id:65,name:"Marine Diver HD",cost:95,hp:20,str:-1,tec:2,wlk:2,tgh:2,main:{pwr:15,shl:280,rng:330,spd:280,itv:680},auraStat:{str:-1,tec:2,wlk:2,tgh:2,main:{pwr:16,shl:340,rng:330,spd:280,itv:580}},tunable:{mwp:1}}
+{id:66,name:"Beezle HD",cost:30,hp:15,str:1,tec:1,fly:2}
+{id:67,name:"Crabberoid HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:1}
+{id:68,name:"Shadow Hunter HD3",type:"l",cost:75,hp:20,str:-1,tec:2,wlk:3,tgh:1,main:{pwr:6,shl:1260,rng:225,spd:440,itv:300},tunable:{mwp:1}}
 {id:69,name:"Leveil HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
-{id:70,name:"Sword Wing HD3",type:"a",cost:95,hp:20,str:-1,tec:0,wlk:3,fly:0,tgh:3,main:{pwr:13,shl:380,rng:275,spd:320,itv:500},tunable:{mwp:1}}
+{id:70,name:"Sword Wing HD3",type:"a",cost:95,hp:20,str:-1,wlk:3,tgh:3,main:{pwr:13,shl:380,rng:275,spd:320,itv:500},tunable:{mwp:1}}
 {id:71,name:"Setsuka HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 {id:72,name:"Toy Khan HD2",cost:35,hp:20,str:1,tec:1,tgh:3}
 {id:73,name:"Build Arm HD2",cost:35,hp:20,tec:3,wlk:1,tgh:1}
@@ -79,392 +80,392 @@
 {id:76,name:"Setsuka HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
-{id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:0,tgh:0}
-{id:2,name:"Saggitary Maxis HD",cost:40,hp:25,str:0,tec:2,wlk:0,fly:0,tgh:3}
-{id:3,name:"Pulsardio HD",cost:40,hp:25,str:0,tec:3,wlk:1,fly:0,tgh:1}
-{id:4,name:"Hound Dog HD",cost:40,hp:20,str:1,tec:2,wlk:1,fly:1,tgh:0}
-{id:5,name:"Scaregant HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:2,tgh:-1}
-{id:6,name:"Mighty Byne HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
-{id:7,name:"Axion HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:0,tgh:3}
+{id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2}
+{id:2,name:"Saggitary Maxis HD",cost:40,hp:25,tec:2,tgh:3}
+{id:3,name:"Pulsardio HD",cost:40,hp:25,tec:3,wlk:1,tgh:1}
+{id:4,name:"Hound Dog HD",cost:40,hp:20,str:1,tec:2,wlk:1,fly:1}
+{id:5,name:"Scaregant HD",cost:40,hp:25,str:2,wlk:2,fly:2,tgh:-1}
+{id:6,name:"Mighty Byne HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1}
+{id:7,name:"Axion HD",cost:40,hp:25,tec:1,wlk:1,tgh:3}
 {id:8,name:"Estes HD",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:1,tgh:1}
-{id:9,name:"Baltheon HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:1,tgh:2}
+{id:9,name:"Baltheon HD",cost:40,hp:25,str:1,tec:1,fly:1,tgh:2}
 {id:10,name:"Psycho Cluster HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 {id:11,name:"Ramdiver HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:1,tgh:2}
-{id:12,name:"Amateus HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
-{id:13,name:"Toybox HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:1,tgh:1}
-{id:14,name:"Buff Devastator HD",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:0,tgh:3}
-{id:15,name:"Bugsycait HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2,tgh:0}
-{id:16,name:"Zero Fighter HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:17,name:"Snailbot HD",type:"c",cost:65,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:3,shl:2560,rng:160,spd:480,itv:140},tunable:{mwp:1}}
-{id:18,name:"Katana Max HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:19,name:"Sturbanger HD",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:1,tgh:3}
+{id:12,name:"Amateus HD",cost:40,hp:25,str:2,wlk:2,fly:1}
+{id:13,name:"Toybox HD",cost:40,hp:25,str:2,wlk:1,fly:1,tgh:1}
+{id:14,name:"Buff Devastator HD",cost:40,hp:25,str:1,tec:-1,wlk:2,tgh:3}
+{id:15,name:"Bugsycait HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2}
+{id:16,name:"Zero Fighter HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:17,name:"Snailbot HD",type:"c",cost:65,hp:25,tec:2,wlk:2,tgh:1,main:{pwr:3,shl:2560,rng:160,spd:480,itv:140},tunable:{mwp:1}}
+{id:18,name:"Katana Max HD",cost:40,hp:25,tec:2,wlk:1,tgh:2}
+{id:19,name:"Sturbanger HD",cost:40,hp:25,str:2,tec:-1,fly:1,tgh:3}
 {id:20,name:"Blazed Baron HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
-{id:21,name:"Tonitrus HD",cost:40,hp:25,str:2,tec:3,wlk:1,fly:0,tgh:-1}
-{id:22,name:"Gun Arms HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:0,tgh:2}
+{id:21,name:"Tonitrus HD",cost:40,hp:25,str:2,tec:3,wlk:1,tgh:-1}
+{id:22,name:"Gun Arms HD",cost:35,hp:20,tec:1,wlk:2,tgh:2}
 {id:23,name:"Mediger HD",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:1,tgh:1}
 {id:24,name:"Byakkou HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
-{id:25,name:"Seiron HD",type:"a",cost:80,hp:25,str:-1,tec:3,wlk:0,fly:2,tgh:1,auraStat:{str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:27,shl:140,rng:275,spd:440,itv:640}},tunable:{mwp:1}}
-{id:26,name:"Suzeku HD",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
-{id:27,name:"Genbura HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
-{id:28,name:"Cosmo Kaiser HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:29,name:"Crescent Saint HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
-{id:30,name:"Sol Volca Wing HD",cost:40,hp:25,str:3,tec:-1,wlk:0,fly:2,tgh:1}
+{id:25,name:"Seiron HD",type:"a",cost:80,hp:25,str:-1,tec:3,fly:2,tgh:1,auraStat:{str:-1,tec:3,fly:2,tgh:1,main:{pwr:27,shl:140,rng:275,spd:440,itv:640}},tunable:{mwp:1}}
+{id:26,name:"Suzeku HD",cost:40,hp:25,str:2,wlk:-1,fly:2,tgh:2}
+{id:27,name:"Genbura HD",cost:40,hp:25,str:1,tec:2,fly:1,tgh:1}
+{id:28,name:"Cosmo Kaiser HD2",cost:40,hp:25,tec:2,wlk:2,tgh:1}
+{id:29,name:"Crescent Saint HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1}
+{id:30,name:"Sol Volca Wing HD",cost:40,hp:25,str:3,tec:-1,fly:2,tgh:1}
 {id:31,name:"Cosmo Kaiser HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:32,name:"Cannonballer HL HD",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
-{id:33,name:"Volcanics HD",cost:120,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1}}
-{id:34,name:"Sword Wing HD2",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:1}
-{id:35,name:"Garulabird HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:2,tgh:0}
-{id:36,name:"Sea Turtlebacker HD",cost:40,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
-{id:37,name:"Butterflea HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:1,tgh:1}
-{id:38,name:"Vulder HD",type:"a",cost:40,hp:25,str:1,tec:2,wlk:0,fly:0,tgh:2,auraStat:{str:1,tec:2,wlk:0,fly:0,tgh:2,main:{pwr:26,shl:140,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
-{id:39,name:"Mantiscythe HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:-1,tgh:3}
-{id:40,name:"Needle Mole HD",cost:40,hp:25,str:0,tec:0,wlk:2,fly:2,tgh:1}
-{id:41,name:"Woolmerry HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:32,name:"Cannonballer HL HD",cost:40,hp:25,tec:2,wlk:2,fly:-1,tgh:2}
+{id:33,name:"Volcanics HD",cost:120,hp:20,tec:2,fly:2,tgh:1,main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1}}
+{id:34,name:"Sword Wing HD2",cost:35,hp:20,str:2,tec:-1,fly:2,tgh:1}
+{id:35,name:"Garulabird HD",cost:40,hp:25,str:1,tec:2,fly:2}
+{id:36,name:"Sea Turtlebacker HD",cost:40,hp:20,tec:1,fly:2,tgh:2}
+{id:37,name:"Butterflea HD",cost:40,hp:25,str:1,wlk:2,fly:1,tgh:1}
+{id:38,name:"Vulder HD",type:"a",cost:40,hp:25,str:1,tec:2,tgh:2,auraStat:{str:1,tec:2,tgh:2,main:{pwr:26,shl:140,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
+{id:39,name:"Mantiscythe HD",cost:40,hp:25,str:1,tec:2,fly:-1,tgh:3}
+{id:40,name:"Needle Mole HD",cost:40,hp:25,wlk:2,fly:2,tgh:1}
+{id:41,name:"Woolmerry HD",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:42,name:"Fizalivan HD",type:"l",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:20,shl:210,rng:225,spd:440,itv:800},tunable:{mwp:1}}
-{id:43,name:"Tonosama Lander HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
+{id:43,name:"Tonosama Lander HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
 {id:44,name:"Tentrion HD",type:"a",cost:105,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:7,shl:440,rng:275,spd:350,itv:760},tunable:{mwp:1}}
-{id:45,name:"Nuttz Bombrisu HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
-{id:46,name:"Lancelot HD2",cost:40,hp:25,str:0,tec:1,wlk:1,fly:0,tgh:3}
-{id:47,name:"Lancelot HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:0,tgh:3}
-{id:48,name:"Pacifar HD",cost:40,hp:20,str:1,tec:2,wlk:2,fly:0,tgh:0}
+{id:45,name:"Nuttz Bombrisu HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:46,name:"Lancelot HD2",cost:40,hp:25,tec:1,wlk:1,tgh:3}
+{id:47,name:"Lancelot HD",cost:40,hp:25,str:1,tec:1,tgh:3}
+{id:48,name:"Pacifar HD",cost:40,hp:20,str:1,tec:2,wlk:2}
 {id:49,name:"Dismoke HD",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
-{id:50,name:"Sigma Clock HD",cost:40,hp:25,str:0,tec:0,wlk:1,fly:1,tgh:3}
-{id:51,name:"Albatreos HD",type:"c",cost:80,hp:25,str:-1,tec:3,wlk:1,fly:2,tgh:0,main:{pwr:16,shl:160,rng:330,spd:290,itv:600},tunable:{mwp:1}}
-{id:52,name:"Vector HD",cost:40,hp:25,str:1,tec:3,wlk:0,fly:2,tgh:-1}
-{id:53,name:"Shaden HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:0,tgh:2}
-{id:54,name:"Hatigarm HD",cost:40,hp:25,str:2,tec:1,wlk:0,fly:2,tgh:0}
-{id:55,name:"Bloody Star HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
+{id:50,name:"Sigma Clock HD",cost:40,hp:25,wlk:1,fly:1,tgh:3}
+{id:51,name:"Albatreos HD",type:"c",cost:80,hp:25,str:-1,tec:3,wlk:1,fly:2,main:{pwr:16,shl:160,rng:330,spd:290,itv:600},tunable:{mwp:1}}
+{id:52,name:"Vector HD",cost:40,hp:25,str:1,tec:3,fly:2,tgh:-1}
+{id:53,name:"Shaden HD",cost:40,hp:25,str:1,tec:1,wlk:1,tgh:2}
+{id:54,name:"Hatigarm HD",cost:40,hp:25,str:2,tec:1,fly:2}
+{id:55,name:"Bloody Star HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
 {id:56,name:"Lios HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:1,tgh:1}
-{id:57,name:"Persecius HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:3,tgh:1}
+{id:57,name:"Persecius HD",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
 {id:58,name:"Hecatocles HD",cost:35,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 {id:59,name:"Orphenous HD",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:2,tgh:1}
-{id:60,name:"Zero Breaker HD",cost:40,hp:25,str:2,tec:2,wlk:2,fly:0,tgh:-1}
-{id:61,name:"Zero Fighter NEXT HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
-{id:62,name:"Destructor MAX HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:1,tgh:3}
+{id:60,name:"Zero Breaker HD",cost:40,hp:25,str:2,tec:2,wlk:2,tgh:-1}
+{id:61,name:"Zero Fighter NEXT HD",cost:40,hp:25,str:2,wlk:2,fly:1}
+{id:62,name:"Destructor MAX HD",cost:40,hp:25,str:-1,tec:2,fly:1,tgh:3}
 {id:63,name:"RAM Soljetter HD",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
-{id:64,name:"Destructor HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:0,tgh:2}
+{id:64,name:"Destructor HD",cost:40,hp:25,str:1,tec:2,tgh:2}
 {id:65,name:"Contradict HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
-{id:66,name:"Mecha Jetter HD",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:67,name:"Soljetter HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:2,tgh:1}
-{id:68,name:"Victorl HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:1,tgh:3}
-{id:69,name:"Hoverion HD",cost:30,hp:15,str:1,tec:2,wlk:0,fly:0,tgh:1}
-{id:70,name:"Mach Knight HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
+{id:66,name:"Mecha Jetter HD",cost:35,hp:20,tec:2,fly:2,tgh:1}
+{id:67,name:"Soljetter HD",cost:40,hp:25,str:1,tec:1,fly:2,tgh:1}
+{id:68,name:"Victorl HD",cost:40,hp:25,tec:2,wlk:-1,fly:1,tgh:3}
+{id:69,name:"Hoverion HD",cost:30,hp:15,str:1,tec:2,tgh:1}
+{id:70,name:"Mach Knight HD",cost:40,hp:25,str:1,tec:1,wlk:2,tgh:1}
 {id:71,name:"Blitzelt HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
-{id:72,name:"Cross Raptor HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2}
-{id:73,name:"Ghost Rider HD",cost:40,hp:25,str:1,tec:2,wlk:0,fly:1,tgh:1}
-{id:74,name:"Landoss HD",cost:40,hp:25,str:0,tec:1,wlk:2,fly:0,tgh:2}
-{id:75,name:"Cydron HD2",cost:40,hp:25,str:1,tec:-1,wlk:3,fly:0,tgh:2}
-{id:76,name:"Wardus HD2",cost:40,hp:25,str:0,tec:3,wlk:1,fly:-1,tgh:2}
-{id:77,name:"Hoplites HD",cost:40,hp:20,str:2,tec:3,wlk:-1,fly:1,tgh:0}
-{id:78,name:"AchtSieben HD2",cost:40,hp:25,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:72,name:"Cross Raptor HD",cost:40,hp:25,str:-1,tec:2,fly:2,tgh:2}
+{id:73,name:"Ghost Rider HD",cost:40,hp:25,str:1,tec:2,fly:1,tgh:1}
+{id:74,name:"Landoss HD",cost:40,hp:25,tec:1,wlk:2,tgh:2}
+{id:75,name:"Cydron HD2",cost:40,hp:25,str:1,tec:-1,wlk:3,tgh:2}
+{id:76,name:"Wardus HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
+{id:77,name:"Hoplites HD",cost:40,hp:20,str:2,tec:3,wlk:-1,fly:1}
+{id:78,name:"AchtSieben HD2",cost:40,hp:25,tec:1,wlk:2,fly:1,tgh:1}
 {id:79,name:"Might Bomber HD2",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
-{id:80,name:"Voltis HD",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2}
-{id:81,name:"Mighty Byne HD2",cost:40,hp:25,str:2,tec:0,wlk:2,fly:1,tgh:0}
+{id:80,name:"Voltis HD",cost:40,hp:25,tec:2,wlk:-1,fly:2,tgh:2}
+{id:81,name:"Mighty Byne HD2",cost:40,hp:25,str:2,wlk:2,fly:1}
 {id:82,name:"Fairys HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
-{id:83,name:"Vanguard HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
-{id:84,name:"Gathima HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1,tgh:0}
+{id:83,name:"Vanguard HD",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
+{id:84,name:"Gathima HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1}
 {id:85,name:"Lux HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:3}
-{id:86,name:"Psycho Formula HD2",type:"c",cost:100,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:280,rng:330,spd:290,itv:740},tunable:{mwp:1}}
-{id:87,name:"Cross Raptor HD2",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2}
+{id:86,name:"Psycho Formula HD2",type:"c",cost:100,hp:25,str:-1,tec:3,fly:1,tgh:2,main:{pwr:15,shl:280,rng:330,spd:290,itv:740},tunable:{mwp:1}}
+{id:87,name:"Cross Raptor HD2",cost:40,hp:25,str:2,tec:-1,fly:2,tgh:2}
 {id:88,name:"Ghost Rider HD2",cost:40,hp:25,str:2,tec:1,wlk:-1,fly:1,tgh:2}
 {id:89,name:"Geograsis HD2",cost:40,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1}
-{id:90,name:"Kuschelb HD",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:2,tgh:2}
-{id:91,name:"Knightger HD2",cost:40,hp:25,str:3,tec:0,wlk:0,fly:0,tgh:2}
-{id:92,name:"Bugsycait HD2",cost:40,hp:20,str:2,tec:-1,wlk:3,fly:1,tgh:0}
+{id:90,name:"Kuschelb HD",cost:35,hp:20,str:2,tec:-1,fly:2,tgh:2}
+{id:91,name:"Knightger HD2",cost:40,hp:25,str:3,tgh:2}
+{id:92,name:"Bugsycait HD2",cost:40,hp:20,str:2,tec:-1,wlk:3,fly:1}
 {id:93,name:"Sturbanger HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:94,name:"Cinbydion HD",cost:40,hp:25,str:3,tec:2,wlk:0,fly:0,tgh:0}
-{id:95,name:"Initone HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3,tgh:0}
-{id:96,name:"Chrotacs HD2",cost:40,hp:25,str:0,tec:0,wlk:2,fly:2,tgh:1}
+{id:94,name:"Cinbydion HD",cost:40,hp:25,str:3,tec:2}
+{id:95,name:"Initone HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3}
+{id:96,name:"Chrotacs HD2",cost:40,hp:25,wlk:2,fly:2,tgh:1}
 {id:97,name:"Rosso Aspide HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:98,name:"A. Miral HD",type:"l",cost:115,hp:20,str:0,tec:3,wlk:2,fly:-1,tgh:1,main:{pwr:6,shl:2580,rng:250,spd:440,itv:200},tunable:{mwp:1}}
+{id:98,name:"A. Miral HD",type:"l",cost:115,hp:20,tec:3,wlk:2,fly:-1,tgh:1,main:{pwr:6,shl:2580,rng:250,spd:440,itv:200},tunable:{mwp:1}}
 {id:99,name:"Ragna Barret HD",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
-{id:100,name:"Pulsardio HD2",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
-{id:101,name:"Steel Burn HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:-1,tgh:3}
-{id:102,name:"Cataloss HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:103,name:"Antlion HD",cost:40,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2}
-{id:104,name:"Blazed Baron HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:2}
+{id:100,name:"Pulsardio HD2",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
+{id:101,name:"Steel Burn HD",cost:40,hp:25,str:1,wlk:2,fly:-1,tgh:3}
+{id:102,name:"Cataloss HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
+{id:103,name:"Antlion HD",cost:40,hp:25,tec:2,fly:1,tgh:2}
+{id:104,name:"Blazed Baron HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,tgh:2}
 {id:105,name:"Gotrun HD",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:1,tgh:1}
-{id:106,name:"Geograsis HD",cost:40,hp:25,str:2,tec:1,wlk:0,fly:1,tgh:1}
-{id:107,name:"Hatigarm HD2",cost:40,hp:25,str:2,tec:0,wlk:2,fly:0,tgh:1}
+{id:106,name:"Geograsis HD",cost:40,hp:25,str:2,tec:1,fly:1,tgh:1}
+{id:107,name:"Hatigarm HD2",cost:40,hp:25,str:2,wlk:2,tgh:1}
 {id:108,name:"Brigand Baron HD",cost:30,hp:15,str:1,tec:2,wlk:1,fly:-1,tgh:1}
 {id:109,name:"Liefy HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
-{id:110,name:"Brink HD",cost:40,hp:25,str:1,tec:3,wlk:0,fly:-1,tgh:2}
-{id:111,name:"Saber Raystag HD",type:"a",cost:180,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2,main:{pwr:6,shl:1170,rng:275,spd:350,itv:1000},tunable:{mwp:1}}
-{id:112,name:"Heracles Beetlander HD",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2,sub:{str:100,pwr:36,rng:0,spd:320,itv:1000},tunable:{pwp:1}}
-{id:113,name:"Steel Rider HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2}
+{id:110,name:"Brink HD",cost:40,hp:25,str:1,tec:3,fly:-1,tgh:2}
+{id:111,name:"Saber Raystag HD",type:"a",cost:180,hp:25,str:-1,tec:3,fly:1,tgh:2,main:{pwr:6,shl:1170,rng:275,spd:350,itv:1000},tunable:{mwp:1}}
+{id:112,name:"Heracles Beetlander HD",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:36,spd:320,itv:1000},tunable:{pwp:1}}
+{id:113,name:"Steel Rider HD2",cost:40,hp:25,tec:2,wlk:2,fly:-1,tgh:2}
 {id:114,name:"Cyberoid HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
-{id:115,name:"Scorpton HD2",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:116,name:"Victory HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:117,name:"King Megaton HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2}
-{id:118,name:"Cataloss HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:1,tgh:2}
-{id:119,name:"King Gigaton HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:1,tgh:2}
-{id:120,name:"Big Mountaiz HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:121,name:"Ogreil HD",cost:40,hp:25,str:0,tec:1,wlk:2,fly:1,tgh:1}
+{id:115,name:"Scorpton HD2",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:116,name:"Victory HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:117,name:"King Megaton HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
+{id:118,name:"Cataloss HD",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
+{id:119,name:"King Gigaton HD",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
+{id:120,name:"Big Mountaiz HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
+{id:121,name:"Ogreil HD",cost:40,hp:25,tec:1,wlk:2,fly:1,tgh:1}
 {id:122,name:"Amateus HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:123,name:"Psycho Cluster HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:0}
+{id:123,name:"Psycho Cluster HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:124,name:"Shaden HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:125,name:"Domiclown HD2",cost:40,hp:25,str:0,tec:1,wlk:2,fly:0,tgh:2}
-{id:126,name:"Synoris HD2",type:"l",cost:75,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2,main:{pwr:10,shl:320,rng:330,spd:440,itv:500},tunable:{mwp:1}}
+{id:125,name:"Domiclown HD2",cost:40,hp:25,tec:1,wlk:2,tgh:2}
+{id:126,name:"Synoris HD2",type:"l",cost:75,hp:20,tec:1,wlk:1,fly:1,tgh:2,main:{pwr:10,shl:320,rng:330,spd:440,itv:500},tunable:{mwp:1}}
 {id:127,name:"Scaregant HD2",cost:40,hp:25,str:1,tec:2,wlk:1,fly:-1,tgh:2}
 {id:128,name:"Sturbanger HD3",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:129,name:"Meteora HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:1,tgh:2}
-{id:130,name:"Shadow Kinesis HD",cost:40,hp:25,str:0,tec:3,wlk:1,fly:1,tgh:0}
-{id:131,name:"Zarid HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2}
+{id:129,name:"Meteora HD",cost:35,hp:20,tec:2,wlk:2,fly:1,tgh:2}
+{id:130,name:"Shadow Kinesis HD",cost:40,hp:25,tec:3,wlk:1,fly:1}
+{id:131,name:"Zarid HD",cost:40,hp:25,str:2,tec:-1,wlk:2,tgh:2}
 {id:132,name:"Robin Hunter HD",cost:35,hp:20,str:1,tec:3,wlk:1,fly:-1,tgh:1}
-{id:133,name:"K Nonna HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2}
-{id:134,name:"Wizamel HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1}
-{id:135,name:"Flapjack HD",type:"a",cost:100,hp:25,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:720},tunable:{mwp:1},auraStat:{str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:8,shl:900,rng:275,spd:350,itv:240}}}
-{id:136,name:"Vanguard HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
+{id:133,name:"K Nonna HD",cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
+{id:134,name:"Wizamel HD",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
+{id:135,name:"Flapjack HD",type:"a",cost:100,hp:25,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:6,shl:900,rng:275,spd:350,itv:720},tunable:{mwp:1},auraStat:{tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:8,shl:900,rng:275,spd:350,itv:240}}}
+{id:136,name:"Vanguard HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,tgh:3}
 {id:137,name:"Raclaboros HD",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:1,tgh:1}
-{id:138,name:"Domiclown HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:0,tgh:2}
+{id:138,name:"Domiclown HD",cost:40,hp:25,str:1,wlk:2,tgh:2}
 {id:139,name:"Synoris HD",cost:35,hp:20,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 {id:140,name:"Brickgale HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1}
-{id:141,name:"Lucca Decho HD",cost:40,hp:25,str:2,tec:-1,wlk:0,fly:2,tgh:2}
+{id:141,name:"Lucca Decho HD",cost:40,hp:25,str:2,tec:-1,fly:2,tgh:2}
 {id:142,name:"Wolf Rayet HD",cost:40,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
-{id:143,name:"Might Bomber HD",cost:40,hp:25,str:1,tec:0,wlk:0,fly:2,tgh:2}
-{id:144,name:"High Priestol HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:145,name:"Shaden HD3",cost:40,hp:25,str:-1,tec:0,wlk:2,fly:2,tgh:2}
+{id:143,name:"Might Bomber HD",cost:40,hp:25,str:1,fly:2,tgh:2}
+{id:144,name:"High Priestol HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
+{id:145,name:"Shaden HD3",cost:40,hp:25,str:-1,wlk:2,fly:2,tgh:2}
 {id:146,name:"Hygerkun HD",cost:40,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1}
-{id:147,name:"Hoverion Magna HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:148,name:"Valiant HD",cost:35,hp:20,str:1,tec:2,wlk:0,fly:2,tgh:0}
+{id:147,name:"Hoverion Magna HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
+{id:148,name:"Valiant HD",cost:35,hp:20,str:1,tec:2,fly:2}
 {id:149,name:"Airyad HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:150,name:"Sovlancer HD",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-{id:151,name:"Chrotacs HD",cost:40,hp:25,str:2,tec:0,wlk:2,fly:0,tgh:1}
+{id:151,name:"Chrotacs HD",cost:40,hp:25,str:2,wlk:2,tgh:1}
 {id:152,name:"Rampernel HD",type:"l",cost:65,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,main:{str:100,pwr:5,shl:600,rng:225,spd:400,itv:300},tunable:{mwp:1}}
-{id:153,name:"Insernect HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:0,tgh:3}
+{id:153,name:"Insernect HD",cost:35,hp:20,tec:1,wlk:1,tgh:3}
 {id:154,name:"Gaster HD",type:"c",cost:135,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1,main:{pwr:30,shl:160,rng:330,spd:360,itv:1000},tunable:{mwp:1}}
 {id:155,name:"Titancoil HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 {id:156,name:"Dragonail HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:157,name:"Theoreigne HD",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
-{id:158,name:"Satyx HD",cost:35,hp:20,str:-1,tec:0,wlk:1,fly:2,tgh:3}
+{id:158,name:"Satyx HD",cost:35,hp:20,str:-1,wlk:1,fly:2,tgh:3}
 {id:159,name:"Gun Drill HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1,joint:{hdac:0,fcac:0}}
 {id:160,name:"Crystas HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
-{id:162,name:"Vanguard HD2",cost:40,hp:25,str:0,tec:1,wlk:0,fly:1,tgh:3}
-{id:163,name:"Ilgryps HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:1,tgh:3}
+{id:162,name:"Vanguard HD2",cost:40,hp:25,tec:1,fly:1,tgh:3}
+{id:163,name:"Ilgryps HD",cost:35,hp:20,str:-1,tec:2,fly:1,tgh:3}
 {id:164,name:"Armed Build Arm HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:165,name:"Gaderoga HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:166,name:"Gaderoga HD3",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:167,name:"Recipro HD",cost:35,hp:20,str:0,tec:1,wlk:-1,fly:2,tgh:3}
-{id:168,name:"Zarid HD2",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:0,tgh:2}
-{id:169,name:"Psycho Formula HD3",type:"c",cost:75,hp:20,str:0,tec:3,wlk:-1,fly:2,tgh:1,main:{pwr:14,shl:290,rng:330,spd:220,itv:600},tunable:{mwp:1}}
+{id:165,name:"Gaderoga HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:166,name:"Gaderoga HD3",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:167,name:"Recipro HD",cost:35,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
+{id:168,name:"Zarid HD2",cost:40,hp:25,str:-1,tec:2,wlk:2,tgh:2}
+{id:169,name:"Psycho Formula HD3",type:"c",cost:75,hp:20,tec:3,wlk:-1,fly:2,tgh:1,main:{pwr:14,shl:290,rng:330,spd:220,itv:600},tunable:{mwp:1}}
 {id:170,name:"Oboromaru HD",cost:35,hp:20,str:3,tec:1,wlk:1,fly:1,tgh:-1}
 {id:171,name:"Combat Freed HD2",type:"l",cost:65,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1}}
-{id:172,name:"Growldian HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:0,tgh:1}
-{id:173,name:"Generaldo HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
+{id:172,name:"Growldian HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
+{id:173,name:"Generaldo HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
 {id:174,name:"Solfrost HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
-{id:175,name:"Flash Bomber HD",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:1,tgh:3}
-{id:176,name:"Shroomash HD",cost:35,hp:20,str:0,tec:2,wlk:0,fly:1,tgh:2}
+{id:175,name:"Flash Bomber HD",cost:35,hp:20,str:-1,tec:2,fly:1,tgh:3}
+{id:176,name:"Shroomash HD",cost:35,hp:20,tec:2,fly:1,tgh:2}
 {id:177,name:"Scaraboss HD",type:"c",cost:60,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:20,itv:1000}}
 {id:178,name:"Sieg HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:179,name:"Brickgale HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:180,name:"Gyallanbard HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
-{id:181,name:"Fulcrum HD",cost:35,hp:20,str:2,tec:0,wlk:-1,fly:2,tgh:2}
+{id:181,name:"Fulcrum HD",cost:35,hp:20,str:2,wlk:-1,fly:2,tgh:2}
 {id:182,name:"Genesion HD",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:3,tgh:1}
-{id:183,name:"Dartanis HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:1,tgh:0}
-{id:184,name:"Theoreigne HD3",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
-{id:185,name:"Domiclown HD4",type:"l",cost:70,hp:25,str:2,tec:1,wlk:0,fly:-1,tgh:3,sub:{pwr:0,shl:5,rng:0,spd:0,itv:3000}}
-{id:186,name:"A. Miral HD2",type:"l",cost:80,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:7,shl:440,rng:250,spd:440,itv:260},tunable:{mwp:1}}
-{id:187,name:"P. Mona HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0}
+{id:183,name:"Dartanis HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,fly:1}
+{id:184,name:"Theoreigne HD3",cost:35,hp:20,str:2,wlk:1,tgh:2}
+{id:185,name:"Domiclown HD4",type:"l",cost:70,hp:25,str:2,tec:1,fly:-1,tgh:3,sub:{shl:5,itv:3000}}
+{id:186,name:"A. Miral HD2",type:"l",cost:80,hp:20,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:7,shl:440,rng:250,spd:440,itv:260},tunable:{mwp:1}}
+{id:187,name:"P. Mona HD",cost:35,hp:20,tec:2,wlk:1,fly:2}
 {id:188,name:"Knightgear PF HD",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:189,name:"Knightgear RF HD",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0}
-{id:190,name:"High Priestol G HD",cost:35,hp:20,str:1,tec:1,wlk:0,fly:0,tgh:3}
+{id:189,name:"Knightgear RF HD",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:2}
+{id:190,name:"High Priestol G HD",cost:35,hp:20,str:1,tec:1,tgh:3}
 {id:191,name:"Hard Bomber HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
-{id:192,name:"Transonic HD",cost:35,hp:20,str:1,tec:-1,wlk:0,fly:2,tgh:3}
-{id:193,name:"Kuschelb HD2",cost:35,hp:20,str:2,tec:0,wlk:0,fly:0,tgh:3}
-{id:194,name:"Sturbanger HD4",cost:40,hp:25,str:3,tec:-1,wlk:0,fly:1,tgh:2}
+{id:192,name:"Transonic HD",cost:35,hp:20,str:1,tec:-1,fly:2,tgh:3}
+{id:193,name:"Kuschelb HD2",cost:35,hp:20,str:2,tgh:3}
+{id:194,name:"Sturbanger HD4",cost:40,hp:25,str:3,tec:-1,fly:1,tgh:2}
 {id:195,name:"Griest HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:196,name:"Dreiblitz HD",cost:30,hp:15,str:0,tec:2,wlk:2,fly:-1,tgh:1}
-{id:197,name:"Crugis HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:0,tgh:3}
-{id:198,name:"Axion HD2",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
-{id:199,name:"Tierouge HD",cost:40,hp:25,str:-1,tec:3,wlk:0,fly:1,tgh:2}
-{id:200,name:"Red Squealer HD",cost:35,hp:20,str:2,tec:2,wlk:1,fly:0,tgh:0}
-{id:201,name:"Jack Gadget HD2",type:"as",cost:95,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1,main:{pwr:11,shl:720,rng:160,spd:480,itv:100},tunable:{mwp:1}}
-{id:202,name:"Nova Dikaros HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:1,tgh:0}
-{id:203,name:"Scaregant HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
-{id:204,name:"Seiron HD2",type:"a",cost:80,hp:25,str:-1,tec:4,wlk:0,fly:2,tgh:0,auraStat:{str:-1,tec:4,wlk:0,fly:2,tgh:0,main:{pwr:37,shl:70,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
-{id:205,name:"Vishra HD",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:0,tgh:3}
-{id:206,name:"Zephyr HD",type:"a",cost:75,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2,main:{pwr:2,shl:1340,rng:275,spd:400,itv:200},tunable:{mwp:1}}
-{id:207,name:"Garnerimp HD",cost:40,hp:25,str:-1,tec:2,wlk:0,fly:2,tgh:2}
+{id:196,name:"Dreiblitz HD",cost:30,hp:15,tec:2,wlk:2,fly:-1,tgh:1}
+{id:197,name:"Crugis HD",cost:35,hp:20,str:-1,tec:2,wlk:1,tgh:3}
+{id:198,name:"Axion HD2",cost:40,hp:25,str:1,wlk:1,tgh:3}
+{id:199,name:"Tierouge HD",cost:40,hp:25,str:-1,tec:3,fly:1,tgh:2}
+{id:200,name:"Red Squealer HD",cost:35,hp:20,str:2,tec:2,wlk:1}
+{id:201,name:"Jack Gadget HD2",type:"as",cost:95,hp:20,tec:2,fly:2,tgh:1,main:{pwr:11,shl:720,rng:160,spd:480,itv:100},tunable:{mwp:1}}
+{id:202,name:"Nova Dikaros HD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:1}
+{id:203,name:"Scaregant HD3",cost:40,hp:25,str:2,tec:-1,wlk:1,tgh:3}
+{id:204,name:"Seiron HD2",type:"a",cost:80,hp:25,str:-1,tec:4,fly:2,auraStat:{str:-1,tec:4,fly:2,main:{pwr:37,shl:70,rng:275,spd:440,itv:800}},tunable:{mwp:1}}
+{id:205,name:"Vishra HD",cost:40,hp:25,str:2,tec:-1,wlk:1,tgh:3}
+{id:206,name:"Zephyr HD",type:"a",cost:75,hp:20,tec:1,fly:2,tgh:2,main:{pwr:2,shl:1340,rng:275,spd:400,itv:200},tunable:{mwp:1}}
+{id:207,name:"Garnerimp HD",cost:40,hp:25,str:-1,tec:2,fly:2,tgh:2}
 {id:208,name:"Harrier Accel HD",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
-{id:209,name:"Galaxy Commando HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:0,tgh:2}
+{id:209,name:"Galaxy Commando HD",cost:40,hp:25,str:-1,tec:2,wlk:2,tgh:2}
 {id:210,name:"Papo HD",cost:35,hp:20,str:-1,tec:1,wlk:3,fly:1,tgh:1}
-{id:211,name:"Geminion HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2,tgh:0}
-{id:212,name:"Hygerkun HD2",cost:30,hp:15,str:0,tec:2,wlk:0,fly:1,tgh:1}
-{id:213,name:"Victorl HD2",cost:40,hp:25,str:0,tec:2,wlk:-1,fly:1,tgh:3}
-{id:214,name:"Brickgale HD3",cost:40,hp:25,str:1,tec:-1,wlk:0,fly:3,tgh:2}
+{id:211,name:"Geminion HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2}
+{id:212,name:"Hygerkun HD2",cost:30,hp:15,tec:2,fly:1,tgh:1}
+{id:213,name:"Victorl HD2",cost:40,hp:25,tec:2,wlk:-1,fly:1,tgh:3}
+{id:214,name:"Brickgale HD3",cost:40,hp:25,str:1,tec:-1,fly:3,tgh:2}
 {id:215,name:"Dugdriver HD",type:"c",cost:75,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:28,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
-{id:216,name:"Reversunder HD",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:217,name:"Yngvi HD",cost:35,hp:20,str:2,tec:0,wlk:-1,fly:1,tgh:3}
+{id:216,name:"Reversunder HD",cost:35,hp:20,tec:2,fly:2,tgh:1}
+{id:217,name:"Yngvi HD",cost:35,hp:20,str:2,wlk:-1,fly:1,tgh:3}
 {id:218,name:"Falx HD2",type:"l",cost:65,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},tunable:{mwp:1}}
-{id:219,name:"Hadelos HD",cost:35,hp:15,str:1,tec:-1,wlk:1,fly:0,tgh:3}
+{id:219,name:"Hadelos HD",cost:35,hp:15,str:1,tec:-1,wlk:1,tgh:3}
 {id:220,name:"C. Barossa HD",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
-{id:221,name:"Scyllon HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
-{id:222,name:"Geminion HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0}
-{id:223,name:"Mach Knight Ace HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:2,tgh:-1}
-{id:224,name:"Domiclown HD3",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:0,tgh:2}
+{id:221,name:"Scyllon HD",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
+{id:222,name:"Geminion HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
+{id:223,name:"Mach Knight Ace HD",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
+{id:224,name:"Domiclown HD3",cost:40,hp:25,str:2,tec:-1,wlk:2,tgh:2}
 {id:225,name:"Bloody Star HD2",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:226,name:"Gwyain Absol HD",cost:35,hp:20,str:-1,tec:3,wlk:0,fly:1,tgh:2}
+{id:226,name:"Gwyain Absol HD",cost:35,hp:20,str:-1,tec:3,fly:1,tgh:2}
 {id:227,name:"Estes HD2",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:228,name:"Yunessa HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:0,tgh:3}
+{id:228,name:"Yunessa HD",cost:35,hp:20,str:-1,tec:1,wlk:2,tgh:3}
 {id:229,name:"Rosso Aspide HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:230,name:"Shadow Flow HD",cost:35,hp:20,str:2,tec:0,wlk:1,fly:1,tgh:1}
-{id:231,name:"Protos HD",cost:35,hp:20,str:0,tec:3,wlk:1,fly:0,tgh:1}
+{id:230,name:"Shadow Flow HD",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1}
+{id:231,name:"Protos HD",cost:35,hp:20,tec:3,wlk:1,tgh:1}
 {id:232,name:"Recipro HD2",type:"a",cost:115,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1,main:{pwr:5,shl:720,rng:200,spd:400,itv:140},tunable:{mwp:1}}
-{id:233,name:"Predatobytez HD2",cost:35,hp:20,str:0,tec:3,wlk:1,fly:-1,tgh:2}
-{id:234,name:"Spada HD",cost:35,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1}
-{id:235,name:"S Actina GHD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:-1,tgh:2}
-{id:236,name:"Zarid HD3",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
+{id:233,name:"Predatobytez HD2",cost:35,hp:20,tec:3,wlk:1,fly:-1,tgh:2}
+{id:234,name:"Spada HD",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:235,name:"S Actina GHD",cost:35,hp:20,str:2,wlk:2,fly:-1,tgh:2}
+{id:236,name:"Zarid HD3",cost:40,hp:25,str:2,wlk:1,tgh:2}
 {id:237,name:"V. Unken HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:238,name:"Pawnger HD3",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
+{id:238,name:"Pawnger HD3",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
 {id:239,name:"Scaraboss HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2}
-{id:240,name:"Cyllene HD",type:"a",cost:85,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:11,shl:320,rng:275,spd:300,itv:600},tunable:{mwp:1}}
-{id:241,name:"Flash Bomber HD2",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:0,tgh:3}
-{id:242,name:"Red Squealer DRIVE HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:240,name:"Cyllene HD",type:"a",cost:85,hp:20,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:11,shl:320,rng:275,spd:300,itv:600},tunable:{mwp:1}}
+{id:241,name:"Flash Bomber HD2",cost:35,hp:20,str:3,tec:-1,tgh:3}
+{id:242,name:"Red Squealer DRIVE HD",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 {id:243,name:"Wolfguy HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:3,fly:1,tgh:1,auraStat:{str:1,tec:-1,wlk:3,fly:1,tgh:1,sub:{str:100,pwr:30,rng:100,spd:180,itv:1000}},tunable:{pwp:1}}
-{id:244,name:"Alvete HD",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:2,tgh:3}
-{id:245,name:"Bioron HD",type:"s",cost:65,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1,main:{pwr:0,shl:150,rng:300,spd:300,itv:500},tunable:{mwp:1}}
-{id:246,name:"Elme Sary HD",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,tgh:0,main:{pwr:6,shl:800,rng:275,spd:280,itv:400},tunable:{mwp:1}}
-{id:247,name:"Quadra HD",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:6,shl:2660,rng:330,spd:480,itv:200},tunable:{mwp:1}}
-{id:248,name:"Royal Beezle HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
-{id:249,name:"Accel Saber HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:0}
-{id:250,name:"Gathima HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:251,name:"Persecius HD2",cost:40,hp:25,str:0,tec:3,wlk:-1,fly:2,tgh:1}
-{id:252,name:"Lobguyz HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
-{id:253,name:"Liozen HD",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:0,tgh:2}
-{id:254,name:"Pacifar HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2,tgh:0}
-{id:255,name:"Tyrant Destructor HD",cost:40,hp:25,str:0,tec:3,wlk:-1,fly:1,tgh:2}
-{id:256,name:"Arte Maid HD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:0,tgh:1}
-{id:257,name:"Brickgale HD5",cost:30,hp:15,str:1,tec:0,wlk:0,fly:2,tgh:1}
+{id:244,name:"Alvete HD",cost:35,hp:20,str:-1,tec:1,fly:2,tgh:3}
+{id:245,name:"Bioron HD",type:"s",cost:65,hp:20,tec:1,wlk:2,fly:1,tgh:1,main:{shl:150,rng:300,spd:300,itv:500},tunable:{mwp:1}}
+{id:246,name:"Elme Sary HD",type:"s",cost:105,hp:20,str:-1,tec:2,wlk:2,fly:2,main:{pwr:6,shl:800,rng:275,spd:280,itv:400},tunable:{mwp:1}}
+{id:247,name:"Quadra HD",type:"c",cost:135,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:6,shl:2660,rng:330,spd:480,itv:200},tunable:{mwp:1}}
+{id:248,name:"Royal Beezle HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2}
+{id:249,name:"Accel Saber HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:2}
+{id:250,name:"Gathima HD2",cost:40,hp:25,tec:2,wlk:2,tgh:1}
+{id:251,name:"Persecius HD2",cost:40,hp:25,tec:3,wlk:-1,fly:2,tgh:1}
+{id:252,name:"Lobguyz HD",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
+{id:253,name:"Liozen HD",cost:40,hp:25,str:3,tec:-1,wlk:1,tgh:2}
+{id:254,name:"Pacifar HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
+{id:255,name:"Tyrant Destructor HD",cost:40,hp:25,tec:3,wlk:-1,fly:1,tgh:2}
+{id:256,name:"Arte Maid HD",cost:35,hp:20,str:2,wlk:2,tgh:1}
+{id:257,name:"Brickgale HD5",cost:30,hp:15,str:1,fly:2,tgh:1}
 {id:258,name:"Poseidon HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
-{id:259,name:"Crys Horn HD",type:"l",cost:70,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:320,rng:250,spd:320,itv:720},tunable:{mwp:1}}
-{id:260,name:"Aresis HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:259,name:"Crys Horn HD",type:"l",cost:70,hp:15,tec:1,wlk:1,tgh:2,main:{pwr:12,shl:320,rng:250,spd:320,itv:720},tunable:{mwp:1}}
+{id:260,name:"Aresis HD",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 {id:261,name:"Nightfear HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
-{id:262,name:"Squidol HD",cost:35,hp:20,str:2,tec:2,wlk:0,fly:0,tgh:1}
+{id:262,name:"Squidol HD",cost:35,hp:20,str:2,tec:2,tgh:1}
 {id:263,name:"Tem Pole HD",cost:35,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
-{id:264,name:"Helingal MK-2HD",cost:35,hp:20,str:-1,tec:1,wlk:0,fly:3,tgh:2}
-{id:265,name:"Centaur X HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
+{id:264,name:"Helingal MK-2HD",cost:35,hp:20,str:-1,tec:1,fly:3,tgh:2}
+{id:265,name:"Centaur X HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
 {id:266,name:"Sharhead HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-{id:267,name:"Victory FB HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:2,tgh:0}
+{id:267,name:"Victory FB HD",cost:35,hp:20,tec:1,wlk:2,fly:2}
 {id:268,name:"Heavy Jaguar Arm HD",type:"l",cost:105,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{str:100,pwr:30,rng:77,spd:94,itv:1000},tunable:{pwp:1}}
-{id:269,name:"Wild Fizalivan HD",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:2,fly:1,tgh:0,main:{pwr:19,shl:510,rng:225,spd:440,itv:340},tunable:{mwp:1}}
-{id:270,name:"Herianzus HD",cost:35,hp:20,str:3,tec:1,wlk:0,fly:0,tgh:1}
-{id:271,name:"Galsteel HD2",cost:30,hp:15,str:0,tec:2,wlk:2,fly:0,tgh:0}
-{id:272,name:"Brickgale HD4",cost:30,hp:15,str:0,tec:1,wlk:0,fly:2,tgh:1}
+{id:269,name:"Wild Fizalivan HD",type:"l",cost:135,hp:20,str:-1,tec:3,wlk:2,fly:1,main:{pwr:19,shl:510,rng:225,spd:440,itv:340},tunable:{mwp:1}}
+{id:270,name:"Herianzus HD",cost:35,hp:20,str:3,tec:1,tgh:1}
+{id:271,name:"Galsteel HD2",cost:30,hp:15,tec:2,wlk:2}
+{id:272,name:"Brickgale HD4",cost:30,hp:15,tec:1,fly:2,tgh:1}
 {id:273,name:"Sharhead HD2",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
-{id:274,name:"Theoreigne HD2",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:275,name:"Mecha Jetter OMG HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:3,tgh:-1}
-{id:276,name:"CAPTAIN X HD2",cost:35,hp:20,str:2,tec:1,wlk:2,fly:0,tgh:0}
-{id:277,name:"Amateus HD3",cost:40,hp:25,str:0,tec:2,wlk:2,fly:2,tgh:-1}
+{id:274,name:"Theoreigne HD2",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:275,name:"Mecha Jetter OMG HD",cost:40,hp:25,tec:2,wlk:1,fly:3,tgh:-1}
+{id:276,name:"CAPTAIN X HD2",cost:35,hp:20,str:2,tec:1,wlk:2}
+{id:277,name:"Amateus HD3",cost:40,hp:25,tec:2,wlk:2,fly:2,tgh:-1}
 {id:278,name:"Genesion HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
-{id:279,name:"Air Raider HD",cost:30,hp:15,str:0,tec:2,wlk:-1,fly:1,tgh:2}
+{id:279,name:"Air Raider HD",cost:30,hp:15,tec:2,wlk:-1,fly:1,tgh:2}
 {id:280,name:"Locomotive X HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:1}
-{id:281,name:"Mizuha HD",cost:30,hp:15,str:0,tec:1,wlk:1,fly:0,tgh:2}
-{id:282,name:"Cannon Baller DRHD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:0,tgh:1}
-{id:283,name:"Meteora HD2",cost:35,hp:20,str:1,tec:1,wlk:0,fly:1,tgh:2}
-{id:284,name:"Kotengu HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
-{id:285,name:"Cyburning HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
-{id:286,name:"Psycho Formula HD4",type:"c",cost:85,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2,main:{pwr:21,shl:140,rng:330,spd:280,itv:600},tunable:{mwp:1}}
-{id:287,name:"Cetusion HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1,auraStat:{str:0,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:8,shl:820,rng:275,spd:320,itv:500},tunable:{mwp:1}}}
-{id:288,name:"Giganberg HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:0}
-{id:289,name:"Captain X HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1}
-{id:290,name:"Tristar HD",cost:35,hp:20,str:0,tec:1,wlk:1,fly:2,tgh:1}
-{id:291,name:"Geograsis HD3",cost:35,hp:20,str:1,tec:2,wlk:1,fly:0,tgh:1}
+{id:281,name:"Mizuha HD",cost:30,hp:15,tec:1,wlk:1,tgh:2}
+{id:282,name:"Cannon Baller DRHD",cost:35,hp:20,str:1,tec:1,wlk:2,tgh:1}
+{id:283,name:"Meteora HD2",cost:35,hp:20,str:1,tec:1,fly:1,tgh:2}
+{id:284,name:"Kotengu HD",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
+{id:285,name:"Cyburning HD",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
+{id:286,name:"Psycho Formula HD4",type:"c",cost:85,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:21,shl:140,rng:330,spd:280,itv:600},tunable:{mwp:1}}
+{id:287,name:"Cetusion HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1,auraStat:{tec:2,wlk:1,fly:1,tgh:1,main:{pwr:8,shl:820,rng:275,spd:320,itv:500},tunable:{mwp:1}}}
+{id:288,name:"Giganberg HD",cost:35,hp:20,tec:2,wlk:1,fly:2}
+{id:289,name:"Captain X HD",cost:35,hp:20,tec:1,wlk:2,fly:1,tgh:1}
+{id:290,name:"Tristar HD",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
+{id:291,name:"Geograsis HD3",cost:35,hp:20,str:1,tec:2,wlk:1,tgh:1}
 {id:292,name:"Jets HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:293,name:"Aero Raider HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
-{id:294,name:"Lancelot HD3",cost:40,hp:25,str:3,tec:0,wlk:1,fly:-1,tgh:2}
-{id:295,name:"Crystas HD2",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:294,name:"Lancelot HD3",cost:40,hp:25,str:3,wlk:1,fly:-1,tgh:2}
+{id:295,name:"Crystas HD2",cost:35,hp:20,tec:1,fly:2,tgh:2}
 {id:296,name:"Katto Baldo HD",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-{id:297,name:"Antlion HD2",cost:35,hp:20,str:0,tec:1,wlk:0,fly:2,tgh:2}
+{id:297,name:"Antlion HD2",cost:35,hp:20,tec:1,fly:2,tgh:2}
 {id:298,name:"Twin Towered HD",type:"c",cost:115,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:10,shl:760,rng:280,spd:480,itv:100},tunable:{mwp:1}}
-{id:299,name:"Mirage Raid HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:2,tgh:1}
-{id:300,name:"Lucca Decho HD2",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
+{id:299,name:"Mirage Raid HD",cost:35,hp:20,str:1,wlk:1,fly:2,tgh:1}
+{id:300,name:"Lucca Decho HD2",cost:40,hp:25,tec:2,wlk:1,tgh:2}
 {id:301,name:"Lux HD2",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-{id:302,name:"Hatigarm HD3",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:2}
-{id:303,name:"Hatigarm HD4",type:"l",cost:75,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1,main:{pwr:20,shl:360,rng:225,spd:400,itv:500},tunable:{mwp:1}}
-{id:304,name:"Zeta Arsenal HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:305,name:"Saggitary Maxis HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:0,tgh:2}
+{id:302,name:"Hatigarm HD3",cost:40,hp:25,str:-1,tec:3,wlk:1,tgh:2}
+{id:303,name:"Hatigarm HD4",type:"l",cost:75,hp:20,tec:2,wlk:2,tgh:1,main:{pwr:20,shl:360,rng:225,spd:400,itv:500},tunable:{mwp:1}}
+{id:304,name:"Zeta Arsenal HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:305,name:"Saggitary Maxis HD2",cost:40,hp:25,str:-1,tec:3,wlk:1,tgh:2}
 {id:306,name:"Elme Sary HD2",type:"s",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:17,shl:330,rng:330,spd:570,itv:500},tunable:{mwp:1}}
 {id:307,name:"Lepscepter HD",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
-{id:308,name:"Hovermill HD",cost:35,hp:20,str:0,tec:1,wlk:2,fly:0,tgh:2}
-{id:309,name:"Hound Dog HD2",cost:30,hp:15,str:2,tec:0,wlk:1,fly:-1,tgh:2}
-{id:310,name:"Vellsneil HD",type:"a",cost:105,hp:20,str:-1,tec:3,wlk:0,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:480,itv:700},tunable:{mwp:1}}
-{id:311,name:"Gatomare HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
-{id:312,name:"Arte Maid HD2",cost:35,hp:20,str:0,tec:1,wlk:2,fly:1,tgh:1}
-{id:313,name:"Quadra HD2",type:"c",cost:85,hp:25,str:0,tec:3,wlk:0,fly:-1,tgh:3,sub:{pwr:31,shl:70,rng:300,spd:80,itv:1000}}
-{id:314,name:"Date Max HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:308,name:"Hovermill HD",cost:35,hp:20,tec:1,wlk:2,tgh:2}
+{id:309,name:"Hound Dog HD2",cost:30,hp:15,str:2,wlk:1,fly:-1,tgh:2}
+{id:310,name:"Vellsneil HD",type:"a",cost:105,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:18,shl:260,rng:275,spd:480,itv:700},tunable:{mwp:1}}
+{id:311,name:"Gatomare HD",cost:40,hp:25,str:1,tec:1,wlk:2,tgh:1}
+{id:312,name:"Arte Maid HD2",cost:35,hp:20,tec:1,wlk:2,fly:1,tgh:1}
+{id:313,name:"Quadra HD2",type:"c",cost:85,hp:25,tec:3,fly:-1,tgh:3,sub:{pwr:31,shl:70,rng:300,spd:80,itv:1000}}
+{id:314,name:"Date Max HD",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 {id:315,name:"Artilus HD",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 {id:316,name:"Armada HD",cost:40,hp:25,str:1,tec:3,wlk:1,fly:1,tgh:-1}
 {id:317,name:"Kagetama HD",cost:35,hp:20,str:1,tec:2,wlk:2,fly:-1,tgh:1}
 {id:318,name:"Growldian HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:319,name:"K Nonna HD2",cost:35,hp:20,str:0,tec:3,wlk:-1,fly:1,tgh:2}
-{id:320,name:"Shadow Kinesis HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:321,name:"Wardus HD",cost:40,hp:25,str:3,tec:0,wlk:-1,fly:0,tgh:3}
+{id:319,name:"K Nonna HD2",cost:35,hp:20,tec:3,wlk:-1,fly:1,tgh:2}
+{id:320,name:"Shadow Kinesis HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
+{id:321,name:"Wardus HD",cost:40,hp:25,str:3,wlk:-1,tgh:3}
 {id:322,name:"Daemon HD",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 {id:323,name:"Daemon HD2",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1}
-{id:324,name:"Gyallanbard HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:0,tgh:3}
-{id:325,name:"Cydron HD",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
-{id:326,name:"Dragonail HD",cost:40,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
-{id:327,name:"Beetlander HD",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{pwr:32,rng:0,spd:25,itv:1000},tunable:{pwp:1}}
-{id:328,name:"Machintlet HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:329,name:"Steel Rider HD",cost:40,hp:25,str:1,tec:0,wlk:2,fly:0,tgh:2}
-{id:330,name:"Windlynx HD",cost:40,hp:25,str:1,tec:-1,wlk:0,fly:2,tgh:3}
+{id:324,name:"Gyallanbard HD",cost:40,hp:25,tec:1,wlk:1,tgh:3}
+{id:325,name:"Cydron HD",cost:40,hp:25,str:2,wlk:-1,fly:2,tgh:2}
+{id:326,name:"Dragonail HD",cost:40,hp:25,str:2,fly:1,tgh:2}
+{id:327,name:"Beetlander HD",type:"l",cost:140,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,sub:{pwr:32,spd:25,itv:1000},tunable:{pwp:1}}
+{id:328,name:"Machintlet HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
+{id:329,name:"Steel Rider HD",cost:40,hp:25,str:1,wlk:2,tgh:2}
+{id:330,name:"Windlynx HD",cost:40,hp:25,str:1,tec:-1,fly:2,tgh:3}
 {id:331,name:"Blitzelt HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-{id:332,name:"Raystag HD",type:"a",cost:100,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:0,main:{pwr:4,shl:1140,rng:275,spd:320,itv:1000},tunable:{mwp:1}}
-{id:333,name:"Big Mountaiz HD",cost:40,hp:25,str:1,tec:1,wlk:0,fly:1,tgh:2}
-{id:334,name:"AchtSieben HD",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:335,name:"Gaderoga HD2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:0,tgh:2}
-{id:336,name:"Hiverion HD",cost:40,hp:25,str:2,tec:3,wlk:0,fly:1,tgh:-1}
-{id:337,name:"Predatobytez HD",cost:40,hp:20,str:1,tec:2,wlk:0,fly:0,tgh:2}
-{id:338,name:"Scorpton HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2}
+{id:332,name:"Raystag HD",type:"a",cost:100,hp:25,str:-1,tec:2,wlk:2,fly:2,main:{pwr:4,shl:1140,rng:275,spd:320,itv:1000},tunable:{mwp:1}}
+{id:333,name:"Big Mountaiz HD",cost:40,hp:25,str:1,tec:1,fly:1,tgh:2}
+{id:334,name:"AchtSieben HD",cost:40,hp:25,tec:2,wlk:1,tgh:2}
+{id:335,name:"Gaderoga HD2",cost:35,hp:20,str:2,wlk:1,tgh:2}
+{id:336,name:"Hiverion HD",cost:40,hp:25,str:2,tec:3,fly:1,tgh:-1}
+{id:337,name:"Predatobytez HD",cost:40,hp:20,str:1,tec:2,tgh:2}
+{id:338,name:"Scorpton HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
 {id:339,name:"Paraboroid HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:340,name:"Rotten Lemures HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
-{id:341,name:"Garulabird HD2",cost:40,hp:25,str:2,tec:0,wlk:-1,fly:2,tgh:2}
-{id:342,name:"Blazed Baron HD3",type:"l",cost:70,hp:25,str:0,tec:2,wlk:2,fly:-1,tgh:2,sub:{str:100,pwr:30,shl:"-",rng:250,spd:320,itv:1000}}
+{id:341,name:"Garulabird HD2",cost:40,hp:25,str:2,wlk:-1,fly:2,tgh:2}
+{id:342,name:"Blazed Baron HD3",type:"l",cost:70,hp:25,tec:2,wlk:2,fly:-1,tgh:2,sub:{str:100,pwr:30,rng:250,spd:320,itv:1000}}
 {id:343,name:"Saggitary Maxis C HD",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
-{id:344,name:"Astro Trooper HD",cost:30,hp:25,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:345,name:"Dieranarcam HD",cost:40,hp:25,str:0,tec:1,wlk:1,fly:1,tgh:2}
-{id:346,name:"Armor Met HD",cost:35,hp:20,str:1,tec:1,wlk:0,fly:0,tgh:3}
+{id:344,name:"Astro Trooper HD",cost:30,hp:25,tec:2,wlk:1,fly:1,tgh:1}
+{id:345,name:"Dieranarcam HD",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
+{id:346,name:"Armor Met HD",cost:35,hp:20,str:1,tec:1,tgh:3}
 {id:347,name:"Blastoid HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:1,tgh:1}
-{id:348,name:"King Megaton HD2",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
+{id:348,name:"King Megaton HD2",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:349,name:"Cross Raptor HD3",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
-{id:350,name:"Gundread HD",type:"l",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:50,shl:100,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
+{id:350,name:"Gundread HD",type:"l",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:50,shl:100,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
 {id:351,name:"Toukimaru HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-{id:352,name:"Shaden RIN HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:3,tgh:-1}
+{id:352,name:"Shaden RIN HD",cost:35,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
 {id:353,name:"Sithina HD3",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:354,name:"Mach Knight HD2",cost:40,hp:25,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:355,name:"Misside HD2",type:"c",cost:110,hp:25,str:0,tec:3,wlk:0,fly:0,tgh:2,main:{pwr:22,shl:200,rng:330,spd:280,itv:800},tunable:{mwp:1}}
-{id:356,name:"Flapjack HD2",type:"a",cost:35,hp:20,str:0,tec:2,wlk:0,fly:2,tgh:1}
-{id:357,name:"Sieg HD2",cost:35,hp:20,str:0,tec:3,wlk:1,fly:0,tgh:1}
-{id:358,name:"Knightger HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:-1,tgh:3}
+{id:354,name:"Mach Knight HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
+{id:355,name:"Misside HD2",type:"c",cost:110,hp:25,tec:3,tgh:2,main:{pwr:22,shl:200,rng:330,spd:280,itv:800},tunable:{mwp:1}}
+{id:356,name:"Flapjack HD2",type:"a",cost:35,hp:20,tec:2,fly:2,tgh:1}
+{id:357,name:"Sieg HD2",cost:35,hp:20,tec:3,wlk:1,tgh:1}
+{id:358,name:"Knightger HD",cost:40,hp:25,str:2,wlk:1,fly:-1,tgh:3}
 {id:359,name:"Knight Fear HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 {id:360,name:"Crugis HD2",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:361,name:"Centurion HD",cost:35,hp:20,str:1,tec:0,wlk:2,fly:1,tgh:1}
+{id:361,name:"Centurion HD",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
 {id:362,name:"Garulabird HD3",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:363,name:"Jack Gadget LC HD (STR)",type:"ac",cost:65,hp:20,str:0,tec:0,wlk:1,fly:2,tgh:2,main:{str:100,pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
-{id:364,name:"Jack Gadget LC HD (TEC)",type:"ac",cost:65,hp:20,str:0,tec:0,wlk:1,fly:2,tgh:2,main:{pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
-{id:365,name:"Chrotacs HD3",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:366,name:"Mach Knight HD3",cost:40,hp:25,str:2,tec:0,wlk:0,fly:2,tgh:1}
-{id:367,name:"Harrier Accel HD2",cost:35,hp:20,str:0,tec:2,wlk:-1,fly:3,tgh:1}
-{id:368,name:"Brachirus HD",type:"a",cost:50,hp:20,str:3,tec:-1,wlk:0,fly:2,tgh:1,auraStat:{str:3,tec:-1,wlk:0,fly:2,tgh:1,sub:{pwr:0,shl:30,rng:150,spd:350,itv:1000}}}
-{id:369,name:"Hard Bomber HD2",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:370,name:"Gorevelut HD",cost:35,hp:20,str:2,tec:0,wlk:0,fly:1,tgh:2}
+{id:363,name:"Jack Gadget LC HD (STR)",type:"ac",cost:65,hp:20,wlk:1,fly:2,tgh:2,main:{str:100,pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
+{id:364,name:"Jack Gadget LC HD (TEC)",type:"ac",cost:65,hp:20,wlk:1,fly:2,tgh:2,main:{pwr:10,shl:100,rng:250,spd:400,itv:1000},tunable:{mwp:1}}
+{id:365,name:"Chrotacs HD3",cost:40,hp:25,tec:2,wlk:2,tgh:1}
+{id:366,name:"Mach Knight HD3",cost:40,hp:25,str:2,fly:2,tgh:1}
+{id:367,name:"Harrier Accel HD2",cost:35,hp:20,tec:2,wlk:-1,fly:3,tgh:1}
+{id:368,name:"Brachirus HD",type:"a",cost:50,hp:20,str:3,tec:-1,fly:2,tgh:1,auraStat:{str:3,tec:-1,fly:2,tgh:1,sub:{shl:30,rng:150,spd:350,itv:1000}}}
+{id:369,name:"Hard Bomber HD2",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:370,name:"Gorevelut HD",cost:35,hp:20,str:2,fly:1,tgh:2}
 {id:371,name:"Brisgandr Pawn HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
-{id:372,name:"Jaguar Arm HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:373,name:"Locomotive X HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:374,name:"Priestol HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:375,name:"P. Juana HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:2,tgh:1}
-{id:376,name:"Artilus HD2",cost:40,hp:25,str:0,tec:2,wlk:2,fly:0,tgh:1}
+{id:372,name:"Jaguar Arm HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:373,name:"Locomotive X HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:374,name:"Priestol HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:375,name:"P. Juana HD",cost:35,hp:20,tec:2,wlk:1,fly:2,tgh:1}
+{id:376,name:"Artilus HD2",cost:40,hp:25,tec:2,wlk:2,tgh:1}
 {id:377,name:"Buff Devastator HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-{id:388,name:"Toybox HD3",cost:35,hp:20,str:0,tec:3,wlk:1,fly:1,tgh:0}
-{id:389,name:"Geograsis HD4",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2}
+{id:388,name:"Toybox HD3",cost:35,hp:20,tec:3,wlk:1,fly:1}
+{id:389,name:"Geograsis HD4",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2}
 {id:390,name:"Ettion HD",cost:35,hp:20,str:2,wlk:1,tgh:2}
-{id:391,name:"R Duke HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2}
-{id:392,name:"Blitzelt TB HD",cost:35,hp:20,str:2,tec:-1,wlk:0,fly:3,tgh:1}
-{id:393,name:"Gadion HD",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:394,name:"Argocap HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:395,name:"Aeolius HD",cost:40,hp:25,str:2,tec:0,wlk:0,fly:2,tgh:1}
-{id:396,name:"ExCreR HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
-{id:397,name:"ExCreR HD2",cost:35,hp:20,str:-1,tec:2,wlk:0,fly:2,tgh:2}
+{id:391,name:"R Duke HD",cost:35,hp:20,str:-1,tec:3,wlk:1,tgh:2}
+{id:392,name:"Blitzelt TB HD",cost:35,hp:20,str:2,tec:-1,fly:3,tgh:1}
+{id:393,name:"Gadion HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:394,name:"Argocap HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:395,name:"Aeolius HD",cost:40,hp:25,str:2,fly:2,tgh:1}
+{id:396,name:"ExCreR HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:397,name:"ExCreR HD2",cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:398,name:"Cyburning HD2",cost:35,hp:20,str:2,wlk:2,fly:-1,tgh:2}
 {id:399,name:"Transonic HD2",cost:35,hp:20,wlk:1,fly:2,tgh:3}
 {id:400,name:"Scyllon HD2",type:"c",cost:35,hp:20,tec:3,fly:1,tgh:1}
@@ -502,43 +503,48 @@
 {id:432,name:"Sheeno HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
 {id:433,name:"Falke Armor HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:435,name:"Grand Dugdriver HD",type:"c",cost:55,hp:20,str:-1,tec:2,wlk:2,tgh:2,sub:{pwr:30,rng:150,spd:80,itv:1000},tunable:{pwp:1}}
+{id:436,name:"Astro Marine HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
-{id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:0}
-{id:2,name:"Demonfox Haku HD",cost:40,hp:25,str:2,tec:0,wlk:1,fly:0,tgh:2}
-{id:3,name:"Daedalian HD",cost:40,hp:25,str:1,tec:0,wlk:1,fly:0,tgh:3}
-{id:4,name:"Aquila HD2",cost:35,hp:20,str:0,tec:1,wlk:1,fly:1,tgh:2}
-{id:5,name:"Dagomure HD",cost:40,hp:25,str:1,tec:1,wlk:2,fly:0,tgh:1}
+{id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
+{id:2,name:"Demonfox Haku HD",cost:40,hp:25,str:2,wlk:1,tgh:2}
+{id:3,name:"Daedalian HD",cost:40,hp:25,str:1,wlk:1,tgh:3}
+{id:4,name:"Aquila HD2",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
+{id:5,name:"Dagomure HD",cost:40,hp:25,str:1,tec:1,wlk:2,tgh:1}
 {id:6,name:"Cyclotes HD2",type:"l",cost:70,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2,main:{str:100,pwr:30,shl:50,rng:200,spd:570,itv:1000},tunable:{mwp:1}}
-{id:7,name:"Cordyceps HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:1,tgh:1}
-{id:8,name:"Heldtkaiser HD",cost:35,hp:20,str:0,tec:-1,wlk:2,fly:2,tgh:2}
-{id:9,name:"Yatano Oguna HD",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:0,tgh:2}
-{id:10,name:"Knightgear HF HD",type:"c",cost:40,hp:25,str:0,tec:2,wlk:1,fly:0,tgh:2}
-{id:11,name:"Teitarotes HD",cost:30,hp:15,str:0,tec:2,wlk:1,fly:-1,tgh:2}
-{id:12,name:"Truck Mighty Byne HD",type:"l",cost:70,hp:25,str:2,tec:1,wlk:1,fly:1,tgh:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},tunable:{mwp:1}}
-{id:13,name:"Gozu HD",cost:35,hp:20,str:3,tec:-1,wlk:0,fly:1,tgh:2}
-{id:14,name:"Tsuchigata HD",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,fly:0,tgh:2,main:{pwr:12,shl:480,rng:330,spd:320,itv:800},tunable:{mwp:1}}
-{id:15,name:"Snailbokswagen HD",type:"c",cost:70,hp:15,str:0,tec:2,wlk:1,fly:1,tgh:0,main:{pwr:7,shl:900,rng:300,spd:400,itv:400},tunable:{mwp:1}}
+{id:7,name:"Cordyceps HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:8,name:"Heldtkaiser HD",cost:35,hp:20,tec:-1,wlk:2,fly:2,tgh:2}
+{id:9,name:"Yatano Oguna HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:10,name:"Knightgear HF HD",type:"c",cost:40,hp:25,tec:2,wlk:1,tgh:2}
+{id:11,name:"Teitarotes HD",cost:30,hp:15,tec:2,wlk:1,fly:-1,tgh:2}
+{id:12,name:"Truck Mighty Byne HD",type:"l",cost:70,hp:25,str:2,tec:1,wlk:1,fly:1,main:{shl:50,spd:10,itv:1000},tunable:{mwp:1}}
+{id:13,name:"Gozu HD",cost:35,hp:20,str:3,tec:-1,fly:1,tgh:2}
+{id:14,name:"Tsuchigata HD",type:"c",cost:105,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:12,shl:480,rng:330,spd:320,itv:800},tunable:{mwp:1}}
+{id:15,name:"Snailbokswagen HD",type:"c",cost:70,hp:15,tec:2,wlk:1,fly:1,main:{pwr:7,shl:900,rng:300,spd:400,itv:400},tunable:{mwp:1}}
 {id:16,name:"Aquila Airs HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-{id:17,name:"Gozu HD2",cost:35,hp:20,str:0,tec:2,wlk:2,fly:0,tgh:1}
-{id:18,name:"Heavy Flechas HD",cost:35,hp:20,str:1,tec:0,wlk:1,fly:1,tgh:2}
+{id:17,name:"Gozu HD2",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:18,name:"Heavy Flechas HD",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
 {id:19,name:"Jet Falcon HD",type:"a",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:2,tgh:2}
-{id:20,name:"Bellvere HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:0,tgh:2}
-{id:21,name:"Zeunesis HD",cost:40,hp:25,str:2,tec:0,wlk:0,fly:1,tgh:2}
-{id:22,name:"Ogreil HD2",type:"c",cost:115,hp:20,str:-1,tec:4,wlk:0,fly:0,tgh:2,main:{pwr:9,shl:780,rng:330,spd:400,itv:240},tunable:{mwp:1}}
-{id:23,name:"Torque Mighty Byne HD",type:"l",cost:70,hp:25,str:2,tec:1,wlk:1,fly:1,tgh:0,main:{pwr:0,shl:50,rng:0,spd:10,itv:1000},tunable:{mwp:1}}
-{id:24,name:"Naiah Serval HD2",type:"c",cost:65,hp:20,str:0,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:15,shl:240,rng:330,spd:290,itv:600},tunable:{mwp:1}}
-{id:25,name:"Crayguyz HD",cost:35,hp:20,str:3,tec:0,wlk:1,fly:0,tgh:1}
-{id:26,name:"Tengu HD",cost:35,hp:20,str:2,tec:0,wlk:2,fly:2,tgh:-1}
+{id:20,name:"Bellvere HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
+{id:21,name:"Zeunesis HD",cost:40,hp:25,str:2,fly:1,tgh:2}
+{id:22,name:"Ogreil HD2",type:"c",cost:115,hp:20,str:-1,tec:4,tgh:2,main:{pwr:9,shl:780,rng:330,spd:400,itv:240},tunable:{mwp:1}}
+{id:23,name:"Torque Mighty Byne HD",type:"l",cost:70,hp:25,str:2,tec:1,wlk:1,fly:1,main:{shl:50,spd:10,itv:1000},tunable:{mwp:1}}
+{id:24,name:"Naiah Serval HD2",type:"c",cost:65,hp:20,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:15,shl:240,rng:330,spd:290,itv:600},tunable:{mwp:1}}
+{id:25,name:"Crayguyz HD",cost:35,hp:20,str:3,wlk:1,tgh:1}
+{id:26,name:"Tengu HD",cost:35,hp:20,str:2,wlk:2,fly:2,tgh:-1}
 {id:27,name:"Sledge Helm HD",type:"c",cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:25,shl:210,rng:330,spd:400,itv:500},tunable:{mwp:1}}
-{id:28,name:"Shingen HD",cost:35,hp:20,str:3,tec:-1,wlk:1,fly:0,tgh:2}
-{id:29,name:"Gadion HD2",type:"l",cost:85,hp:20,str:-1,tec:4,wlk:0,fly:0,tgh:2,main:{pwr:38,shl:120,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
+{id:28,name:"Shingen HD",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2}
+{id:29,name:"Gadion HD2",type:"l",cost:85,hp:20,str:-1,tec:4,tgh:2,main:{pwr:38,shl:120,rng:200,spd:400,itv:1000},tunable:{mwp:1}}
 {id:30,name:"Big Mountaiz Tri HD",type:"a",cost:95,hp:20,str:-1,tec:2,fly:2,tgh:2,main:{pwr:10,shl:480,rng:275,spd:350,itv:400},tunable:{mwp:1}}
 {id:31,name:"Elaphastag HD",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
 {id:32,name:"Beeportarius HD",type:"l",cost:85,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:19,shl:330,rng:250,spd:570,itv:600},tunable:{mwp:1}}
 {id:33,name:"Beeportarius HD2",type:"l",cost:85,hp:20,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:30,rng:100,spd:250,itv:1000},tunable:{pwp:1}}
 {id:34,name:"Blumechius HD",cost:35,hp:20,str:3,tec:-1,wlk:3}
 {id:35,name:"Zild Gigas HD",type:"c",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:2}
+{id:36,name:"Swell HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:37,name:"Cyclotes HD",type:"l",cost:55,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:40,shl:50,rng:250,spd:570,itv:1000},tunable:{mwp:1}}
+{id:38,name:"HUNDRED EDGE HD0",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
