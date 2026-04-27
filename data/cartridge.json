@@ -41,23 +41,29 @@
 // {id:49,name:"484",comment:"Increase Blast type attack by 15%."}
 // {id:50,name:"485",comment:"Increase Beam type attack by 15%."}
 // {id:51,name:"486",comment:"Increase Physical type attack by 15%."}
-{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies ty type"}
+{id:52,name:"Ascending Force",comment:"During normal flight, your altitude will gradually increase until limit. Speed of the ascent varies by type"}
 {id:53,name:"Fall Charge",comment:"Boost gauge will gradually charge when falling"}
 {id:54,name:"Aqua Walk",comment:"Allows you to walk normally through water."}
 {id:55,name:"Unique Cartridge",comment:"Other special carts for specific robots."}
+{id:56,name:"Break Counter",comment:"When a part is destroyed, damage done to opponent is increased by 10% for 10 seconds."}
+{id:57,name:"Burst Supply",comment:"2% chance number of bullets for all weapons will be restored by 1% of max ammo when firing."}
+{id:58,name:"Lifetaker",comment:"50% chance to absorb 10% dealt melee damage."}
+{id:59,name:"Healing Fighter",comment:"Attack boost whenever HP is recovered."}
+{id:60,name:"Air Run",comment:"Run quickly Mid-air from the edge of a cliff."}
+{id:61,name:"Custom Link Shot",comment:"Weapons will be able to use with Linkshot if allowed."}
 // legacy cartridges for at least some semblence of backward compatibility
 {id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
 {id:5,name:"Capacity +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
 {id:6,name:"Enhance Internal Weapon",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 55 and HP by 15"}
 //
-{id:"EX1",ex:1,name:"Accele Roll",comment:"Adds the custom Dash cartridge [Accele Roll]. Can be equipped by AIR, ART and SUP.",cost:30}
-{id:"EX2",ex:1,name:"Air Loop",comment:"Adds the custom Dash cartridge [Air Loop]. AIR type only.",cost:30}
-{id:"EX3",ex:1,name:"Assault Step",comment:"Adds the custom Dash cartridge [Assault Step]. LND type only.",cost:30}
-{id:"EX4",ex:1,name:"Glide Boost",comment:"Adds the custom Dash cartridge [Glide Boost]. AIR type only.",cost:30}
+{id:"EX1",ex:1,type:"acs",name:"Accele Roll",comment:"Adds the custom Dash cartridge [Accele Roll]. Can be equipped by AIR, ART and SUP.",cost:30}
+{id:"EX2",ex:1,type:"a",name:"Air Loop",comment:"Adds the custom Dash cartridge [Air Loop]. AIR type only.",cost:30}
+{id:"EX3",ex:1,type:"l",name:"Assault Step",comment:"Adds the custom Dash cartridge [Assault Step]. LND type only.",cost:30}
+{id:"EX4",ex:1,type:"a",name:"Glide Boost",comment:"Adds the custom Dash cartridge [Glide Boost]. AIR type only.",cost:30}
 {id:"EX5",ex:1,name:"Air Step",comment:"Adds the custom Dash cartridge [Air Step]. Can be equipped by LND, AIR, ART and SUP.",cost:30}
-{id:"EX6",ex:1,name:"Boost Step",comment:"Adds the custom Dash cartridge [Boost Step]. ART type only.",cost:30}
-{id:"EX7",ex:1,name:"Sway",comment:"Adds the custom Dash cartridge [Sway]. Can be equipped by LND, ART and SUP.",cost:30}
+{id:"EX6",ex:1,type:"c",name:"Boost Step",comment:"Adds the custom Dash cartridge [Boost Step]. ART type only.",cost:30}
+{id:"EX7",ex:1,type:"lcs",name:"Sway",comment:"Adds the custom Dash cartridge [Sway]. Can be equipped by LND, ART and SUP.",cost:30}
 {id:"EX8",ex:1,name:"Short Boost",comment:"Adds the custom Dash cartridge [Short Boost]. Can be equipped by LND, AIR, ART and SUP.",cost:30}
-{id:"EX9",ex:1,name:"Float Dash",comment:"Adds the custom Dash cartridge [Float Dash]. Can be equipped by AIR, ART and SUP.",cost:30}
-{id:"EX10",ex:1,name:"Slide Boost",comment:"Adds the custom Dash cartridge [Slide Boost]. AIR type only.",cost:30}
+{id:"EX9",ex:1,type:"acs",name:"Float Dash",comment:"Adds the custom Dash cartridge [Float Dash]. Can be equipped by AIR, ART and SUP.",cost:30}
+{id:"EX10",ex:1,type:"a",name:"Slide Boost",comment:"Adds the custom Dash cartridge [Slide Boost]. AIR type only.",cost:30}

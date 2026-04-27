@@ -16,7 +16,7 @@
 {id:9,name:"Omnious Scythe",size:"M",type:"las",cost:200,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000}}
 {id:10,name:"Beam Blade",size:"M",type:"a",cost:70,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
 {id:11,name:"Sonic Blade",size:"M",type:"a",cost:100,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
-{id:12,name:"Slash Blade",size:"M",type:"a",cost:160,sub:{str:100,pwr:28,rng:70,spd:85,itv:500}}
+{id:12,name:"Slash Blade",size:"M",type:"la",cost:180,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
 {id:13,name:"Divine Blade",size:"M",type:"a",cost:160,sub:{str:100,pwr:30,rng:70,spd:85,itv:500}}
 {id:14,name:"Cutter",size:"SS",cost:25,sub:{str:100,pwr:26,rng:105,spd:128,itv:500}}
 {id:15,name:"Survival Knife",size:"S",cost:55,sub:{str:100,pwr:28,rng:105,spd:128,itv:500}}
@@ -54,6 +54,7 @@
 {id:47,name:"Zephyr Blade",size:"M",type:"a",cost:50,sub:{str:100,pwr:30,shl:60,rng:77,spd:94,itv:1000}}
 {id:48,name:"Cyber Saber",size:"M",type:"l",cost:160,sub:{str:100,pwr:34,rng:77,spd:94,itv:1000}}
 {id:49,name:"Long Blade",size:"L",type:"l",cost:150,sub:{str:100,pwr:30,shl:100,rng:77,spd:94,itv:1000}}
+{id:50,name:"Gadel Saber",size:"S",type:"l",cost:110,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 
 {group:"Axes",prefixID:"AX",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Hand Axe",size:"S",type:"lcs",cost:40,sub:{str:100,pwr:30,rng:56,spd:68,itv:1000}}
@@ -112,3 +113,5 @@
 {id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}
 {id:6,name:"Shinobi Dagger",size:"S",type:"l",cost:60,sub:{pwr:15,shl:270,rng:250,spd:480,itv:1000}}
 {id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}
+{id:8,name:"B-10 Bayonet",size:"L",type:"l",cost:220,main:{str:100,pwr:28,shl:210,rng:225,spd:500,itv:700},sub:{str:100,pwr:33,shl:1200,rng:77,spd:94,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:9,name:"B Shield Gun",size:"M",type:"l",cost:70,main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:1000},tunable:{mwp:1,pwp:1}}

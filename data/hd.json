@@ -78,6 +78,9 @@
 {id:74,name:"G. Remoire HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:2}
 {id:75,name:"Turtlebacker HD2",cost:35,hp:20,str:1,tec:-1,wlk:2,tgh:3}
 {id:76,name:"Setsuka HD2",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:77,name:"Syverion HD2",cost:30,hp:15,tec:1,wlk:2,fly:2,tgh:-1}
+{id:78,name:"Glasha HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
+{id:79,name:"P. Lizbed HD",cost:35,hp:20,wlk:2,fly:1,tgh:2}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2}
@@ -178,7 +181,7 @@
 {id:96,name:"Chrotacs HD2",cost:40,hp:25,wlk:2,fly:2,tgh:1}
 {id:97,name:"Rosso Aspide HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2}
 {id:98,name:"A. Miral HD",type:"l",cost:115,hp:20,tec:3,wlk:2,fly:-1,tgh:1,main:{pwr:6,shl:2580,rng:250,spd:440,itv:200},tunable:{mwp:1}}
-{id:99,name:"Ragna Barret HD",cost:40,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:99,name:"Ragna Barret HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:100,name:"Pulsardio HD2",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
 {id:101,name:"Steel Burn HD",cost:40,hp:25,str:1,wlk:2,fly:-1,tgh:3}
 {id:102,name:"Cataloss HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
@@ -505,6 +508,12 @@
 {id:434,name:"Dreiblitz HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:435,name:"Grand Dugdriver HD",type:"c",cost:55,hp:20,str:-1,tec:2,wlk:2,tgh:2,sub:{pwr:30,rng:150,spd:80,itv:1000},tunable:{pwp:1}}
 {id:436,name:"Astro Marine HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:437,name:"Big Mountaiz HD3",cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
+{id:438,name:"Fairys HD2",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+{id:439,name:"Albireon HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:440,name:"Ragna Barret HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:441,name:"V.Unken HD2",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
+{id:442,name:"Brink HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
@@ -545,6 +554,9 @@
 {id:36,name:"Swell HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:37,name:"Cyclotes HD",type:"l",cost:55,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:40,shl:50,rng:250,spd:570,itv:1000},tunable:{mwp:1}}
 {id:38,name:"HUNDRED EDGE HD0",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:39,name:"Belphego HD",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:40,name:"Giga Fort HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:41,name:"Garamusya HD",type:"l",cost:65,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1}}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}

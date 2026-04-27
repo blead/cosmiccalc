@@ -37,7 +37,7 @@
 {id:29,name:"Pulse Gun",size:"S",cost:40,main:{pwr:9,shl:300,rng:275,spd:480,itv:600}}
 {id:30,name:"Electron Gun",size:"S",type:"s",cost:90,main:{pwr:15,shl:300,rng:275,spd:400,itv:600}}
 {id:31,name:"Paralyzer",size:"S",type:"s",cost:140,main:{pwr:24,shl:300,rng:275,spd:360,itv:600}}
-{id:32,name:"Lightning Cannon",size:"L",type:"a",cost:150,main:{pwr:18,shl:560,rng:275,spd:440,itv:300}}
+{id:32,name:"Lightning Cannon",size:"L",type:"a",cost:110,main:{pwr:20,shl:560,rng:275,spd:440,itv:300}}
 {id:33,name:"Thunder Shooter",size:"M",type:"a",cost:140,main:{pwr:13,shl:580,rng:275,spd:440,itv:300}}
 {id:34,name:"Double Magnum",size:"M",type:"l",cost:140,main:{pwr:14,shl:400,rng:225,spd:440,itv:460}}
 {id:35,name:"AURA Lightning Gun",size:"S",type:"a",cost:70,main:{pwr:15,shl:240,rng:250,spd:440,itv:700},auraStat:{main:{pwr:18,shl:240,rng:250,spd:440,itv:700}},comment:"AURA"}
@@ -99,9 +99,9 @@
 {id:15,name:"Saber Rifle",size:"M",type:"l",cost:170,main:{pwr:25,shl:280,rng:250,spd:440,itv:640}}
 {id:16,name:"Pierce Breaker",size:"M",type:"c",cost:170,main:{pwr:38,shl:140,rng:350,spd:480,itv:1000}}
 {id:17,name:"Circuit Breaker",size:"SS",type:"cs",cost:45,main:{pwr:14,shl:200,rng:330,spd:480,itv:540}}
-{id:18,name:"Armor Breaker",size:"M",type:"c",cost:60,main:{pwr:38,shl:80,rng:330,spd:480,itv:1000}}
-{id:19,name:"Core Breaker",size:"M",type:"c",cost:140,main:{pwr:39,shl:150,rng:350,spd:480,itv:1000}}
-{id:20,name:"Structure Breaker",size:"L",type:"c",cost:200,main:{pwr:50,shl:120,rng:350,spd:480,itv:1000}}
+{id:18,name:"Armor Breaker",size:"M",type:"c",cost:60,main:{pwr:38,shl:120,rng:330,spd:500,itv:1000}}
+{id:19,name:"Core Breaker",size:"M",type:"c",cost:130,main:{pwr:45,shl:150,rng:350,spd:530,itv:1000}}
+{id:20,name:"Structure Breaker",size:"L",type:"c",cost:180,main:{pwr:50,shl:180,rng:350,spd:570,itv:1000}}
 {id:21,name:"Gatling Breaker",size:"L",type:"c",cost:210,main:{pwr:19,shl:1140,rng:350,spd:480,itv:200}}
 {id:22,name:"Maneuver Rifle",size:"M",type:"a",cost:60,main:{pwr:24,shl:180,rng:275,spd:480,itv:600}}
 {id:23,name:"Spiral Rifle",size:"M",type:"c",cost:140,main:{pwr:14,shl:600,rng:330,spd:480,itv:600}}
@@ -115,6 +115,7 @@
 {id:4,name:"Beam Shooter",size:"M",type:"a",cost:160,main:{pwr:26,shl:280,rng:275,spd:485,itv:600}}
 {id:5,name:"Triple Shooter",size:"M",type:"l",cost:170,main:{pwr:10,shl:660,rng:250,spd:320,itv:800}}
 {id:6,name:"Ballista Shooter",size:"M",type:"la",cost:180,main:{pwr:29,shl:310,rng:250,spd:400,itv:540}}
+{id:7,name:"LLB Mine Shooter",size:"LL",type:"a",cost:160,main:{pwr:37,shl:180,rng:300,spd:320,itv:1000}}
 
 {group:"Railgun",prefixID:"RG",commonStat:{tunable:{mwp:1}}}
 {id:1,name:"S Railgun",size:"M",type:"ls",cost:110,main:{pwr:42,shl:90,rng:250,spd:520,itv:500}}
@@ -241,4 +242,9 @@
 {id:34,name:"Tornado Fan",size:"L",type:"a",cost:120,main:{pwr:20,shl:320,rng:275,spd:260,itv:600}}
 {id:35,name:"Beam SB Pitcher",size:"M",type:"a",cost:150,main:{pwr:20,shl:360,rng:275,spd:100,itv:600}}
 {id:36,name:"Throwing Edge",size:"S",type:"l",cost:200,main:{str:100,pwr:17,shl:480,rng:250,spd:440,itv:340},sub:{str:100,pwr:28,shl:"-",rng:77,spd:94,itv:1000},tunable:{mwp:1,pwp:1}}
+{id:37,name:"Gadel Shield",size:"S",type:"l",cost:80,main:{str:100,pwr:25,shl:500,rng:250,spd:300,itv:200}}
+{id:38,name:"Crown Rod",size:"S",type:"s",cost:180,main:{pwr:20,shl:420,rng:300,spd:290,itv:600},sub:{pwr:35,rng:70,spd:85,itv:100},tunable:{pwp:1}}
+{id:39,name:"Brink Hammer",size:"M",type:"c",cost:150,main:{pwr:12,shl:800,rng:280,spd:480,itv:100},sub:{pwr:55,shl:30,rng:150,spd:350,itv:1000},tunable:{pwp:1}}
+{id:40,name:"Brink Greatshield",size:"M",type:"c",cost:80,main:{pwr:30,shl:500,rng:350,spd:320,itv:200}}
+
 //Some weapons missing: Blow Bazooka, Pierce Gun, Shield Shotgun, Snowman Pitcher
