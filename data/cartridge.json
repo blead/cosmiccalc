@@ -51,6 +51,8 @@
 {id:59,name:"Healing Fighter",comment:"Attack boost whenever HP is recovered."}
 {id:60,name:"Air Run",comment:"Run quickly Mid-air from the edge of a cliff."}
 {id:61,name:"Custom Link Shot",comment:"Weapons will be able to use with Linkshot if allowed."}
+{id:62,name:"Eco Boost Dash",comment:"Reduces flight gauge consumption for dash actions and air dash actions. The effect amount varies depending on the type."}
+{id:63,name:"Stand Shooter",comment:"Increase damage dealt by 10-15% when stationary. Lower power (Min.7) increases the effect."}
 // legacy cartridges for at least some semblence of backward compatibility
 {id:3,name:"Capacity +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
 {id:4,name:"Capacity +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}

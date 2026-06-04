@@ -81,6 +81,12 @@
 {id:77,name:"Syverion HD2",cost:30,hp:15,tec:1,wlk:2,fly:2,tgh:-1}
 {id:78,name:"Glasha HD",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:2}
 {id:79,name:"P. Lizbed HD",cost:35,hp:20,wlk:2,fly:1,tgh:2}
+{id:80,name:"Marine Diver HD2",cost:30,hp:15,str:-1,tec:2,wlk:1,tgh:2}
+{id:81,name:"Turn Kicker 1620 HD",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:1}
+{id:82,name:"Leelei HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
+{id:83,name:"Beezle HD2",cost:30,hp:15,fly:2,tgh:2}
+{id:84,name:"Dikaros HD2",type:"a",cost:140,hp:25,tec:2,wlk:1,fly:1,tgh:1,main:{pwr:25,shl:330,rng:275,spd:480,itv:500},tunable:{mwp:1}}
+{id:85,name:"Pelena HD2",type:"s",cost:80,hp:25,tec:1,wlk:1,fly:2,tgh:1,sub:{shl:10,rng:43,spd:63,itv:1000}}
 
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"Gwyain HD",cost:40,hp:25,str:2,tec:1,wlk:2}
@@ -514,6 +520,24 @@
 {id:440,name:"Ragna Barret HD2",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 {id:441,name:"V.Unken HD2",cost:35,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:442,name:"Brink HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
+{id:443,name:"Jets HD2",type:"a",cost:105,hp:20,str:-1,tec:1,wlk:1,fly:2,tgh:2,main:{pwr:30,shl:200,rng:275,spd:50,itv:800},tunable:{mwp:1}}
+{id:444,name:"Gathima HD3",cost:40,hp:25,tec:1,wlk:2,tgh:2}
+{id:445,name:"Sotengu HD",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
+{id:446,name:"Might Bomber HD3",cost:40,hp:25,tec:3,wlk:-1,fly:2,tgh:1}
+{id:447,name:"Gareon HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:448,name:"Wizamel HD2",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:2}
+{id:449,name:"Albatreos HD3",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:450,name:"Lips HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:451,name:"Ryuseioh HD",cost:35,hp:20,str:-1,tec:2,wlk:3,tgh:1}
+{id:452,name:"Zeta Arsenal HD2",cost:35,hp:20,tec:2,fly:1,tgh:2}
+{id:453,name:"Captain X HD3",cost:35,hp:20,str:1,wlk:2,fly:1,tgh:1}
+{id:454,name:"Hound Dog HD3",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
+{id:455,name:"Touchdowner HD",cost:35,hp:20,str:2,tgh:3}
+{id:456,name:"Aero Raider HD2",cost:35,hp:20,tec:2,wlk:2,fly:-1,tgh:2}
+{id:457,name:"Victorl HD3",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:1}
+{id:458,name:"Gaster HD2",type:"c",cost:155,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:32,shl:160,rng:330,spd:400,itv:1000},tunable:{mwp:1}}
+{id:459,name:"AchtSieben HD3",type:"c",cost:110,hp:25,tec:2,wlk:2,tgh:1,main:{pwr:12,shl:800,rng:330,spd:480,itv:200},tunable:{mwp:1}}
+{id:460,name:"Gun Arms HD3",cost:35,hp:20,tec:3,wlk:2,fly:-1,tgh:1}
 
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"Aquila HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:1}
@@ -557,10 +581,21 @@
 {id:39,name:"Belphego HD",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 {id:40,name:"Giga Fort HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 {id:41,name:"Garamusya HD",type:"l",cost:65,hp:20,str:3,tec:-1,wlk:1,tgh:2,main:{str:100,pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1}}
+{id:42,name:"Cosmo Kaiser HD3",cost:40,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
+{id:43,name:"Paclander HD",type:"l",cost:125,hp:20,str:-1,tec:3,wlk:1,tgh:2,main:{pwr:34,shl:180,rng:350,spd:320,itv:1000},tunable:{mwp:1}}
+{id:44,name:"C. Barossa HD2",cost:65,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
+{id:45,name:"Zild Gigas HD2",type:"c",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2}
+{id:46,name:"Dunkletes HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
+{id:47,name:"Vice Spino HD",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
+{id:48,name:"Cordyceps HD2",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:49,name:"Jet Vern HD",cost:35,hp:20,tec:2,fly:1,tgh:2}
+{id:50,name:"Swell HD2",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
+{id:51,name:"Jet Falcon HD2",type:"a",cost:35,hp:20,str:1,tec:1,fly:2,tgh:1}
 
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"Joste Gunder HD",type:"l",cost:85,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:25,shl:30,rng:150,spd:350,itv:1000}}
 {id:2,name:"Joste Gunder HD2",cost:35,hp:20,str:1,wlk:1,tgh:3}
+{id:3,name:"Joste Gunder HD3",type:"l",cost:65,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2,main:{str:100,pwr:37,shl:50,rng:250,spd:270,itv:1000},tunable:{mwp:1}}
 
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1,slot:1,size:"M"}}
 {id:1,name:"Generic HDJ"}

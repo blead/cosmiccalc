@@ -75,6 +75,7 @@
 {id:16,name:"Daemon Mace",size:"LL",type:"l",cost:155,sub:{str:100,pwr:34,rng:100,spd:85,itv:500}}
 {id:17,name:"Thor Hammer",size:"L",type:"l",cost:160,sub:{str:100,pwr:37,rng:70,spd:85,itv:1000}}
 {id:18,name:"Zild Mace",size:"L",type:"c",cost:50,sub:{pwr:22,shl:50,rng:170,spd:350,itv:1000}}
+{id:19,name:"Cosmo Axe",size:"L",type:"l",cost:140,sub:{str:100,pwr:32,rng:80,spd:80,itv:1000}}
 
 {group:"Lances",prefixID:"LC",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"Spear",size:"M",type:"ls",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}
@@ -88,6 +89,7 @@
 {id:9,name:"Knight Lance",size:"S",type:"l",cost:130,sub:{str:100,pwr:28,rng:150,spd:80,itv:1000}}
 {id:10,name:"Halberd",size:"M",type:"l",cost:120,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000}}
 {id:11,name:"Zeus Brand",size:"LL",type:"l",cost:150,sub:{str:100,pwr:28,rng:150,spd:80,itv:500},auraStat:{sub:{str:100,pwr:30,rng:150,spd:80,itv:500}},tunable:{pwp:1}}
+{id:12,name:"Hornet Spear",size:"S",type:"a",cost:160,sub:{str:100,pwr:28,shl:120,rng:85,spd:200,itv:1000}}
 
 {group:"Staffs",prefixID:"SF"}
 {id:1,name:"Homura Staff",size:"M",cost:90,sub:{pwr:25,shl:180,rng:250,spd:290,itv:1000}}
@@ -112,6 +114,6 @@
 {id:4,name:"Impact Knuckle",size:"M",type:"l",cost:100,sub:{str:100,pwr:30,rng:70,spd:30,itv:1000},tunable:{pwp:1}}
 {id:5,name:"Kagura Ougi",size:"S",type:"s",cost:85,sub:{pwr:30,shl:150,rng:300,spd:240,itv:1000}}
 {id:6,name:"Shinobi Dagger",size:"S",type:"l",cost:60,sub:{pwr:15,shl:270,rng:250,spd:480,itv:1000}}
-{id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:36,rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}
+{id:7,name:"Centurion Stern",size:"L",type:"l",cost:180,main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:45,rng:70,spd:85,itv:3000},auraStat:{main:{str:100,pwr:10,shl:120,rng:200,spd:500,itv:300},sub:{str:100,pwr:30,rng:100,spd:200,itv:2000}},tunable:{mwp:1,pwp:1}}
 {id:8,name:"B-10 Bayonet",size:"L",type:"l",cost:220,main:{str:100,pwr:28,shl:210,rng:225,spd:500,itv:700},sub:{str:100,pwr:33,shl:1200,rng:77,spd:94,itv:1000},tunable:{mwp:1,pwp:1}}
 {id:9,name:"B Shield Gun",size:"M",type:"l",cost:70,main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:1000},tunable:{mwp:1,pwp:1}}
